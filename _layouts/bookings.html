@@ -1,0 +1,111 @@
+{% assign current_page = 'bookings' %}
+{% include head.html %}
+{% include nav.html %}
+<div id="bookings">
+  <div class="cover-image" style="background-image: url({{page.main_img}});">
+    <div class="container mx-auto px-4">
+      <!-- removed title from page because of readability  -->
+      <!-- <h1>
+        {{ page.big_title }}
+      </h1> -->
+      <div>
+        <svg id="Chevrons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" class="img-svg">
+          <defs>
+            <filter id="f1" x="0" y="0" width="200%" height="200%">
+              <feOffset result="offOut" in="SourceGraphic" dx="1" dy="0.5" />
+              <feGaussianBlur result="blurOut" in="offOut" stdDeviation="1" />
+              <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+            </filter>
+          </defs>
+          <path class="chevron" id='TopChevron' d="M52,4.2L28,23.7c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,4.2c-0.3-0.2-0.4-0.7-0.1-1
+  C3,3,3.2,2.9,3.5,2.9H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6L45.5,3c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+  C52.3,3.7,52.2,4,52,4.2z" />
+          <path class="chevron" id='MiddleChevron' d="M52,31.8L28,51.3c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,31.8c-0.3-0.2-0.4-0.7-0.1-1
+  c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+  C52.3,31.3,52.2,31.6,52,31.8z" />
+          <path class="chevron" id='BottomChevron' d="M52,59.5L28,79c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,59.5c-0.3-0.2-0.4-0.7-0.1-1
+  c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+  C52.3,59,52.2,59.3,52,59.5z" />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="container mx-auto main-content px-4 md:p-12 md:p-24 pt-12 pt-0">
+    <div>
+      <h2 class="events-title">Group bookings</h2>
+    </div>
+    <div class="md:flex pt-12 columns">
+      <div class="md:w-1/2 md:mr-4 md:pr-16">
+        <img class="img-radius" src="/img/Conservatory wide.jpg" alt="Conservatory wide">
+      </div>
+      <div class="md:w-1/2 mr-4 flex flex-col justify-between pt-12 md:pt-4">
+        <p class="omnia-green pb-4">{{page.first_text}}.</p>
+        <p class="omnia-green pb-4">{{page.second_text}}</p>
+        <p class="pb-8 omnia-green">
+          If you are visiting us as a party of seven or more, please get in touch with our reservations team at
+          <a href="mailto:info@omniabistro.com.au">
+            info@omniabistro.com.au
+            <span class="line"></span>
+          </a> or <br>
+          <a href="tel:0380808080">
+            (03) 8080 8080
+            <span class="line"></span>
+          </a>
+          between 9pm and 5pm, Tuesday to Saturday.
+        </p>
+        <div class="flex items-end justify-end pb-12 md:pb-1">
+          <a href="mailto:info@omniabistro.com.au"
+            class="make-booking-btn custom-beige-dark custom-bg-brown py-2 px-8 uppercase cursor-pointer hidden sm:block pointer-events-auto">
+            Email us
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <div class="lg:flex justify-between lg:pt-12 pb-16 columns">
+      <div class="md:mr-4 md:w-1/3 md:pr-4 border-b md:border-b-0 border-neutral-400 mb-4 md:mb-0"
+        style="border-color: #AEB3A1;">
+        <p class="pb-4 md:pb-8 blue reveal mt-4">{{page.first_column_first_text}}</p>
+        <p class="pb-4 md:pb-8 blue reveal">{{page.first_column_second_text}}</p>
+      </div>
+      <div class="md:mr-4 md:w-1/3 md:px-8 border-b md:border-b-0 border-neutral-400 mb-4 md:mb-0"
+        style="border-color: #AEB3A1;">
+        <p class="pb-4 md:pb-8 blue reveal">{{page.second_column_first_text}}</p>
+        <p class="pb-4 md:pb-8 blue reveal">{{page.second_column_second_text}}</p>
+        <p class="pb-4 md:pb-8 blue reveal">{{page.second_column_third_text}}</p>
+        <p class="pb-4 md:pb-8 blue reveal">{{page.second_column_fourth_text}}</p>
+      </div>
+      <div class="md:mr-4 md:w-1/3">
+        <p class="pb-4 md:pb-8 blue reveal">{{page.third_column_first_text}}</p>
+        <p class="pb-4 md:pb-8 blue reveal">{{page.third_column_second_text}}</p>
+      </div>
+    </div> -->
+    <!-- <h2 class="form-title md:w-1/2 ">
+      FOR EXCLUSIVE EVENT INQUIRIES PLEASE CONTACT OUR TEAM USING THE FORM BELOW:
+    </h2> -->
+    <!-- <form class="pb-12 md:pb-0 mb-24">
+      <div class="flex flex-col lg:flex-row justify-between">
+        <select name="guests" id="guets" class="select mr-4 blue">
+          <option value="" class="option" selected disabled>Numbers of Guests</option>
+          <option value="8-12" class="option">8-12</option>
+          <option value="13-20">13-20</option>
+          <option value="21-30">21-30</option>
+          <option value="30+">30+</option>
+          <option value="50+">50+</option>
+        </select>
+        <select name="event-type" id="event-type" class="select mr-4 blue">
+          <option value="" class="option" selected disabled>Event type</option>
+          <option value="lunch">Lunch</option>
+          <option value="dinner">Dinner</option>
+        </select>
+        <select name="event-details" id="event-details" class="select mr-4 blue ">
+          <option value="" class="option" selected disabled>Event details</option>
+          <option value="sitdown">Sitdown</option>
+          <option value="cocktail">Cocktail</option>
+        </select>
+        <button class="form-button">Book a table</button>
+    </form> -->
+  </div>
+</div>
+{% include footer.html %}

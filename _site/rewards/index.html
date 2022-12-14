@@ -1,0 +1,304 @@
+
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="/css/fonts.css " rel="stylesheet">
+  <link href="/css/style.css " rel="stylesheet">
+</head>
+
+<body id="rewards">
+<header
+  class="site-header open-burger flex justify-between items-center lg:items-start z-50 lg:w-full pointer-events-none">
+  <div class="logo pt-2 md:pt-0 pointer-events-auto">
+    <a class="logo" href="/">
+      <img src="/img/logo.png" alt="logo_omnia">
+    </a>
+  </div>
+  <div class="nav-logo hidden pointer-events-auto">
+    <a href="/" class="animate__animated animate__fadeInLeft">
+      <img src="/img/nav-logo.png" alt="logo_omnia">
+    </a>
+  </div>
+  <div class="flex items-center lg:mt-1">
+    <div class="voucher-btn cursor-pointer px-4 hidden sm:block">
+      <a href="https://omnia.vouchercart.com/11641/omnia-voucher" target="_blank"
+        class="uppercase p-2 pointer-events-auto">
+        Voucher
+      </a>
+      <div class="line"></div>
+    </div>
+    <a href="https://www.opentable.com.au/r/omnia-bistro-reservations-south-yarra?restref=60050&lang=en-AU"
+      target="_blank"
+      class="make-booking-btn py-2 px-8 uppercase cursor-pointer hidden sm:block pointer-events-auto">
+      Make a booking
+    </a>
+    <div id="burger-menu" class="burger flex flex-col items-end p-3 pointer-events-auto">
+      <div class="burger-line"></div>
+      <div class="burger-line"></div>
+    </div> 
+  </div>
+</header>
+
+<div id="navigation-page" class="fixed top-0 bottom-0 left-0 z-40 w-full flex hidden"
+  style="background-color: #C1A973 ;">
+  <div class="nav-image hidden md:block animate__animated animate__fadeInLeft">
+    <img src="/img/navimage.jpg" alt="nav-image">
+  </div>
+  <nav class="flex flex-col justify-end">
+    <ul class="navigation mb-8 sm:mb-0">
+      <li class="animate__animated animate__fadeInUp"><a href="/">Homepage</a></li>
+      <li class="animate__animated animate__fadeInUp"><a href="/about">About us</a></li>
+      <li class="animate__animated animate__fadeInUp"><a href="/food">Food & Drinks</a></li>
+      <!-- <li class="animate__animated animate__fadeInUp"><a href="/rewards">Rewards & reviews</a></li> -->
+      <li class="animate__animated animate__fadeInUp"><a href="/bookings">Group bookings</a></li>
+      <li class="animate__animated animate__fadeInUp"><a href="/events">Events</a></li>
+      <li class="animate__animated animate__fadeInUp"><a href="/contacts">Contact</a></li>
+    </ul>
+
+    <div class="voucher-btn cursor-pointer sm:hidden">
+      <a href="https://omnia.vouchercart.com/11641/omnia-voucher" target="_blank" class="uppercase p-2">Voucher</a>
+    </div>
+    <a href="https://www.opentable.com.au/r/omnia-bistro-reservations-south-yarra?restref=60050&lang=en-AU"
+      target="_blank"
+      class="make-booking-btn custom-beige-dark custom-bg-brown py-2 px-8 uppercase cursor-pointer sm:hidden">
+      Make a booking
+    </a>
+
+    <div class="animate__animated animate__fadeInUp animate__delay-1s">
+      <div class="uppercase promotion-headline hidden md:block">
+        Sign up for your serving of the latest <br>
+        news, special invitations and more.
+      </div>
+      <div class="newsletter hidden md:block">
+        <span class="openPopup">SUBSCRIBE TO OUR NEWSLETTER</span>
+      </div>
+      <div class="terms-conditions hidden md:block">
+        <div class="mb-3"><a href="/privacy"  target="_blank">PRIVACY POLICY</a></div>
+        <div><a href="/terms" target="_blank">TERMS & CONDITIONS</a></div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<div id="newsletterPopup" class="fixed top-0 bottom-0 right-0 left-0 z-50 hidden" style="background-color: rgba(0,0,0,0.8)">
+  <div id="newsletterPopupBck" class="relative h-full flex items-center justify-center">
+    <div id="newsletterPopupBox" class="relative p-6 md:p-8 bg-white">
+      <h2 class="text-center mb-4 blue">Join The Omnia Family</h2>
+      <div class="text-center md:w-4/5 md:mx-auto blue">Want to go in the draw to win and be the first to receive the latest news
+        from Omnia? Simply complete the below and follow us on
+        <span class="newsletter-socials">
+          <a href="https://www.instagram.com/omniabistro/" target="_blank">Instagram</a>
+        </span>
+        or
+        <span class="newsletter-socials">
+          <a href="https://www.facebook.com/omniabistro/" target="_blank">Facebook</a>.
+        </span>
+      </div>
+      <form class="mt-12" method="POST" action="https://formsubmit.co/362e1c9da30cac6214d550bd9280f7f0">
+        <div class="md:flex justify-between">
+          <div class="md:w-1/2 md:mr-2">
+            <div class="blue text-sm md:text-base md:block">Full Name:</div>
+            <input type="text" id="fullname" name="Name" placeholder="Your Full Name" class="input" required />
+          </div>
+          <div class="md:w-1/2 md:ml-2">
+            <div class="blue text-sm md:text-base md:block">Phone:</div>
+            <input type="text" id="phone" name="Phone" placeholder="Your Phone" class="input" required />
+          </div>
+        </div>
+        <div class="md:flex justify-between">
+          <div class="md:w-1/2 md:mr-2">
+            <div class="blue text-sm md:text-base md:block">Email:</div>
+            <input type="text" id="email" name="Email" placeholder="Your Email" class="input" required />
+          </div>
+          <div class="md:w-1/2 md:ml-2">
+            <div class="blue text-sm md:text-base md:block">Birthday:</div>
+            <input type="text" id="bday" name="Birthday" placeholder="dd / mm" class="input" />
+          </div>
+          <input type="hidden" name="_subject" value="Omnia Bistro newsletter submission!">
+          <input type="hidden" name="_next" value="https://www.omniabistro.com.au/">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_autoresponse" value="Thanks for newsletter submission">
+        </div>
+        <div>
+          <button type="submit" class="form-button w-full">Join now</button>
+        </div>
+      </form>
+      <div class="newsletterPopupAdditionalText text-center mt-6">
+        <div>By entering your details, you understand Omnia may market directly to you.</div>
+        <div>
+          Please see our
+          <a class="newsletterPrivacyTerms" href="/privacy/" target="_blank">
+            Privacy Policy
+          </a> and
+          <a class="newsletterPrivacyTerms" href="/privacy/" target="_blank">
+            Privacy Collection Statement
+          </a> and
+          <a class="newsletterPrivacyTerms" href="http://" target="_blank" rel="noopener noreferrer">
+            Terms and Conditions.
+          </a>
+        </div>
+        <div class="mt-4">
+          Entries into the promotion open at 10:00am (AEDT) on 16 February 2022  and close at 11:59pm (AEDT) on 30th of May 2022 (The draw date will be the 2nd of June). Terms and Conditions.
+        </div>
+      </div>
+      <div id="closePopup" class="absolute top-0 right-0 rounded-full">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 cursor-pointer" fill="none" viewBox="0 0 24 24"
+          stroke="#225367" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="rewards">
+  <div class="cover-image mb-12 md:mb-24" style="background-image: url(/assets/images/rewards_main.jpg);">
+    <div class="container mx-auto px-4">
+      <h1>
+        “OMNIA MARKS THE RETURN OF SOUTH YARRA’S GLAMOUR DAYS.” – HERALD SUN
+      </h1>
+      <div>
+        <svg id="Chevrons"
+xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 55 55"
+class="img-svg">
+  <defs>
+    <filter id="f1" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceGraphic" dx="1" dy="0.5" />
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="1" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
+  <path class="chevron" id='TopChevron' d="M52,4.2L28,23.7c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,4.2c-0.3-0.2-0.4-0.7-0.1-1
+		C3,3,3.2,2.9,3.5,2.9H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6L45.5,3c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+		C52.3,3.7,52.2,4,52,4.2z"/>
+	<path class="chevron" id='MiddleChevron' d="M52,31.8L28,51.3c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,31.8c-0.3-0.2-0.4-0.7-0.1-1
+		c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+		C52.3,31.3,52.2,31.6,52,31.8z"/>
+	<path class="chevron" id='BottomChevron' d="M52,59.5L28,79c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,59.5c-0.3-0.2-0.4-0.7-0.1-1
+		c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+		C52.3,59,52.2,59.3,52,59.5z"/>
+  </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mx-auto main-content p-12 md:p-24">
+    <div class="rewards-container">
+      <div>
+        <h2 class="rewards-title reveal">Awards & Reviews</h2>
+      </div>
+      <!----->
+      <div class="flex justify-between flex-wrap mt-8 md:mt-0">
+        
+        
+        <div class="pt-16 mb-20 md:w-1/2 reward-item reveal-delay-300">
+          <div class="">
+            <img src="/assets/images/reward4.jpg" class="img-radius">
+          </div>
+          <div class="pt-16 olive">
+            <!--<p class="reward-date mb-10"></p>-->
+            <h3 class="author-title reveal-delay-300">Eat Drink Design Awards 2020</h3>
+            <h3 class="pb-8 review-title reveal-delay-300">Best Restaurant Design - Shortlisted</h3>
+            <p class="mb-12 olive reveal-delay-300">Architects EAT for Omnia Bistro</p>
+            <button class="olive-btn reveal-delay-300">Find out more</button>
+          </div>
+        </div>
+        
+        
+        <div class="pt-16 mb-20 md:w-1/2 reward-item reveal-delay-600">
+          <div class="">
+            <img src="/assets/images/reward1.jpg" class="img-radius">
+          </div>
+          <div class="pt-16 olive">
+            <!--<p class="reward-date mb-10"></p>-->
+            <h3 class="author-title reveal-delay-600">New York Times 2022</h3>
+            <h3 class="pb-8 review-title reveal-delay-600">Food and drink</h3>
+            <p class="mb-12 olive reveal-delay-600">Architects EAT for Omnia Bistro</p>
+            <button class="olive-btn reveal-delay-600">Find out more</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <h2 class="about-rewards-title md:w-1/2 mt-20 mb-20 reveal">
+      REVIEWS
+    </h2>
+    <div class="flex justify-between flex-wrap mb-20">
+      
+      
+      <div class="pt-16 mb-20 md:w-1/2 reward-item reveal-delay-300">
+        <div class="">
+          <img src="/assets/images/reward1.jpg" class="img-radius">
+        </div>
+        <div class="pt-16 olive">
+          <!--<p class="reward-date mb-10"></p>
+          <h3 class="author-title"></h3>-->
+          <h3 class="pb-8 review-title reveal-delay-300">Good food</h3>
+          <p class="mb-12 olive reveal-delay-300">“So Omnia works. Omnia is delicious. Are you surprised, when the crew has been picked like a fantasy football team? I'm not, and I'm glad for South Yarra that another winner is on the cards.”</p>
+          <button class="olive-btn reveal-delay-300">Find out more</button>
+        </div>
+      </div>
+      
+      
+      <div class="pt-16 mb-20 md:w-1/2 reward-item reveal-delay-600">
+        <div class="">
+          <img src="/assets/images/reward2.jpg" class="img-radius">
+        </div>
+        <div class="pt-16 olive">
+          <!--<p class="reward-date mb-10"></p>
+          <h3 class="author-title"></h3>-->
+          <h3 class="pb-8 review-title reveal-delay-600">Herald Sun</h3>
+          <p class="mb-12 olive reveal-delay-600">“It's a glorious room; a soaring atrium filled with light and hanging greenery and David Bromley prints giving way to a lowceiling, cellar-like moody space opposite the open kitchen in which a phalanx of staff get on with feeding the 100-seater.</p>
+          <button class="olive-btn reveal-delay-600">Find out more</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<footer class="p-80">
+   <div class="container mx-auto pb-8 md:pb-12 pt-12  px-4 md:pl-0 md:pr-0">
+      <div class="md:pb-8 md:pt-8 md:flex md:flex-wrap md:justify-between" style="border-color: rgb(98,118,94);"><!---flex flex-col md:flex-row md:items-center -->
+        <div class="flex mb-3 md:mb-0">
+          <a href="https://www.instagram.com/omniabistro/" target="_blank">
+            <img class="mr-2" src="/img/instagram.svg" alt="instagram icon"></a>
+          <a href="https://www.facebook.com/omniabistro/" target="_blank">
+            <img class="mr-2" src="/img/facebook.svg" alt="facebook icon"></a>
+        </div>
+        <p class="mb-3 md:mb-0 md:mx-8">
+          <a href="https://www.google.com/maps/place/Omnia+Bistro+And+Restaurant+South+Yarra/@-37.8389116,144.9953926,15z/data=!4m5!3m4!1s0x0:0x8354098583c6a976!8m2!3d-37.8389116!4d144.9953926"
+            target="_blank"
+            class="omnia-green"
+          >
+            625 Chapel Street South Yarra
+          </a>
+        </p>
+        <p class="mb-3 md:mb-0">
+          <a href="mailto:info@omniabistro.com.au" class="omnia-green">info@omniabistro.com.au</a>
+        </p>
+          <div class="md:flex md:justify-between">
+            <div class="mr-8 mb-4 md:mb-0">
+              <div class="omnia-green"> Lunch 12:30 - 2.30 PM </div>
+              <div class="omnia-green"> Thursday untill Saturday </div>
+            </div> 
+            <div>
+            <div class="omnia-green"> Dinner 5:30 - 11.00 PM </div>
+            <div class="omnia-green"> Tuesday untill Saturday </div>
+          </div>        
+      </div>
+      <p class="w-full md:w-auto md:text-left mt-4 md:mt-0 omnia-green">Copyright &copy; 2022 Omnia Bistro</p>
+    </div>
+  </div>
+</footer>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="http://localhost:4000/js/main.js" type="text/javascript"></script>
+

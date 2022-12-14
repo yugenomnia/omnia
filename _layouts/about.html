@@ -1,0 +1,98 @@
+{% assign current_page = 'about' %}
+{% include head.html %}
+{% include nav.html %}
+
+<div id="about">
+  <div class="cover-image" style="background-image: url({{page.main_img}});">
+    <div class="container mx-auto px-4">
+      <div>
+        <svg id="Chevrons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" class="img-svg">
+          <defs>
+            <filter id="f1" x="0" y="0" width="200%" height="200%">
+              <feOffset result="offOut" in="SourceGraphic" dx="1" dy="0.5" />
+              <feGaussianBlur result="blurOut" in="offOut" stdDeviation="1" />
+              <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+            </filter>
+          </defs>
+          <path class="chevron" id='TopChevron' d="M52,4.2L28,23.7c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,4.2c-0.3-0.2-0.4-0.7-0.1-1
+		C3,3,3.2,2.9,3.5,2.9H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6L45.5,3c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+		C52.3,3.7,52.2,4,52,4.2z" />
+          <path class="chevron" id='MiddleChevron' d="M52,31.8L28,51.3c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,31.8c-0.3-0.2-0.4-0.7-0.1-1
+		c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+		C52.3,31.3,52.2,31.6,52,31.8z" />
+          <path class="chevron" id='BottomChevron' d="M52,59.5L28,79c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,59.5c-0.3-0.2-0.4-0.7-0.1-1
+		c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+		C52.3,59,52.2,59.3,52,59.5z" />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="container mx-auto main-content py-8 px-4 md:p-12 md:p-24 md:pb-0 md:px-4 md:pt-1">
+    {% for team_member in page.team_members %}
+    {% assign index = forloop.index0 | modulo: 2 %}
+
+    {% if index == 0 %}
+    <div class="flex justify-between flex-col-reverse lg:flex-row-reverse pt-24 member-item"> 
+      {% else %}
+      <div class="flex justify-between flex-col-reverse lg:flex-row pt-24 member-item">
+    {% endif %}
+
+      <div class="blue pt-12 lg:w-1/2 member-text">
+        {% if index == 0 %}
+        <h3 class="pb-4 middle-white-title reveal-right garamond-premier-pro-italic ">{{team_member.name}}</h3>
+        <h3 class="omnia-green pb-2 mb-2 border-class uppercase reveal-right">{{team_member.title}}</h3>
+        <p class="mb-12 omnia-green reveal-right">{{team_member.text}}</p>
+        {% else %}
+        <h3 class="pb-8 middle-white-title reveal-left">{{team_member.name}}</h3>
+        <h3 class="omnia-green pb-4 mb-4 border-class uppercase reveal-right">{{team_member.title}}</h3>
+        <p class="mb-8 omnia-green reveal-right">{{team_member.text}}</p>
+        {% endif %}
+
+        </div>
+
+        <div class="lg:w-1/2 member-img">
+          {% if index == 0 %}
+          <img src="{{team_member.img}}" class="img-border-radius reveal-left">
+          {% else %}
+          <img src="{{team_member.img}}" class="img-border-radius reveal-right">
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+
+
+      <!-- Key Suppliers section -->
+      <div class="pb-0 md:pb-24 md:pt-12 md:pt-24">
+        <div class="pt-24">
+          <h2 class="events-title reveal">{{page.produce_title}}</h2>
+          <div class="flex flex-col md:flex-row justify-between items-start pt-24">
+            <p class="flex middle-olive-text reveal-delay-400">{{page.produce_text}}</p>
+          </div>
+          <div class="flex flex-col md:flex-row flex-wrap items-start justify-between pt-16">
+            <div class="w-full md:w-1/2 reveal pb-16 md:pb-0 md:pr-10"><!---md:px-12-->
+              <img class="img-border-radius key-suppliers" src={{page.produce_image}} alt="key_suppliers">
+            </div>
+            <div class="w-1/2 partners">
+              {% for partner in page.partners %}
+
+              <div class="pt-16 omnia-green cursor-pointer accordion partner reveal">
+                <div class="flex items-center justify-between">
+                  <h3 class="partner-title omnia-green">
+                    {{partner.title}}
+                  </h3>
+                  <!-- <div style="width: 32px; margin-left: 20px">
+                    <img class="open-accordion" src="/img/plus.svg" alt="">
+                  </div> -->
+                </div>
+
+                <div class="accordion-description partner-text omnia-green">
+                  {{partner.text}}
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {% include footer.html %}

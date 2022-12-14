@@ -1,0 +1,40 @@
+{% assign current_page = 'privacy' %}
+{% include head.html %}
+{% include nav.html %}
+<div>
+  <div class="cover-image mb-12 md:mb-24" style="background-image: url({{page.main_img}});">
+    <div class="container mx-auto px-4">
+      <div>
+        <svg id="Chevrons"
+xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 55 55"
+class="img-svg">
+  <defs>
+    <filter id="f1" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceGraphic" dx="1" dy="0.5" />
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="1" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
+  <path class="chevron" id='TopChevron' d="M52,4.2L28,23.7c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,4.2c-0.3-0.2-0.4-0.7-0.1-1
+  C3,3,3.2,2.9,3.5,2.9H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6L45.5,3c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+  C52.3,3.7,52.2,4,52,4.2z"/>
+<path class="chevron" id='MiddleChevron' d="M52,31.8L28,51.3c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,31.8c-0.3-0.2-0.4-0.7-0.1-1
+  c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+  C52.3,31.3,52.2,31.6,52,31.8z"/>
+<path class="chevron" id='BottomChevron' d="M52,59.5L28,79c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,59.5c-0.3-0.2-0.4-0.7-0.1-1
+  c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+  C52.3,59,52.2,59.3,52,59.5z"/>
+  </svg>
+      </div>
+    </div>
+  </div>
+  <div class="container mx-auto main-content p-12 md:p-24">
+    <!-- <h1>{{ page.big_title }}</h1> -->
+    <h2>{{ page.subtitle }}</h2>
+    <div class="">
+      {{ page.content | markdownify }}
+    </div>
+  </div>
+</div>
+{% include footer.html %}
