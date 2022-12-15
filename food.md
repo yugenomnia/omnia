@@ -15,7 +15,7 @@ menus:
   second_item_cost: '44'
   second_item_ingredients: " ‍Seaweed crusted, smoked fish consommé & kohlrabi"
 - title: MAINS & SIDE
-  text: hello
+  text: 
   first_item: Pelmeni
   first_item_cost: '120'
   first_item_ingredients: 'meat '
@@ -280,28 +280,37 @@ menu:
   menu_in_pdf_format: ''
   categories: []
 big_title: DISCOVER FLAVOUR AT ITS FINEST
-main_img: "/assets/images/little21.jpeg"
+main_img: "/assets/images/asparagus-1-1.jpeg"
 food_section:
   title: Food
-  text: A menu of seasonal produce, used at its peak, designed with all tastes in
-    mind. Familiar yet new, held together by our iconic duck and cheesecake.
+  text: Our kitchen team created a menu of seasonal produce, used at its peak, designed
+    with all tastes in mind. Using Australia’s best quality produce sourced through
+    tight knit networks. We champion our growers and producers and tell their stories
+    alongside our own. Familiar yet new, held together by our iconic honey roasted
+    duck and liquid centre cheesecake.
   menu_pdf: "/assets/images/alc_menu_a4_19-11-22.pdf"
-  menu_btn_text: A LA CARTE MENU
-  img: "/assets/images/221026-omnia2312-trifle_optimized.jpg"
+  menu_btn_text: DINNER MENU
+  img: "/assets/images/omnia-triffle-1.jpeg"
   menu_btn_link: ''
+  second_menu_btn_text: LUNCH MENU
+  second_menu_pdf: ''
+  second_title: ''
 drink_section:
   title: Drink
   text: ''
   categories:
-  - title: CELLAR WBTG
-    text: Omnia has an extensive wine list, offering 25 wines by the glass consisting
-      of 13 regular, and 12 premier wines selected by our sommelier. Found a new favourite,
-      or have a friend on the way? Our whole selection is available in half bottles.
+  - title: WINE BY THE GLASS
+    text: Omnia has an extensive wine list, besides a wide selection of bottles also
+      offering 25 wines by the glass consisting of 13 regular, and 12 premier wines
+      selected by our sommelier.
     menu_pdf: "/assets/images/beverage-menu.pdf"
     menu_btn_text: BEVERAGE LIST
   - title: SIGNATURE COCTAILS
-    text: All the classics, with a few signature twists. Start, spend, or end the
-      night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
+    text: Our bar offers All the classics, with a few signature twists. Start, spend,
+      or end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
+      We also collaborate with our our kitchen team. Non-alcoholic digestives paired
+      to the seasons. Combining seasonal produce with the desserts that highlight
+      them.
     menu_pdf: "/assets/images/beverage-menu.pdf"
     menu_btn_text: BEVERAGE LIST
   - title: NON ALCOHOLIC SELECTION
@@ -311,5 +320,6 @@ drink_section:
     menu_pdf: "/assets/images/beverage-menu.pdf"
     menu_btn_text: BEVERAGE LIST
   img: "/assets/images/omnia-combo.jpg"
+  second_title: ''
 
 ---

@@ -179,9 +179,9 @@
   }
 
 
-  if (document.body.id === 'food') {
-    if(document.querySelector('.product-title.text-xl.italic.pt-10')){
-      document.querySelector('.product-title.text-xl.italic.pt-10').style.paddingTop = '0px'
+  /*if (document.body.id === 'food') {
+    if(document.querySelector('.product-title')){
+      document.querySelector('.product-title').style.paddingTop = '0px'
     }
 
     const drinkItems = document.querySelectorAll('#drink-menu-categories .menu-category-title')
@@ -201,10 +201,9 @@
 
     filterProducts(drinkItems, drinkItemsProducts, activeTabDrink)
   }
-
+*/
 
   function filterProducts(items, products, activeTab) {
-    console.log()
     items.forEach((item, idx) => {
       if (idx === activeTab)
         item.classList.add('active')
@@ -224,6 +223,7 @@
   if (document.body.id === 'about') {
     const accordions = document.querySelectorAll('.accordion')
     accordions.forEach((a) => {
+      console.log('accordions',accordions)
       a.addEventListener('click', () => {
         if (a.classList.contains('accordion-opened')) {
           a.classList.remove('accordion-opened')
@@ -241,8 +241,39 @@
 
         setTimeout(() => {
           a.classList.add('accordion-opened')
-          useSetTimeout = false
-          console.log('ehej')
+          useSetTimeout = false;
+        }, useSetTimeout ? 1 : 1)
+          
+      })
+    })
+  }
+
+  //food
+
+
+  if ( document.body.id === 'food') {
+    const accordions = document.querySelectorAll('.accordion-drink')
+    //console.log('accordions',accordions)
+    accordions.forEach((a) => {
+      a.addEventListener('click', () => {
+        //console.log('a', a)
+        if (a.classList.contains('accordion-opened')) {
+         a.classList.remove('accordion-opened')
+          return
+        }
+        
+       let useSetTimeout = false
+
+        accordions.forEach((ac) => {
+          if (ac.classList.contains('accordion-opened')) {
+            ac.classList.remove('accordion-opened')
+            useSetTimeout = true
+          }
+        }) 
+
+        setTimeout(() => {
+          a.classList.add('accordion-opened')
+          useSetTimeout = false;
         }, useSetTimeout ? 1 : 1)
           
       })

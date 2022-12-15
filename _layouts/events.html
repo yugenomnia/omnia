@@ -40,12 +40,18 @@
       <div class="pt-8 md:pt-0 omnia-green lg:w-1/2 event-text">
         {% if index == 0 %}
         <div class="reveal-right">
-          <h3 class="pb-8 section-title border-class">{{event.title}}</h3>
+          <div class="border-class mb-2">
+          <h3 class="pb-4 middle-white-title">{{event.title}}</h3><!--border-class-->
+          <h2 class="omnia-green  mb-2 mt-2 uppercase reveal-right small-title">{{event.second_title}}</h2>
+          </div>
           <div class="mb-12 omnia-green">{{event.text | markdownify}}</div>
         </div>
         {% else %}
         <div class="reveal-left">
-          <h3 class="pb-8 section-title border-class">{{event.title}}</h3>
+          <div class="border-class mb-2">
+          <h3 class="pb-8 middle-white-title">{{event.title}}</h3>
+          <h2 class="omnia-green pb-2 mb-2 border-class uppercase reveal-right small-title">{{event.second_title}}</h2>
+          </div>
           <div class="mb-12 omnia-green">{{event.text | markdownify}}</div>
         </div>
         {% endif %}

@@ -43,10 +43,16 @@
       </div>
       <div class="pt-8 lg:pt-16 omnia-green lg:w-1/2 event-text">
         {% if index == 0 %}
-        <h3 class="pb-8 section-title border-class reveal-right">{{section.section_title}}</h3>
+        <div class="border-class mb-2">
+        <h3 class="pb-2 middle-white-title reveal-right">{{section.section_title}}</h3>
+        <h2 class="omnia-green pb-2 uppercase reveal-right small-title pt-1">{{section.section_second_title}}</h2>
+        </div>
         <p class="mb-12 omnia-green reveal-right">{{section.section_description}}</p>
         {% else %}
-        <h3 class="pb-8 section-title border-class reveal-left">{{section.section_title}}</h3>
+        <div class="border-class mb-2">
+        <h3 class="pb-2 middle-white-title reveal-left">{{section.section_title}}</h3>
+        <h2 class="omnia-green pb-2 uppercase reveal-left small-title pt-1">{{section.section_second_title}}</h2>
+        </div>
         <p class="mb-12 omnia-green reveal-left">{{section.section_description}}</p>
         {% endif %}
       </div>

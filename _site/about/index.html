@@ -45,7 +45,7 @@
 </header>
 
 <div id="navigation-page" class="fixed top-0 bottom-0 left-0 z-40 w-full flex hidden"
-  style="background-color: #C1A973 ;">
+  style="background-color: #c7cec5;">
   <div class="nav-image hidden md:block animate__animated animate__fadeInLeft">
     <img src="/img/navimage.jpg" alt="nav-image">
   </div>
@@ -65,7 +65,7 @@
     </div>
     <a href="https://www.opentable.com.au/r/omnia-bistro-reservations-south-yarra?restref=60050&lang=en-AU"
       target="_blank"
-      class="make-booking-btn custom-beige-dark custom-bg-brown py-2 px-8 uppercase cursor-pointer sm:hidden">
+      class="make-booking-btn   py-2 px-8 uppercase cursor-pointer sm:hidden"><!--custom-beige-dark-->
       Make a booking
     </a>
 
@@ -159,7 +159,7 @@
 
 
 <div id="about">
-  <div class="cover-image" style="background-image: url(/assets/images/about-us-1st-photo-sn-amp-ed1.jpeg);">
+  <div class="cover-image" style="background-image: url(/assets/images/about-us-1st-photo-sn-ed.jpg);">
     <div class="container mx-auto px-4">
       <div>
         <svg id="Chevrons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" class="img-svg">
@@ -183,7 +183,7 @@
       </div>
     </div>
   </div>
-  <div class="container mx-auto main-content py-8 px-4 md:p-12 md:p-24 md:pb-0 md:px-4 md:pt-1">
+  <div class="container mx-auto main-content py-8 px-4 md:p-12 md:pb-0 md:px-4 md:pt-1">
     
     
 
@@ -193,9 +193,11 @@
 
       <div class="blue pt-12 lg:w-1/2 member-text">
         
-        <h3 class="pb-4 middle-white-title reveal-right garamond-premier-pro-italic ">Stephen Nairn</h3>
-        <h3 class="omnia-green pb-2 mb-2 border-class uppercase reveal-right">Culinary Director</h3>
-        <p class="mb-12 omnia-green reveal-right">Stephen Nairn creates food with community at its focus. Produce driven dishes with stories to be heard
+        <div class="border-class mb-2">
+        <h3 class="pb-1  middle-white-title reveal-right">Stephen Nairn</h3>
+        <h2 class="omnia-green pb-2 uppercase reveal-right small-title pt-1">Culinary Director</h2>
+        </div>
+        <p class="mb-12 omnia-green reveal-right text-md">Stephen Nairn creates food with community at its focus. Produce driven dishes with stories to be heard
 and tasted. Building relationships with Australian growers and producers, Stephen sources the best
 products and uses them at their peak. A career earmarked by a passion for every aspect of hospitality,
 where a memorable experience is defined by the details. Stephen’s award winning career has found him
@@ -214,27 +216,26 @@ at Matilda, Vu de monde, and New York’s 3-Michelin Star institution, Eleven Ma
 
 
       <!-- Key Suppliers section -->
-      <div class="pb-0 md:pb-24 md:pt-12 md:pt-24">
-        <div class="pt-24">
-          <h2 class="events-title reveal">Key suppliers</h2>
-          <div class="flex flex-col md:flex-row justify-between items-start pt-24">
-            <p class="flex middle-olive-text reveal-delay-400">Omnia Bistro uses Australia’s best quality produce sourced through tight knit networks. We champion our growers and producers and tell their stories alongside our own. Our relationships allow us to showcase the season’s first harvest before anyone else.</p>
-          </div>
-          <div class="flex flex-col md:flex-row flex-wrap items-start justify-between pt-16">
-            <div class="w-full md:w-1/2 reveal pb-16 md:pb-0 md:pr-10"><!---md:px-12-->
+      <div class="pb-0 md:pb-24">
+        <div class=" md:pt-24">
+          <div class="flex flex-col md:flex-row-reverse flex-wrap items-start justify-between md:pt-12">
+            <div class="w-full md:w-1/2 reveal pb-16 md:pb-0 md:pl-10">
               <img class="img-border-radius key-suppliers" src=/assets/images/key_suppliers.jpg alt="key_suppliers">
             </div>
             <div class="w-1/2 partners">
+              <h2 class="events-title reveal text-center md:text-left">Key suppliers</h2>
+          <div class="flex flex-col md:flex-row justify-between items-start pt-6">
+            <p class="flex member-text reveal-delay-400 omnia-green mb-4">Omnia Bistro uses Australia’s best quality produce sourced through tight knit networks. We champion our growers and producers and tell their stories alongside our own. Our relationships allow us to showcase the season’s first harvest before anyone else.</p>
+          </div>
+          <div class=" md:flex md:flex-wrap">
               
 
               <div class="pt-16 omnia-green cursor-pointer accordion partner reveal">
-                <div class="flex items-center justify-between">
+                <div class="inline-block">
                   <h3 class="partner-title omnia-green">
                     Jonella Farm 
                   </h3>
-                  <!-- <div style="width: 32px; margin-left: 20px">
-                    <img class="open-accordion" src="/img/plus.svg" alt="">
-                  </div> -->
+                  <div class="partner-title-line"></div>
                 </div>
 
                 <div class="accordion-description partner-text omnia-green">
@@ -244,29 +245,11 @@ at Matilda, Vu de monde, and New York’s 3-Michelin Star institution, Eleven Ma
               
 
               <div class="pt-16 omnia-green cursor-pointer accordion partner reveal">
-                <div class="flex items-center justify-between">
-                  <h3 class="partner-title omnia-green">
-                    Moonlight Flat Oysters
-                  </h3>
-                  <!-- <div style="width: 32px; margin-left: 20px">
-                    <img class="open-accordion" src="/img/plus.svg" alt="">
-                  </div> -->
-                </div>
-
-                <div class="accordion-description partner-text omnia-green">
-                  Farmer, Steve Feletti, produces under the motto of, “quality we would wish to be served ourselves.” Oysters handled only by hand, where big and bulk isn’t the desired result. We use Moonlight Flat’s Moonlight Kisses.
-                </div>
-              </div>
-              
-
-              <div class="pt-16 omnia-green cursor-pointer accordion partner reveal">
-                <div class="flex items-center justify-between">
+                <div class="inline-block">
                   <h3 class="partner-title omnia-green">
                     Jones Potatoes 
                   </h3>
-                  <!-- <div style="width: 32px; margin-left: 20px">
-                    <img class="open-accordion" src="/img/plus.svg" alt="">
-                  </div> -->
+                  <div class="partner-title-line"></div>
                 </div>
 
                 <div class="accordion-description partner-text omnia-green">
@@ -276,13 +259,11 @@ at Matilda, Vu de monde, and New York’s 3-Michelin Star institution, Eleven Ma
               
 
               <div class="pt-16 omnia-green cursor-pointer accordion partner reveal">
-                <div class="flex items-center justify-between">
+                <div class="inline-block">
                   <h3 class="partner-title omnia-green">
                     Wagyu Blackmore 
                   </h3>
-                  <!-- <div style="width: 32px; margin-left: 20px">
-                    <img class="open-accordion" src="/img/plus.svg" alt="">
-                  </div> -->
+                  <div class="partner-title-line"></div>
                 </div>
 
                 <div class="accordion-description partner-text omnia-green">
@@ -292,13 +273,11 @@ at Matilda, Vu de monde, and New York’s 3-Michelin Star institution, Eleven Ma
               
 
               <div class="pt-16 omnia-green cursor-pointer accordion partner reveal">
-                <div class="flex items-center justify-between">
+                <div class="inline-block">
                   <h3 class="partner-title omnia-green">
                     Mark Folletta
                   </h3>
-                  <!-- <div style="width: 32px; margin-left: 20px">
-                    <img class="open-accordion" src="/img/plus.svg" alt="">
-                  </div> -->
+                  <div class="partner-title-line"></div>
                 </div>
 
                 <div class="accordion-description partner-text omnia-green">
@@ -306,14 +285,29 @@ at Matilda, Vu de monde, and New York’s 3-Michelin Star institution, Eleven Ma
                 </div>
               </div>
               
+
+              <div class="pt-16 omnia-green cursor-pointer accordion partner reveal">
+                <div class="inline-block">
+                  <h3 class="partner-title omnia-green">
+                    Moonlight Flat Oysters
+                  </h3>
+                  <div class="partner-title-line"></div>
+                </div>
+
+                <div class="accordion-description partner-text omnia-green">
+                  Farmer, Steve Feletti, produces under the motto of, “quality we would wish to be served ourselves.” Oysters handled only by hand, where big and bulk isn’t the desired result. We use Moonlight Flat’s Moonlight Kisses.
+                </div>
+              </div>
+              
             </div>
+          </div>
           </div>
         </div>
       </div>
 
       <footer class="p-80">
-   <div class="container mx-auto pb-8 md:pb-12 pt-12  px-4 md:pl-0 md:pr-0">
-      <div class="md:pb-8 md:pt-8 md:flex md:flex-wrap md:justify-between" style="border-color: rgb(98,118,94);"><!---flex flex-col md:flex-row md:items-center -->
+   <div class="container mx-auto pb-16 pt-16  px-4 md:pl-0 md:pr-0">
+      <div class=" md:flex md:flex-wrap md:justify-between" style="border-color: rgb(98,118,94);">
         <div class="flex mb-3 md:mb-0">
           <a href="https://www.instagram.com/omniabistro/" target="_blank">
             <img class="mr-2" src="/img/instagram.svg" alt="instagram icon"></a>

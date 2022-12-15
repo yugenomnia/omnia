@@ -45,7 +45,7 @@
 </header>
 
 <div id="navigation-page" class="fixed top-0 bottom-0 left-0 z-40 w-full flex hidden"
-  style="background-color: #C1A973 ;">
+  style="background-color: #c7cec5;">
   <div class="nav-image hidden md:block animate__animated animate__fadeInLeft">
     <img src="/img/navimage.jpg" alt="nav-image">
   </div>
@@ -65,7 +65,7 @@
     </div>
     <a href="https://www.opentable.com.au/r/omnia-bistro-reservations-south-yarra?restref=60050&lang=en-AU"
       target="_blank"
-      class="make-booking-btn custom-beige-dark custom-bg-brown py-2 px-8 uppercase cursor-pointer sm:hidden">
+      class="make-booking-btn   py-2 px-8 uppercase cursor-pointer sm:hidden"><!--custom-beige-dark-->
       Make a booking
     </a>
 
@@ -159,7 +159,7 @@
 
 
 <div id="food">
-  <div class="cover-image mb-12 md:mb-24" style="background-image: url(/assets/images/little21.jpeg);">
+  <div class="cover-image mb-24" style="background-image: url(/assets/images/asparagus-1-1.jpeg);">
     <div class="container mx-auto px-4">
       <div>
         <svg id="Chevrons"
@@ -187,122 +187,113 @@
     </div>
   </div>
 
-  <div class="container mx-auto px-4 md:px-0">
+  <div class="container mx-auto px-4 md:px-0 main-content">
     <!-- F O O D -->
     <div class="flex flex-col lg:flex-row items-start justify-between">
-      <div class="w-full lg:w-1/2 food-section-image">
-        <img src="/assets/images/221026-omnia2312-trifle_optimized.jpg" alt="omnia food">
+      <div class="w-full lg:w-1/2 food-section-image object-contain">
+        <img src="/assets/images/omnia-triffle-1.jpeg" alt="omnia food">
       </div>
-      <div class="w-full sm:w-1/2 pt-12 food-section-text">
-        <h3 class="text-center sm:text-left pb-4 middle-white-title reveal">
+      <div class="w-full sm:w-1/2 pt-12 food-section-text text-center md:text-left">
+        <div class="">
+        <h3 class="text-center md:text-left pb-2 middle-white-title reveal border-b-2 border-white inline"><!--border-b-2 border-white-->
           Food
         </h3>
-        <p class="mb-12 omnia-green reveal">
-          A menu of seasonal produce, used at its peak, designed with all tastes in mind. Familiar yet new, held together by our iconic duck and cheesecake.
+        <h2 class="omnia-green pb-2 uppercase reveal-right small-title pt-6"></h2>
+        </div>
+        <p class="mb-12 omnia-green reveal text-base md:text-lg mt-1">
+          Our kitchen team created a menu of seasonal produce, used at its peak, designed with all tastes in mind. Using Australia’s best quality produce sourced through tight knit networks. We champion our growers and producers and tell their stories alongside our own. Familiar yet new, held together by our iconic honey roasted duck and liquid centre cheesecake.
         </p>
-        <div class="flex items-center justify-center sm:justify-start my-12 reveal">
-          <a class="menu-link omnia-green text-lg" href="/assets/images/alc_menu_a4_19-11-22.pdf" target="_blank">
-            A LA CARTE MENU
+        <div class="flex items-center sm:items-left sm:justify-start">
+          <a class="menu-link omnia-green text-md inline" href="/assets/images/alc_menu_a4_19-11-22.pdf" target="_blank">
+            DINNER MENU
             <div class="line"></div>
           </a>
-        </div>
+      </div>
+      <div class="flex items-center sm:items-left sm:justify-start mt-6">
+        <a class="menu-link omnia-green text-md inline" href="" target="_blank">
+          LUNCH MENU
+          <div class="line"></div>
+        </a>
+    </div>
       </div>
     </div>
 
 
-    <!-- D R I N K  -->
-    <div id="drink-menu-categories" class="flex flex-col lg:flex-row-reverse items-start justify-between mt-8 md:my-24">
-      <div class="w-full lg:w-1/3 drink-section-image mb-8 lg:mb-0flex justify-center reveal">
+    <div id="drink-menu-categories" class="flex flex-col lg:flex-row-reverse items-start justify-between mt-8 md:my-24 mb-8">
+      <div class="w-full lg:w-2/5 drink-section-image mb-8 lg:mb-0 flex justify-end reveal">
         <img src="/assets/images/omnia-combo.jpg" alt="omnia drink">
       </div>
-      <div class="w-full lg:w-2/3 pt-12 drink-section-text lg:pr-12">
-        <h3 class="text-center px-3 pb-4 middle-white-title reveal">
+      <div class="w-full lg:w-3/5 pt-12 drink-section-text lg:pr-4">
+        <div>
+        <h3 class="text-center md:text-left pb-2 middle-white-title reveal border-b-2 border-white inline">
           Drink
         </h3>
-        
-        <div class="w-full flex justify-between mb-16">
-          <ul class="drink-menu-categories flex justify-between inner-container overflow-x-auto md:overflow-x-hidden reveal">
-            <!--    D  R  I  N  K  categories  -->
-            
-            <li
-              class="menu-category-title px-3 py-2 cursor-pointer"
-              data-category-name="cellar-wbtg"
-            >
-              CELLAR WBTG
-              <div class="line"></div>
-            </li>
-            
-            <li
-              class="menu-category-title px-3 py-2 cursor-pointer"
-              data-category-name="signature-coctails"
-            >
-              SIGNATURE COCTAILS
-              <div class="line"></div>
-            </li>
-            
-            <li
-              class="menu-category-title px-3 py-2 cursor-pointer"
-              data-category-name="non-alcoholic-selection"
-            >
-              NON ALCOHOLIC SELECTION
-              <div class="line"></div>
-            </li>
-             
-          </ul>
-      </div>
-      <div class="reveal">
-        
-          <div class="category-products md:w-2/3 mx-auto">
-            <p class="text-base md:text-xl mt-12 mb-12 olive text-left">
-              Omnia has an extensive wine list, offering 25 wines by the glass consisting of 13 regular, and 12 premier wines selected by our sommelier. Found a new favourite, or have a friend on the way? Our whole selection is available in half bottles.
-            </p>
-
-            <div class="flex items-left justify-center mb-12">
+        <h2 class="omnia-green pb-2 uppercase reveal-right small-title pt-6"></h2>
+        </div>
+      
+        <div class="mt-8">
+          
+          <div class="pt-2 pb-2 md:pt-2 md:pb-2 omnia-green cursor-pointer reveal accordion-drink">
+            <div class="inline-block menu-category-block">
+            <h3 class="menu-category-title omnia-green">WINE BY THE GLASS</h3>
+            <div class="menu-category-line"></div>
+            </div>
+          <div class="omnia-green pt-1 pb-1 md:pt-4 md:pb-4 md:w-2/3 accordion-description">      
+            <div class="omnia-green md:mb-4">Omnia has an extensive wine list, besides a wide selection of bottles also offering 25 wines by the glass consisting of 13 regular, and 12 premier wines selected by our sommelier.</div>
+            <div class="omnia-green">
               <a 
-                class="menu-link omnia-green text-lg md:text-xl" 
+                class="inline-block menu-link omnia-green text-md" 
                 href="/assets/images/beverage-menu.pdf#page=1" 
                 target="_blank"
               >
                 BEVERAGE LIST
                 <div class="line"></div>
-              </a>
-            </div>
+              </a> 
+            </div> 
           </div>
+        </div>
         
-          <div class="category-products md:w-2/3 mx-auto">
-            <p class="text-base md:text-xl mt-12 mb-12 olive text-left">
-              All the classics, with a few signature twists. Start, spend, or end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
-            </p>
-
-            <div class="flex items-left justify-center mb-12">
+          <div class="pt-2 pb-2 md:pt-2 md:pb-2 omnia-green cursor-pointer reveal accordion-drink">
+            <div class="inline-block menu-category-block">
+            <h3 class="menu-category-title omnia-green">SIGNATURE COCTAILS</h3>
+            <div class="menu-category-line"></div>
+            </div>
+          <div class="omnia-green pt-1 pb-1 md:pt-4 md:pb-4 md:w-2/3 accordion-description">      
+            <div class="omnia-green md:mb-4">Our bar offers All the classics, with a few signature twists. Start, spend, or end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni. We also collaborate with our our kitchen team. Non-alcoholic digestives paired to the seasons. Combining seasonal produce with the desserts that highlight them.</div>
+            <div class="omnia-green">
               <a 
-                class="menu-link omnia-green text-lg md:text-xl" 
+                class="inline-block menu-link omnia-green text-md" 
                 href="/assets/images/beverage-menu.pdf#page=2" 
                 target="_blank"
               >
                 BEVERAGE LIST
                 <div class="line"></div>
-              </a>
-            </div>
+              </a> 
+            </div> 
           </div>
+        </div>
         
-          <div class="category-products md:w-2/3 mx-auto">
-            <p class="text-base md:text-xl mt-12 mb-12 olive text-left">
-              A collaboration of our kitchen and wait teams. Non-alcoholic digestives paired to the seasons. Combining seasonal produce with the desserts that highlight them.
-            </p>
-
-            <div class="flex items-left justify-center mb-12">
+          <div class="pt-2 pb-2 md:pt-2 md:pb-2 omnia-green cursor-pointer reveal accordion-drink">
+            <div class="inline-block menu-category-block">
+            <h3 class="menu-category-title omnia-green">NON ALCOHOLIC SELECTION</h3>
+            <div class="menu-category-line"></div>
+            </div>
+          <div class="omnia-green pt-1 pb-1 md:pt-4 md:pb-4 md:w-2/3 accordion-description">      
+            <div class="omnia-green md:mb-4">A collaboration of our kitchen and wait teams. Non-alcoholic digestives paired to the seasons. Combining seasonal produce with the desserts that highlight them.</div>
+            <div class="omnia-green">
               <a 
-                class="menu-link omnia-green text-lg md:text-xl" 
+                class="inline-block menu-link omnia-green text-md" 
                 href="/assets/images/beverage-menu.pdf#page=3" 
                 target="_blank"
               >
                 BEVERAGE LIST
                 <div class="line"></div>
-              </a>
-            </div>
+              </a> 
+            </div> 
           </div>
+        </div>
         
+      
       </div>
     </div>
   </div>
@@ -311,8 +302,8 @@
 
 </div>
 <footer class="p-80">
-   <div class="container mx-auto pb-8 md:pb-12 pt-12  px-4 md:pl-0 md:pr-0">
-      <div class="md:pb-8 md:pt-8 md:flex md:flex-wrap md:justify-between" style="border-color: rgb(98,118,94);"><!---flex flex-col md:flex-row md:items-center -->
+   <div class="container mx-auto pb-16 pt-16  px-4 md:pl-0 md:pr-0">
+      <div class=" md:flex md:flex-wrap md:justify-between" style="border-color: rgb(98,118,94);">
         <div class="flex mb-3 md:mb-0">
           <a href="https://www.instagram.com/omniabistro/" target="_blank">
             <img class="mr-2" src="/img/instagram.svg" alt="instagram icon"></a>

@@ -18,6 +18,7 @@ sections:
     Road.
   button_text: browse our menu
   button_url: "#"
+  section_second_title: ''
 - section_image: "/assets/images/my-project.jpeg"
   section_title: New dishes
   section_description: |-
@@ -29,6 +30,7 @@ sections:
     that tempts another visit, time and time again.
   button_text: browse our menu
   button_url: "#"
+  section_second_title: ''
 main_img: "/assets/images/homepage-first-photo-hero-duck.jpeg"
 title: index.md
 

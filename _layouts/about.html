@@ -27,7 +27,7 @@
       </div>
     </div>
   </div>
-  <div class="container mx-auto main-content py-8 px-4 md:p-12 md:p-24 md:pb-0 md:px-4 md:pt-1">
+  <div class="container mx-auto main-content py-8 px-4 md:p-12 md:pb-0 md:px-4 md:pt-1">
     {% for team_member in page.team_members %}
     {% assign index = forloop.index0 | modulo: 2 %}
 
@@ -39,12 +39,14 @@
 
       <div class="blue pt-12 lg:w-1/2 member-text">
         {% if index == 0 %}
-        <h3 class="pb-4 middle-white-title reveal-right garamond-premier-pro-italic ">{{team_member.name}}</h3>
-        <h3 class="omnia-green pb-2 mb-2 border-class uppercase reveal-right">{{team_member.title}}</h3>
-        <p class="mb-12 omnia-green reveal-right">{{team_member.text}}</p>
+        <div class="border-class mb-2">
+        <h3 class="pb-1  middle-white-title reveal-right">{{team_member.name}}</h3>
+        <h2 class="omnia-green pb-2 uppercase reveal-right small-title pt-1">{{team_member.title}}</h2>
+        </div>
+        <p class="mb-12 omnia-green reveal-right text-md">{{team_member.text}}</p>
         {% else %}
         <h3 class="pb-8 middle-white-title reveal-left">{{team_member.name}}</h3>
-        <h3 class="omnia-green pb-4 mb-4 border-class uppercase reveal-right">{{team_member.title}}</h3>
+        <h3 class="omnia-green pb-4 mb-4 border-class uppercase reveal-right small-title">{{team_member.title}}</h3>
         <p class="mb-8 omnia-green reveal-right">{{team_member.text}}</p>
         {% endif %}
 
@@ -62,27 +64,26 @@
 
 
       <!-- Key Suppliers section -->
-      <div class="pb-0 md:pb-24 md:pt-12 md:pt-24">
-        <div class="pt-24">
-          <h2 class="events-title reveal">{{page.produce_title}}</h2>
-          <div class="flex flex-col md:flex-row justify-between items-start pt-24">
-            <p class="flex middle-olive-text reveal-delay-400">{{page.produce_text}}</p>
-          </div>
-          <div class="flex flex-col md:flex-row flex-wrap items-start justify-between pt-16">
-            <div class="w-full md:w-1/2 reveal pb-16 md:pb-0 md:pr-10"><!---md:px-12-->
+      <div class="pb-0 md:pb-24">
+        <div class=" md:pt-24">
+          <div class="flex flex-col md:flex-row-reverse flex-wrap items-start justify-between md:pt-12">
+            <div class="w-full md:w-1/2 reveal pb-16 md:pb-0 md:pl-10">
               <img class="img-border-radius key-suppliers" src={{page.produce_image}} alt="key_suppliers">
             </div>
             <div class="w-1/2 partners">
+              <h2 class="events-title reveal text-center md:text-left">{{page.produce_title}}</h2>
+          <div class="flex flex-col md:flex-row justify-between items-start pt-6">
+            <p class="flex member-text reveal-delay-400 omnia-green mb-4">{{page.produce_text}}</p>
+          </div>
+          <div class=" md:flex md:flex-wrap">
               {% for partner in page.partners %}
 
               <div class="pt-16 omnia-green cursor-pointer accordion partner reveal">
-                <div class="flex items-center justify-between">
+                <div class="inline-block">
                   <h3 class="partner-title omnia-green">
                     {{partner.title}}
                   </h3>
-                  <!-- <div style="width: 32px; margin-left: 20px">
-                    <img class="open-accordion" src="/img/plus.svg" alt="">
-                  </div> -->
+                  <div class="partner-title-line"></div>
                 </div>
 
                 <div class="accordion-description partner-text omnia-green">
@@ -91,6 +92,7 @@
               </div>
               {% endfor %}
             </div>
+          </div>
           </div>
         </div>
       </div>
