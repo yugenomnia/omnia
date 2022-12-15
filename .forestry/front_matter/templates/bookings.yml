@@ -1,4 +1,40 @@
 ---
 label: bookings
 hide_body: true
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: second_title
+  type: text
+  config:
+    required: false
+  label: second title
+- name: main_img
+  type: file
+  config:
+    maxSize: 64
+  label: main_img
+- name: first_text
+  type: text
+  config:
+    required: false
+  label: first_text
+- name: second_text
+  type: text
+  config:
+    required: false
+  label: second_text
+- name: second_photo
+  type: file
+  config:
+    maxSize: 64
+  label: second photo
