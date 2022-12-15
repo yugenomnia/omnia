@@ -1,5 +1,5 @@
 ---
-label: homepage
+label: index
 hide_body: true
 fields:
 - name: layout
