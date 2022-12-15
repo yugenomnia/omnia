@@ -63,3 +63,56 @@ fields:
       maxSize: 64
     label: second menu pdf
   label: Food section
+- name: drink_section
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: second_title
+    type: text
+    config:
+      required: false
+    label: second title
+  - name: text
+    type: text
+    config:
+      required: false
+    label: text
+  - name: img
+    type: file
+    config:
+      maxSize: 64
+    label: img
+  - name: categories
+    type: field_group_list
+    fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: title
+    - name: text
+      type: text
+      config:
+        required: false
+      label: text
+    - name: menu_pdf
+      type: file
+      config:
+        maxSize: 64
+      label: menu pdf
+    - name: menu_btn_text
+      type: text
+      config:
+        required: false
+      label: menu btn text
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: categories
+  label: Drink section
