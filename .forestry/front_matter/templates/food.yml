@@ -116,3 +116,5 @@ fields:
       labelField: 
     label: categories
   label: Drink section
+pages:
+- food.md

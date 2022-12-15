@@ -289,6 +289,9 @@ food_section:
   menu_btn_text: A LA CARTE MENU
   img: "/assets/images/221026-omnia2312-trifle_optimized.jpg"
   menu_btn_link: ''
+  second_title: ''
+  second_menu_btn_text: ''
+  second_menu_pdf: ''
 drink_section:
   title: Drink
   text: ''
@@ -311,5 +314,6 @@ drink_section:
     menu_pdf: "/assets/images/beverage-menu.pdf"
     menu_btn_text: BEVERAGE LIST
   img: "/assets/images/omnia-combo.jpg"
+  second_title: ''
 
 ---
