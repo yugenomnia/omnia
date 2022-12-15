@@ -8,3 +8,69 @@ fields:
     required: false
   label: layout
   hidden: true
+- name: main_img
+  type: file
+  config:
+    maxSize: 64
+  label: main_img
+- name: team_members
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: name
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: text
+    type: text
+    config:
+      required: false
+    label: text
+  - name: img
+    type: file
+    config:
+      maxSize: 64
+    label: img
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: team members
+- name: produce_title
+  type: text
+  config:
+    required: false
+  label: produce title
+- name: produce_text
+  type: text
+  config:
+    required: false
+  label: produce text
+- name: produce_im
+  type: file
+  config:
+    maxSize: 64
+  label: produce image
+- name: partners
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: text
+    type: text
+    config:
+      required: false
+    label: text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: partners
