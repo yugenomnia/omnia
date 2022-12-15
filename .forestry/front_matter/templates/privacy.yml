@@ -1,4 +1,25 @@
 ---
 label: privacy
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+- name: big_title
+  type: text
+  config:
+    required: false
+  label: big title
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: subtitle
+- name: main_img
+  type: file
+  config:
+    maxSize: 64
+  label: main img
