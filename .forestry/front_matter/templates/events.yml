@@ -1,0 +1,43 @@
+---
+label: events
+hide_body: false
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+- name: main_img
+  type: file
+  config:
+    maxSize: 64
+  label: main img
+- name: events
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: second_title
+    type: text
+    config:
+      required: false
+    label: second title
+  - name: img
+    type: file
+    config:
+      maxSize: 64
+    label: img
+  - name: text
+    type: text
+    config:
+      required: false
+    label: text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: events

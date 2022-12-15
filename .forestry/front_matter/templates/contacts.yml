@@ -1,0 +1,30 @@
+---
+label: contacts
+hide_body: true
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+- name: main_img
+  type: file
+  config:
+    maxSize: 64
+  label: main_img
+- name: text
+  type: text
+  config:
+    required: false
+  label: text
+- name: career_text
+  type: text
+  config:
+    required: false
+  label: career text
+- name: second_photo
+  type: file
+  config:
+    maxSize: 64
+  label: second photo
