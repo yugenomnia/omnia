@@ -1507,7 +1507,7 @@ border-bottom: 2px solid #A3A792;;
   }
 
   nav ul.navigation li a {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   nav .promotion-headline {
@@ -1516,7 +1516,8 @@ border-bottom: 2px solid #A3A792;;
   }
 
   #navigation-page .make-booking-btn {
-    margin: 8px 0 40px 0;
+    margin: 8px 0 24px 0;
+    text-align: center;
   }
 
   #navigation-page .voucher-btn a{
