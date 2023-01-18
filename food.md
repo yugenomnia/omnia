@@ -282,7 +282,7 @@ menu:
 big_title: DISCOVER FLAVOUR AT ITS FINEST
 main_img: "/assets/images/asparagus-1-1.jpeg"
 food_section:
-  title: Food
+  title: Food menu
   text: Our kitchen team created a menu of seasonal produce, used at its peak, designed
     with all tastes in mind. Using Australia’s best quality produce sourced through
     tight knit networks. We champion our growers and producers and tell their stories
