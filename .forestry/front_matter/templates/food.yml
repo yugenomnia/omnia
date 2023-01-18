@@ -82,6 +82,11 @@ fields:
     config:
       required: false
     label: text
+  - name: second_text
+    type: text
+    config:
+      required: false
+    label: second text
   - name: img
     type: file
     config:
