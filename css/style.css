@@ -737,7 +737,7 @@ nav ul.navigation li:hover a {
 }
 
 .partner-title-line {
-  background-color: rgb(98,118,94);
+  /*background-color: rgb(98,118,94);*/
   height: 2px;
 }
 
@@ -1114,7 +1114,7 @@ text-transform: uppercase;
 .partner-title-line {
   height: 2px;
   background-color: transparent;
-  background-color: rgb(98,118,94);
+  /*background-color: rgb(98,118,94);*/
   margin-top: 5px;
   /*background-color: #251C16;*/
   /* width: 0; */
