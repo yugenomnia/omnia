@@ -103,6 +103,7 @@ h2.middle-olive-text{
   font-size: 32px;
   line-height: 40px;
   font-family: 'Lulo Clean one', 'sans-serif';
+  font-weight: 400;
 }
 
 .little-grey-text {
@@ -991,8 +992,8 @@ text-transform: uppercase;
 #about .member-item:nth-child(odd) .img-border-radius,
 #about .member-item:nth-child(even) .img-border-radius {
   border-radius: 65px;
-  width: 600px;
-  height: 600px;
+  width: 550px;
+  height: 550px;
   object-fit: cover;
 }
 #about .key-suppliers.img-border-radius {
@@ -1005,7 +1006,10 @@ text-transform: uppercase;
 }
 
 .partners {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  /*padding-left: 80px;
+  /*margin-right: 80px;*/
+  padding-left: 50px;
 }
 
 /*.partner {
@@ -1446,6 +1450,12 @@ border-bottom: 2px solid #A3A792;;
     padding: 20px 8px;
     width: 50%;
   }*/
+
+  .partner-img  {
+    margin-left: 80px;
+    /*margin-left: 80px;
+    /*padding-right: 80px;*/
+  }
 
   .booking-img {
     height: 100%;

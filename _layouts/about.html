@@ -32,9 +32,9 @@
     {% assign index = forloop.index0 | modulo: 2 %}
 
     {% if index == 0 %}
-    <div class="flex justify-between flex-col-reverse lg:flex-row-reverse pt-24 member-item"> 
+    <div class="flex justify-between  pt-24 member-item"> <!--flex-col-reverse lg:flex-row-reverse-->
       {% else %}
-      <div class="flex justify-between flex-col-reverse lg:flex-row pt-24 member-item">
+      <div class="flex justify-between  pt-24 member-item"><!--flex-col-reverse lg:flex-row-->
     {% endif %}
 
       <div class="blue pt-12 lg:w-1/2 member-text">
@@ -66,11 +66,11 @@
       <!-- Key Suppliers section -->
       <div class="pb-0 md:pb-24">
         <div class=" md:pt-24">
-          <div class="flex flex-col md:flex-row-reverse flex-wrap items-start justify-between md:pt-12">
-            <div class="w-full md:w-1/2 reveal pb-16 md:pb-0 md:pl-10">
-              <img class="img-border-radius key-suppliers" src={{page.produce_image}} alt="key_suppliers">
+          <div class="flex flex-col md:flex-row flex-wrap items-start justify-between md:pt-12"><!--md:flex-row-reverse-->
+            <div class="w-full md:w-1/2 reveal pb-16 md:pb-0 "><!--md:pl-10-->
+              <img class="img-border-radius key-suppliers partner-img" src={{page.produce_image}} alt="key_suppliers">
             </div>
-            <div class="w-1/2 partners">
+            <div class="partners w-1/2"><!--w-1/2 -->
               <div class="border-class">
               <h2 class="events-title reveal text-center md:text-left">{{page.produce_title}}</h2>
               <h2 class="omnia-green pb-2 uppercase reveal-right small-title pt-1">{{page.produce_second_title}}</h2>
