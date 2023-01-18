@@ -46,6 +46,11 @@ fields:
   config:
     required: false
   label: produce title
+- name: produce_second_title
+  type: text
+  config:
+    required: false
+  label: produce second title
 - name: produce_text
   type: text
   config:
@@ -74,8 +79,3 @@ fields:
     max: 
     labelField: 
   label: partners
-- name: produce_second_title
-  type: text
-  config:
-    required: false
-  label: produce second title
