@@ -48,6 +48,10 @@ footer > div,
   font-size: 14px;
 }
 
+.opacity-class {
+  opacity: 0.7;
+}
+
 .omnia-green-btn {
   display: block;
   display: flex;
@@ -619,7 +623,7 @@ nav ul.navigation li:hover a {
   font-family: 'Lulo Clean one', 'sans-serif'; 
   font-size: 32px;
   list-style: 32px;
-  padding-bottom: 15px;
+  /*padding-bottom: 15px;*/
   text-transform: uppercase;
   margin: 0 auto;
   color: white;
@@ -1128,7 +1132,6 @@ text-transform: uppercase;
 
 .border-class  {
   border-bottom: 2px solid white;
-  opacity: 0.9;
 }
 
 .member-item:nth-child(odd) .img-border-radius {
@@ -1576,7 +1579,7 @@ border-bottom: 2px solid #A3A792;;
   }
 
   nav ul.navigation li a {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   nav .promotion-headline {
@@ -1585,7 +1588,8 @@ border-bottom: 2px solid #A3A792;;
   }
 
   #navigation-page .make-booking-btn {
-    margin: 8px 0 40px 0;
+    margin: 8px 0 24px 0;
+    text-align: center;
   }
 
   #navigation-page .voucher-btn a{
