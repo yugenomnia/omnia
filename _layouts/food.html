@@ -75,27 +75,20 @@
         <h2 class="omnia-green pb-2 uppercase reveal-right small-title pt-6">{{page.drink_section.second_title}}</h2>
         </div>
       
-        <div class="mt-8">
+        <div class="mt-8 w-2/3">
           {% for category in page.drink_section.categories %}
           <div class="pt-2 pb-2 md:pt-2 md:pb-2 omnia-green cursor-pointer reveal accordion-drink">
             <div class="inline-block menu-category-block">
-              <div class="omnia-green md:mb-4">{{category.text}}</div>
-            <h3 class="menu-category-title omnia-green">{{category.title}}</h3>
-            <div class="menu-category-line"></div>
-            </div>
-          <div class="omnia-green pt-1 pb-1 md:pt-4 md:pb-4 md:w-2/3 accordion-description">      
-           <!--<div class="omnia-green md:mb-4">{{category.text}}</div>-->
-            <!--<div class="omnia-green">
+              <div class="omnia-green lg:mb-6">{{category.text}}</div>
               <a 
-                class="inline-block menu-link omnia-green text-md" 
-                href="{{ category.menu_pdf }}#page={{forloop.index}}" 
-                target="_blank"
-              >
-                {{ category.menu_btn_text }}
-                <div class="line"></div>
-              </a>
-            </div>-->
-          </div>
+              class="inline-block menu-link omnia-green text-md" 
+              href="{{ category.menu_pdf }}#page={{forloop.index}}" 
+              target="_blank"
+            >
+              {{ category.menu_btn_text }}
+              <div class="line"></div>
+            </a>
+            </div>
         </div>
         {% endfor %}
       
