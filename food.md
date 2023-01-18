@@ -297,7 +297,9 @@ food_section:
   second_title: ''
 drink_section:
   title: Drinks menu
-  text: ''
+  text: 'Omnia has an extensive wine list, besides a wide selection of bottles also
+    offering 25 wines by the glass consisting of 13 regular, and 12 premier wines
+    selected by our sommelier.  '
   categories:
   - title: WINE BY THE GLASS
     text: Omnia has an extensive wine list, besides a wide selection of bottles also
@@ -321,5 +323,10 @@ drink_section:
     menu_btn_text: BEVERAGE LIST
   img: "/assets/images/omnia-combo.jpg"
   second_title: ''
+  second_text: " Our bar offers All the classics, with a few signature twists. Start,
+    spend, or end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
+    We also collaborate with our our kitchen team. Non-alcoholic digestives paired
+    to the seasons. Combining seasonal produce with the desserts that highlight them.
+    \ "
 
 ---
