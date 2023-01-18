@@ -307,14 +307,14 @@ drink_section:
       selected by our sommelier.
     menu_pdf: "/assets/images/beverage-menu.pdf"
     menu_btn_text: BEVERAGE LIST
-  - title: SIGNATURE COCTAILS
+  - title: SIGNATURE COCTAILS AND MORE
     text: Our bar offers All the classics, with a few signature twists. Start, spend,
       or end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
       We also collaborate with our our kitchen team. Non-alcoholic digestives paired
       to the seasons. Combining seasonal produce with the desserts that highlight
       them.
     menu_pdf: "/assets/images/beverage-menu.pdf"
-    menu_btn_text: BEVERAGE LIST
+    menu_btn_text: SIGNATURE COCTAILS AND MORE
   - title: NON ALCOHOLIC SELECTION
     text: A collaboration of our kitchen and wait teams. Non-alcoholic digestives
       paired to the seasons. Combining seasonal produce with the desserts that highlight
