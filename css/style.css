@@ -1005,20 +1005,6 @@ text-transform: uppercase;
   line-height: 44px;
 }
 
-.partners {
-  /*margin: 0 auto;*/
-  /*padding-left: 80px;
-  /*margin-right: 80px;*/
-  padding-left: 50px;
-}
-
-/*.partner {
-  padding: 20px;
-  padding-bottom: 5px;
-  border-radius: 25px;
-  position: relative;
-}*/
-
 .accordion-description {
   max-height: 0;
   overflow: hidden;
@@ -1358,6 +1344,10 @@ border-bottom: 2px solid #A3A792;;
 }
 
 @media (min-width: 960px) {
+  .partners {
+    padding-left: 50px;
+  }
+
   .food-section-image img{
   height: 600px;
   /*border: 2px solid red;*/
@@ -1451,12 +1441,6 @@ border-bottom: 2px solid #A3A792;;
     width: 50%;
   }*/
 
-  .partner-img  {
-    margin-left: 80px;
-    /*margin-left: 80px;
-    /*padding-right: 80px;*/
-  }
-
   .booking-img {
     height: 100%;
  }
@@ -1529,6 +1513,10 @@ border-bottom: 2px solid #A3A792;;
 
   header.site-header{
     width: 100%;
+  }
+
+  .partner-img  {
+    margin-left: 80px;
   }
 }
 
