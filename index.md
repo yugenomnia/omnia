@@ -19,17 +19,18 @@ sections:
   button_url: "#"
   section_second_title: Cheery wood smoked
 - section_image: "/assets/images/my-project.jpeg"
-  section_title: New dishes
-  section_description: |-
-    Our signature duck sourced locally from Macedon. Fourteen-day-dry-aged, honey roasted duck finished
-    with a spiced jus served alongside a confit pressed duck leg, garnished with nashi pear. A dish for two,
-    but we understand why you might not want to share. Let us take you on a visual and sensory experience
-    from whole bird to final mouthful. A dish both reminiscent and new. A coming together of melt-in-your-
-    mouth texture, bold yet balanced flavours, and a charm accented by a restrained attentiveness. A taste
-    that tempts another visit, time and time again.
+  section_title: 'Lamb Rump '
+  section_description: Our signature duck sourced locally from Macedon. Fourteen-day-dry-aged,
+    honey roasted duck finished with a spiced jus served alongside a confit pressed
+    duck leg, garnished with nashi pear. A dish for two, but we understand why you
+    might not want to share. Let us take you on a visual and sensory experience from
+    whole bird to final mouthful. A dish both reminiscent and new. A coming together
+    of melt-in-your- mouth texture, bold yet balanced flavours, and a charm accented
+    by a restrained attentiveness. A taste that tempts another visit, time and time
+    again.
   button_text: browse our menu
   button_url: "#"
-  section_second_title: ''
+  section_second_title: New dish
 main_img: "/assets/images/homepage-first-photo-hero-duck.jpeg"
 title: index.md
 
