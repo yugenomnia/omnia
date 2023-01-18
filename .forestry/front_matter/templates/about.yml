@@ -74,3 +74,8 @@ fields:
     max: 
     labelField: 
   label: partners
+- name: produce_second_title
+  type: text
+  config:
+    required: false
+  label: produce second title
