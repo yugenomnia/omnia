@@ -306,7 +306,7 @@ drink_section:
       offering 25 wines by the glass consisting of 13 regular, and 12 premier wines
       selected by our sommelier.
     menu_pdf: "/assets/images/beverage-menu.pdf"
-    menu_btn_text: BEVERAGE LIST
+    menu_btn_text: WINE BY THE GLASS
   - title: SIGNATURE COCTAILS AND MORE
     text: Our bar offers All the classics, with a few signature twists. Start, spend,
       or end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
@@ -315,12 +315,6 @@ drink_section:
       them.
     menu_pdf: "/assets/images/beverage-menu.pdf"
     menu_btn_text: SIGNATURE COCTAILS AND MORE
-  - title: NON ALCOHOLIC SELECTION
-    text: A collaboration of our kitchen and wait teams. Non-alcoholic digestives
-      paired to the seasons. Combining seasonal produce with the desserts that highlight
-      them.
-    menu_pdf: "/assets/images/beverage-menu.pdf"
-    menu_btn_text: BEVERAGE LIST
   img: "/assets/images/omnia-combo.jpg"
   second_title: ''
   second_text: " Our bar offers All the classics, with a few signature twists. Start,
