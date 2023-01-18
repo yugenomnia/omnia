@@ -314,7 +314,7 @@ drink_section:
       to the seasons. Combining seasonal produce with the desserts that highlight
       them.
     menu_pdf: "/assets/images/beverage-menu.pdf"
-    menu_btn_text: SIGNATURE COCTAILS AND MORE
+    menu_btn_text: SIGNATURE COCTAILS & MORE
   img: "/assets/images/omnia-combo.jpg"
   second_title: ''
   second_text: " Our bar offers All the classics, with a few signature twists. Start,
