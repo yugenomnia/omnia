@@ -1127,7 +1127,8 @@ text-transform: uppercase;
 }
 
 .border-class  {
-  border-bottom: 2px solid #62765E;
+  border-bottom: 2px solid white;
+  opacity: 0.9;
 }
 
 .member-item:nth-child(odd) .img-border-radius {
