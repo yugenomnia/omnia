@@ -79,3 +79,5 @@ fields:
     max: 
     labelField: 
   label: partners
+pages:
+- about.md
