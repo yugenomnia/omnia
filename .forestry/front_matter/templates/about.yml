@@ -51,16 +51,16 @@ fields:
   config:
     required: false
   label: produce second title
-- name: produce_text
-  type: text
-  config:
-    required: false
-  label: produce text
 - name: produce_im
   type: file
   config:
     maxSize: 64
   label: produce image
+- name: produce_text
+  type: text
+  config:
+    required: false
+  label: produce text
 - name: partners
   type: field_group_list
   fields:
