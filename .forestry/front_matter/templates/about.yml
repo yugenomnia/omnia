@@ -1,6 +1,6 @@
 ---
 label: about
-hide_body: false
+hide_body: true
 fields:
 - name: layout
   type: text
@@ -79,3 +79,5 @@ fields:
     max: 
     labelField: 
   label: partners
+pages:
+- about.md

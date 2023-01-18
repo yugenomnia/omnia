@@ -113,5 +113,7 @@ subtitle: |-
   Omnia Bistro makes its home at the base of Grand Capitol on the corner of Chapel Street and Toorak
   Road.
 produce_image: "/assets/images/key_suppliers.jpg"
+produce_second_title: " Longterm relationships"
+produce_im: ''
 
 ---
