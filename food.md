@@ -296,7 +296,7 @@ food_section:
   second_menu_pdf: ''
   second_title: ''
 drink_section:
-  title: Drink
+  title: Drinks menu
   text: ''
   categories:
   - title: WINE BY THE GLASS
