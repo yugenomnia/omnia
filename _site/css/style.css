@@ -364,6 +364,7 @@ header .make-booking-btn {
 
 #food .menu-link .line {
   background-color: rgb(98,118,94);
+  opacity: 0.7;
 }
 
 #food .menu-link:hover .line {
@@ -728,7 +729,7 @@ nav ul.navigation li:hover a {
 }
 
 #food .menu-category-line {
-  height: 2px;
+  height: 1px;
   background-color: rgb(98,118,94);
 }
 
