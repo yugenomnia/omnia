@@ -28,3 +28,38 @@ fields:
   config:
     maxSize: 64
   label: second photo
+- name: opening_hours
+  type: text
+  config:
+    required: false
+  label: opening_hours
+- name: opening_days
+  type: text
+  config:
+    required: false
+  label: opening_days
+- name: lunch_time
+  type: text
+  config:
+    required: false
+  label: lunch_time
+- name: lunch_days
+  type: text
+  config:
+    required: false
+  label: lunch_days
+- name: closed_days
+  type: text
+  config:
+    required: false
+  label: closed days
+- name: phone
+  type: text
+  config:
+    required: false
+  label: phone
+- name: email
+  type: text
+  config:
+    required: false
+  label: email
