@@ -38,5 +38,10 @@ fields:
   config:
     maxSize: 64
   label: second photo
+- name: third_text
+  type: text
+  config:
+    required: false
+  label: third text
 pages:
 - bookings.md
