@@ -39,5 +39,8 @@ third_column_second_text: For special occasions, we would also be glad to custom
 second_photo: "/assets/images/conservatory-wide-sm_optimized.jpeg"
 title: Group bookings
 second_title: ''
+third_text: If you are visiting us as a party of seven or more, please get in touch
+  with our reservations team at info@omniabistro.com.au or (03) 8080 8080 between
+  9pm and 5pm, Tuesday to Saturday.
 
 ---
