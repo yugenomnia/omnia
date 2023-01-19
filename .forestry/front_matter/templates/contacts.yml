@@ -33,11 +33,11 @@ fields:
   config:
     required: false
   label: opening_hours
-- name: opening_days
+- name: dinner_days
   type: text
   config:
     required: false
-  label: opening_days
+  label: dinner_days
 - name: lunch_time
   type: text
   config:
