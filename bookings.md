@@ -15,9 +15,9 @@ second_column: Plan your next celebration with us at Omnia Bistro. We’re here 
   of seven or more are invited to enjoy our curated set menu featuring our seasonally
   sourced dishes, and timeless classics.
 main_img: "/assets/images/group-bookings-1st-photo1.jpeg"
-first_text: When it’s time to organise your birthday dinner, a big family lunch or
+first_text: 'When it’s time to organise your birthday dinner, a big family lunch or
   a meal with your business partners, a group booking is the perfect way to simplify
-  ordering while still getting the most out our Chef’s repertoire
+  ordering while still getting the most out our Chef’s repertoire. '
 second_text: Plan your next celebration with us at Omnia Bistro. We’re here to talk
   about dietary specifics and little extras to make your experience memorable. Parties
   of seven or more are invited to enjoy our curated set menu featuring our seasonally
@@ -39,5 +39,8 @@ third_column_second_text: For special occasions, we would also be glad to custom
 second_photo: "/assets/images/conservatory-wide-sm_optimized.jpeg"
 title: Group bookings
 second_title: ''
+third_text: If you are visiting us as a party of seven or more, please get in touch
+  with our reservations team at info@omniabistro.com.au or (03) 8080 8080 between
+  9pm and 5pm, Tuesday to Saturday.
 
 ---
