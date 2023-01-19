@@ -97,6 +97,13 @@ h2.middle-olive-text{
  
 }
 
+#contacts .middle-olive-text {
+  color: rgb(98,118,94);
+  font-size: 16px;
+  line-height: 24px;
+  
+}
+
 .middle-olive-text {
   color: rgb(98,118,94);
   font-size: 20px;
