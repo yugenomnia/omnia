@@ -15,5 +15,7 @@ closed_days: Sunday & Monday
 phone: 03 8080 8080
 email: info@omniabistro.com.au
 dinner_hours: Dinner 5:30 - 11:00 PM
+subscribe_text: Join the Omnia family and be the first one to know about new dishes,
+  events and get special insights of our bistro and team.
 
 ---
