@@ -6,5 +6,13 @@ text: You’ll find us at the base of the glamorous Capitol Grand       Building
 career_text: 'Come along. Share in Omnia’s vision of produce first dishes and old-world
   hospitality. Join us at the table. Say, “salut”, to our futures. You’re welcome
   anytime. '
+second_photo: ''
+opening_hours: ''
+dinner_days: ''
+lunch_time: ''
+lunch_days: ''
+closed_days: ''
+phone: ''
+email: ''
 
 ---

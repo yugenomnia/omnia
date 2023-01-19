@@ -63,3 +63,5 @@ fields:
   config:
     required: false
   label: email
+pages:
+- contacts.md
