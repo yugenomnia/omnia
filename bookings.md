@@ -38,6 +38,6 @@ third_column_second_text: For special occasions, we would also be glad to custom
   your favourite cake.
 second_photo: "/assets/images/conservatory-wide-sm_optimized.jpeg"
 title: Group bookings
-second_title: Groups of 7 guest and more
+second_title: ''
 
 ---
