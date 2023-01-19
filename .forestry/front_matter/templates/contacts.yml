@@ -63,5 +63,10 @@ fields:
   config:
     required: false
   label: email
+- name: subscribe_text
+  type: text
+  config:
+    required: false
+  label: subscribe text
 pages:
 - contacts.md
