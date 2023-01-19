@@ -158,12 +158,34 @@
 </div>
 
 <div id="contacts">
-  <div style="background-image: url(/assets/images/contact-background-photo1.jpeg); background-size: cover; background-position: center;">
-    <div class="w-full h-auto md:h-screen flex items-end" style="background-color: rgba(0,0,0,0.2);">
-      <div class="container mx-auto pb-8 pt-20 md:pb-20 px-4">
+  <div style="background-image: url(/assets/images/contact-background-photo1.jpeg); background-size: cover; background-position: center;"
+  class="lg:h-screen">
+  <div>
+    <svg id="Chevrons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" class="img-svg">
+      <defs>
+        <filter id="f1" x="0" y="0" width="200%" height="200%">
+          <feOffset result="offOut" in="SourceGraphic" dx="1" dy="0.5" />
+          <feGaussianBlur result="blurOut" in="offOut" stdDeviation="1" />
+          <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+        </filter>
+      </defs>
+      <path class="chevron" id='TopChevron' d="M52,4.2L28,23.7c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,4.2c-0.3-0.2-0.4-0.7-0.1-1
+C3,3,3.2,2.9,3.5,2.9H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6L45.5,3c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+C52.3,3.7,52.2,4,52,4.2z" />
+      <path class="chevron" id='MiddleChevron' d="M52,31.8L28,51.3c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,31.8c-0.3-0.2-0.4-0.7-0.1-1
+c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+C52.3,31.3,52.2,31.6,52,31.8z" />
+      <path class="chevron" id='BottomChevron' d="M52,59.5L28,79c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,59.5c-0.3-0.2-0.4-0.7-0.1-1
+c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+C52.3,59,52.2,59.3,52,59.5z" />
+    </svg>
+  </div>
+    </div>
+    <div class="w-full h-auto md:h-screen flex items-center main-content">
+      <div class="container mx-auto pb-8 md:pb-20 px-4 pt-8">
         <div class="flex flex-col md:flex-row justify-between mb-8 md:mb-12">
           <div class="w-full md:w-1/2 lg:mr-10 mt-24 md:mt-0">
-            <h2 class="middle-olive-text mb-8 animate__animated animate__fadeInUp animate__slow">Opening hours</h2>
+            <h2 class="middle-white-title mb-8 animate__animated animate__fadeInUp animate__slow">Opening hours</h2>
             <div class="mb-4">
               <div class="md:w-2/5 md:w-auto footer-opening-title animate__animated animate__fadeInUp animate__slow"> Dinner 5:30 - 11:00 PM </div>
               <div class=" little-white-text animate__animated animate__fadeInUp animate__slow"> Tuesday untill Saturday </div>
@@ -178,19 +200,19 @@
             </div>
           </div>
           <div class="w-full md:w-1/2 lg:ml-10 mt-16 md:mt-0">
-            <h2 class="middle-olive-text mb-8  animate__animated animate__fadeInUp animate__slow">Contact details</h2>
+            <h2 class="middle-white-title mb-8  animate__animated animate__fadeInUp animate__slow">Contact details</h2>
             <div class="little-white-text">
               <div class="flex">
                 <div class="w-2/5 md:w-auto footer-contact-title animate__animated animate__fadeInUp animate__slow"> Phone </div>
-                <div class="pl-0 md:pl-8 lg:pl-48 little-white-text w-56 md:w-auto animate__animated animate__fadeInUp animate__slow">
-                  <a class="little-white-text" href="tel:0380808080">03 8080 8080</a>
+                <div class="pl-0 md:pl-8 lg:pl-48 middle-olive-text w-56 md:w-auto animate__animated animate__fadeInUp animate__slow">
+                  <a class="" href="tel:0380808080">03 8080 8080</a>
                 </div>
               </div>
               <div class="flex">
                 <div class="w-2/5 md:w-auto footer-contact-title animate__animated animate__fadeInUp animate__slow"> Email </div>
-                <div class="pl-0 md:pl-8 lg:pl-48 little-white-text w-56 md:w-auto animate__animated animate__fadeInUp animate__slow">
+                <div class="middle-olive-text pl-0 md:pl-8 lg:pl-48  w-56 md:w-auto animate__animated animate__fadeInUp animate__slow">
                   <a
-                    class="little-white-text"
+                    class=""
                     href="mailto:info@omniabistro.com.au?subject=Omnia%20Bistro%20Email%20Enquiry"
                     target="_blank"
                   >
@@ -200,10 +222,11 @@
               </div>
               <div class="flex">
                 <div class="w-2/5 md:w-auto footer-contact-title animate__animated animate__fadeInUp animate__slow"> Address </div>
-                <div class="pl-0 md:pl-8 lg:pl-48 w-56 md:w-auto animate__animated animate__fadeInUp animate__slow">
-                  <a href="https://www.google.com/maps/place/Omnia+Bistro+And+Restaurant+South+Yarra/@-37.8389116,144.9953926,15z/data=!4m5!3m4!1s0x0:0x8354098583c6a976!8m2!3d-37.8389116!4d144.9953926"
+                <div class="middle-olive-text pl-0 md:pl-8 lg:pl-48 w-56 md:w-auto animate__animated animate__fadeInUp animate__slow">
+                  <a class="middle-olive-text"
+                  href="https://www.google.com/maps/place/Omnia+Bistro+And+Restaurant+South+Yarra/@-37.8389116,144.9953926,15z/data=!4m5!3m4!1s0x0:0x8354098583c6a976!8m2!3d-37.8389116!4d144.9953926"
                     target="_blank">
-                    <div class="little-white-text">
+                    <div class="">
                       625 Chapel Street <br> South Yarra, VIC 3141 <br> (Cnr Chapel St & Toorak Rd)
                     </div>
                   </a>
@@ -214,13 +237,13 @@
         </div>
         <div class="flex flex-col md:flex-row ">
           <div class="w-full md:w-1/2 md:mr-10 min-h-64 md:flex md:flex-col md:justify-between">
-            <h2 class='middle-olive-text mb-8 animate__animated animate__fadeInUp animate__slow'>Careers</h2>
+            <h2 class='middle-white-title mb-8 animate__animated animate__fadeInUp animate__slow'>Careers</h2>
             <p class="middle-olive-text mb-12 animate__animated animate__fadeInUp animate__slow ">Come along. Share in Omnia’s vision of produce first dishes and old-world hospitality. Join us at the table. Say, “salut”, to our futures. You’re welcome anytime.  </p>
             <a href="mailto:info@omniabistro.com.au" target="_blank" class="olive-btn  flex justify-center items-center animate__animated animate__fadeInUp animate__slow">join now</a>
           </div>
           <div class="w-full md:w-1/2 md:ml-10 mt-16 md:mt-0 min-h-64 md:flex md:flex-col md:justify-between">
-            <h2 class='middle-olive-text mb-8 animate__animated animate__fadeInUp animate__slow'>Stay up-to-date</h2>
-            <p class="middle-olive-text mb-12 animate__animated animate__fadeInUp animate__slow">JOIN THE OMNIA FAMILY AND BE THE FIRST ONE TO KNOW ABOUT NEW DISHES, EVENTS AND GET SPECIAL INSIGHTS OF OUR BISTRO AND TEAM. </p>
+            <h2 class='middle-white-title mb-8 animate__animated animate__fadeInUp animate__slow'>Stay up-to-date</h2>
+           <!--mb-12 --> <p class="mb-12  middle-olive-text animate__animated animate__fadeInUp animate__slow">Join th Omnia family and be the first one to know about new dishes, events and get special insights of our bistro and team. </p>
             <button class="olive-btn openPopup animate__animated animate__fadeInUp animate__slow">SUBSCRIBE TO OUR NEWSLETTER</button>
           </div>
         </div>

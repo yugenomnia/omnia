@@ -91,14 +91,20 @@ th {
 h2.middle-olive-text{
   font-size: 28px;
 }
+
+.middle-olive-text div {
+  color: rgb(98,118,94);
+ 
+}
+
 .middle-olive-text {
   color: rgb(98,118,94);
   font-size: 20px;
   line-height: 24px;
+  
 }
 
 .middle-white-title {
-  color: rgb(98,118,94);
   color: white;
   font-size: 32px;
   line-height: 40px;
@@ -1335,7 +1341,7 @@ border-bottom: 2px solid #A3A792;;
 }
 
 @media (min-width: 450px) {
-#contacts .middle-olive-text, 
+/*#contacts .middle-olive-text, */
 #contacts .footer-opening-title, 
 #contacts .footer-contact-title,
 #contacts .little-white-text{
