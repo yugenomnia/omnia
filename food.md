@@ -293,7 +293,7 @@ food_section:
   img: "/assets/images/omnia-triffle-1.jpeg"
   menu_btn_link: ''
   second_menu_btn_text: LUNCH MENU
-  second_menu_pdf: ''
+  second_menu_pdf: "/uploads/alc_menu_a4_19-11-22.pdf"
   second_title: ''
 drink_section:
   title: Drinks menu
