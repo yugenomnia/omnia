@@ -51,7 +51,7 @@ footer > div,
 }
 
 .opacity-class {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .omnia-green-btn {
@@ -115,8 +115,8 @@ h2.middle-olive-text{
 
 .middle-white-title {
   color: white;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 30px;
+  line-height: 36px;
   font-family: 'Lulo Clean one', 'sans-serif';
   font-weight: 400;
 }
@@ -703,6 +703,11 @@ nav ul.navigation li:hover a {
 
 /*food*/
 
+.food-text {
+font-size: 18px;
+line-height: 27px;
+}
+
 .title-food-line {
   height: 2px;
 
@@ -828,6 +833,7 @@ text-transform: uppercase;
 
 .small-title {
   font-family: 'Lulo Clean one', 'sans-serif';
+  letter-spacing: 0.1rem;
 }
 
 
@@ -1452,6 +1458,9 @@ border-bottom: 2px solid #A3A792;;
 }
 
 @media (min-width:1024px) {
+  .main-content {
+   
+  }
 
   /*.partner {
     padding: 20px 8px;
@@ -1462,12 +1471,12 @@ border-bottom: 2px solid #A3A792;;
     height: 100%;
  }
 
-  .event-img {
+  /*.event-img {
     margin-right: 40px;
-  }
+  }*/
 
   .event-text {
-    margin-left: 40px;
+    /*margin-left: 40px;*/
     padding-right: 80px;
   }
 
@@ -1770,7 +1779,8 @@ border-bottom: 2px solid #A3A792;;
   #food .food-section-image img, 
   #food .drink-section-image img {
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
+    
   }
 
 

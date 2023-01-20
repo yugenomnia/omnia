@@ -52,11 +52,11 @@
   <nav class="flex flex-col justify-end">
     <ul class="navigation mb-8 sm:mb-0">
       <li class="animate__animated animate__fadeInUp"><a href="/">Homepage</a></li>
-      <li class="animate__animated animate__fadeInUp"><a href="/about">About us</a></li>
-      <li class="animate__animated animate__fadeInUp"><a href="/food">Food & Drinks</a></li>
-      <li class="animate__animated animate__fadeInUp"><a href="/bookings">Group bookings</a></li>
-      <li class="animate__animated animate__fadeInUp"><a href="/events">Events</a></li>
-      <li class="animate__animated animate__fadeInUp"><a href="/contacts">Contact</a></li>
+      <li class="animate__animated animate__fadeInUp lg:mt-4"><a href="/about">About us</a></li>
+      <li class="animate__animated animate__fadeInUp lg:mt-4"><a href="/food">Food & Drinks</a></li>
+      <li class="animate__animated animate__fadeInUp lg:mt-4"><a href="/bookings">Group bookings</a></li>
+      <li class="animate__animated animate__fadeInUp lg:mt-4"><a href="/events">Events</a></li>
+      <li class="animate__animated animate__fadeInUp lg:mt-4"><a href="/contacts">Contact</a></li>
     </ul>
 
     <div class="voucher-btn cursor-pointer sm:hidden">
@@ -180,9 +180,9 @@ C52.3,59,52.2,59.3,52,59.5z" />
     </svg>
   </div>
     </div>
-    <div class="w-full h-auto md:h-screen flex items-center main-content">
-      <div class="container mx-auto pb-8 md:pb-20 px-4 pt-8">
-        <div class="flex flex-col md:flex-row justify-between mb-8 md:mb-12">
+    <div class="w-full h-auto  flex items-center main-content md:h-screen">
+      <div class="container mx-auto lg:pb-0 px-4 lg:pt-40 lg:mt-6">
+        <div class="flex flex-col md:flex-row justify-between mb-8">
           <div class="w-full md:w-1/2 lg:mr-10 mt-24 md:mt-0">
             <h2 class="middle-white-title mb-8 animate__animated animate__fadeInUp animate__slow">Opening hours</h2>
             <div class="mb-4">
@@ -234,7 +234,7 @@ C52.3,59,52.2,59.3,52,59.5z" />
             </div>
           </div>
         </div>
-        <div class="flex flex-col md:flex-row ">
+        <div class="flex flex-col md:flex-row">
           <div class="w-full md:w-1/2 md:mr-10 min-h-64 md:flex md:flex-col md:justify-between">
             <h2 class='middle-white-title mb-8 animate__animated animate__fadeInUp animate__slow'>Careers</h2>
             <p class="middle-olive-text mb-12 animate__animated animate__fadeInUp animate__slow ">Come along. Share in Omnia’s vision of produce first dishes and old-world hospitality. Join us at the table. Say, “salut”, to our futures. You’re welcome anytime.  </p>
@@ -242,27 +242,45 @@ C52.3,59,52.2,59.3,52,59.5z" />
           </div>
           <div class="w-full md:w-1/2 md:ml-10 mt-16 md:mt-0 min-h-64 md:flex md:flex-col md:justify-between">
             <h2 class='middle-white-title mb-8 animate__animated animate__fadeInUp animate__slow'>Stay up-to-date</h2>
-           <!--mb-12 --> <p class="mb-12  middle-olive-text animate__animated animate__fadeInUp animate__slow">Join the Omnia family and be the first one to know about new dishes, events and get special insights of our bistro and team. </p>
+          <p class="mb-12  middle-olive-text animate__animated animate__fadeInUp animate__slow">Join the Omnia family and be the first one to know about new dishes, events and get special insights of our bistro and team. </p>
             <button class="olive-btn openPopup animate__animated animate__fadeInUp animate__slow">SUBSCRIBE TO OUR NEWSLETTER</button>
           </div>
         </div>
-        <div class="footer-bottom md:flex md:flex-wrap md:justify-between md:hidden mt-16">
-          <div class="flex flex-col md:flex-row md:items-center border-b md:border-0" style="border-color: rgb(98,118,94);">
-            <div class="flex mb-3 md:mb-0">
-              <a href="https://www.instagram.com/omniabistro/" target="_blank">
-                <img class="mr-2" src="/img/instagram.svg" alt="instagram icon"></a>
-              <a href="https://www.facebook.com/omniabistro/" target="_blank">
-                <img class="mr-2" src="/img/facebook.svg" alt="facebook icon"></a>
-            </div>
-            <p class="mb-3 md:mb-0 md:mx-8">
-              <a href="https://www.google.com/maps/place/Omnia+Bistro+And+Restaurant+South+Yarra/@-37.8389116,144.9953926,15z/data=!4m5!3m4!1s0x0:0x8354098583c6a976!8m2!3d-37.8389116!4d144.9953926"
-                target="_blank" class="omnia-green">625 Chapel Street South Yarra</a>
-            </p>
-            <p class="mb-3 md:mb-0">
-              <a href="mailto:info@omniabistro.com.au" class="omnia-green"> info@omniabistro.com.au</a>
-            </p>
+        <div class="footer-bottom md:flex md:flex-wrap md:justify-between mt-16">
+          <div class=" w-full">
+            <div class="mx-auto pb-16 pt-16 px-4 lg:px-0"><!--container -->
+               <div class=" md:flex md:flex-wrap md:justify-between" style="border-color: rgb(98,118,94);">
+                 <div class="flex mb-3 md:mb-0">
+                   <a href="https://www.instagram.com/omniabistro/" target="_blank">
+                     <img class="mr-2" src="/img/instagram.svg" alt="instagram icon"></a>
+                   <a href="https://www.facebook.com/omniabistro/" target="_blank">
+                     <img class="mr-2" src="/img/facebook.svg" alt="facebook icon"></a>
+                 </div>
+                 <p class="mb-3 md:mb-0 md:mx-8">
+                   <a href="https://www.google.com/maps/place/Omnia+Bistro+And+Restaurant+South+Yarra/@-37.8389116,144.9953926,15z/data=!4m5!3m4!1s0x0:0x8354098583c6a976!8m2!3d-37.8389116!4d144.9953926"
+                     target="_blank"
+                     class="omnia-green"
+                   >
+                     625 Chapel Street South Yarra
+                   </a>
+                 </p>
+                 <p class="mb-3 md:mb-0">
+                   <a href="mailto:info@omniabistro.com.au" class="omnia-green">info@omniabistro.com.au</a>
+                 </p>
+                   <div class="md:flex md:justify-between">
+                     <div class="mr-8 mb-4 md:mb-0">
+                       <div class="omnia-green"> Lunch 12:30 - 2.30 PM </div>
+                       <div class="omnia-green"> Thursday untill Saturday </div>
+                     </div> 
+                     <div>
+                     <div class="omnia-green"> Dinner 5:30 - 11.00 PM </div>
+                     <div class="omnia-green"> Tuesday untill Saturday </div>
+                   </div>        
+               </div>
+               <p class="w-full md:w-auto md:text-left mt-4 md:mt-0 omnia-green">Copyright &copy; 2022 Omnia Bistro</p>
+             </div>
+           </div>
           </div>
-          <p class="w-full md:w-auto md:text-left mt-4 md:mt-0 omnia-green">Copyright &copy; 2022 Omnia Bistro</p>
         </div>
       </div>
     </div> 

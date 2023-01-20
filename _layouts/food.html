@@ -31,20 +31,20 @@
     </div>
   </div>
 
-  <div class="container mx-auto px-4 md:px-0 main-content">
+  <div class="container mx-auto px-4 md:pr-0  md:pl-8 md:pl-20 main-content">
     <!-- F O O D -->
-    <div class="flex flex-col lg:flex-row items-start justify-between">
+    <div class="flex flex-col lg:flex-row  justify-between items-start">
       <div class="w-full lg:w-1/2 food-section-image object-contain">
         <img src="{{page.food_section.img}}" alt="omnia food">
       </div>
       <div class="w-full sm:w-1/2 pt-12 food-section-text text-left">
         <div class="">
-        <h3 class="text-center md:text-left pb-2 middle-white-title reveal border-b-2 border-white inline"><!--border-b-2 border-white-->
+        <h3 class="text-center md:text-left pb-2 middle-white-title reveal border-b-2 border-white inline">
           {{ page.food_section.title }}
         </h3>
         <h2 class="omnia-green pb-2 uppercase reveal-right small-title pt-6">{{page.food_section.second_title}}</h2>
         </div>
-        <p class="mb-12 omnia-green reveal text-base md:text-lg mt-1">
+        <p class="mb-12 omnia-green reveal food-text mt-1">
           {{ page.food_section.text }}
         </p>
         <div class="flex items-center sm:items-left sm:justify-start">
@@ -63,9 +63,9 @@
     </div>
 
 
-    <div id="drink-menu-categories" class="flex flex-col lg:flex-row-reverse items-start justify-between mt-8 md:my-24 mb-8">
-      <div class="w-full lg:w-1/2 drink-section-image mb-8 lg:mb-0 flex  reveal lg:ml-8"><!--justify-end-->
-        <img src="{{ page.drink_section.img }}" alt="omnia drink" class="">
+    <div id="drink-menu-categories" class="flex flex-col lg:flex-row-reverse  justify-between mt-8 mb-8"><!--md:my-24 items-start-->
+      <div class="w-full lg:w-1/2 drink-section-image mb-8 lg:mb-0 reveal"><!--flex-->
+        <img src="{{ page.drink_section.img }}" alt="omnia drink" class="block">
       </div>
       <div class="w-full lg:w-1/2  pt-12 drink-section-text lg:pr-4">
         <div>
@@ -75,11 +75,11 @@
         <h2 class="omnia-green pb-2 uppercase reveal-right small-title pt-6">{{page.drink_section.second_title}}</h2>
         </div>
       
-        <div class="mt-8 lg:w-2/3">
+        <div class="mt-8 md:pr-20">
           {% for category in page.drink_section.categories %}
           <div class="pt-2 pb-2 md:pt-2 md:pb-2 omnia-green cursor-pointer reveal accordion-drink">
             <div class="inline-block menu-category-block">
-              <div class="omnia-green">{{category.text}}</div>
+              <div class="omnia-green food-text">{{category.text}}</div>
               <a 
               class="inline-block menu-link omnia-green text-md mb-8 mt-8" 
               href="{{ category.menu_pdf }}#page={{forloop.index}}" 

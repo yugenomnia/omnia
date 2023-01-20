@@ -28,13 +28,13 @@
       </div>
     </div>
   </div>
-  <div class="main-content container mx-auto p-4 md:px-4">
+  <div class="main-content container mx-auto p-4 px-4 md:p-8 lg:pl-20 lg:pr-0">
     <div>
     </div>
     {% for section in page.sections %}
     {% assign index = forloop.index0 | modulo: 2 %}
     <div class="lg:flex justify-between pt-8 lg:pt-16 mb-20 homepage-item">
-      <div class="lg:w-1/2 event-img">
+      <div class="lg:w-1/2 event-img flex justify-items-end ">
         {% if index == 0  %}
         <img src="{{section.section_image}}" class="img-radius reveal-left img-homepage">
         {% else %}
