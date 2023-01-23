@@ -45,13 +45,13 @@ place_text: Situated on the iconic corner of Chapel Street and Toorak Road is th
 place_img: "/assets/images/food_main.jpg"
 space_img: "/assets/images/mask-group-20-2x.jpg"
 partners:
-- title: 'Jonella Farm '
-  text: Growers, John and Pam Hobson, hold an impressive 40 years of hands-on knowledge.
-    When in season, we use Jonella Farm’s baby corn, sweetcorn and asparagus.
 - title: 'Jones Potatoes '
   text: Grower, Gordon Jones, supplies us with the perfect potatoes for every dish.
     Blue Moon potatoes make our rosti crisp on the outside, fluffy on the inside.
     Andean Sunrise potatoes add the distinct crunch and flavour to our gaufrettes.
+- title: 'Jonella Farm '
+  text: Growers, John and Pam Hobson, hold an impressive 40 years of hands-on knowledge.
+    When in season, we use Jonella Farm’s baby corn, sweetcorn and asparagus.
 - title: 'Wagyu Blackmore '
   text: The pioneers of producing 100%, full blood wagyu beef in Australia. A family
     business that has operated for over thirty years, across five generations of farmers.
