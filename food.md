@@ -289,10 +289,10 @@ food_section:
     alongside our own. Familiar yet new, held together by our iconic honey roasted
     duck and liquid centre cheesecake.
   menu_pdf: "/assets/images/alc_menu_a4_19-11-22.pdf"
-  menu_btn_text: DINNER MENU
+  menu_btn_text: LUNCH MENU
   img: "/assets/images/omnia-triffle-1.jpeg"
   menu_btn_link: ''
-  second_menu_btn_text: LUNCH MENU
+  second_menu_btn_text: DINNER MENU
   second_menu_pdf: "/uploads/alc_menu_a4_19-11-22.pdf"
   second_title: ''
 drink_section:
