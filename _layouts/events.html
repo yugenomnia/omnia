@@ -30,19 +30,19 @@
     {% for event in page.events %}
     {% assign index = forloop.index0 | modulo: 2 %}
     <div class="lg:flex justify-between items-center pt-8 lg:pt-16 mb-20 event-item">
-      <div class="lg:w-1/2 event-img md:pr-8">
+      <div class="lg:w-1/2 event-img md:pr-16">
         {% if index == 0 %}
         <img src="{{event.img}}" class="img-radius reveal-left">
         {% else %}
         <img src="{{event.img}}" class="img-radius reveal-right">
         {% endif %}
       </div>
-      <div class="pt-8 md:pt-0 omnia-green lg:w-1/2 event-text">
+      <div class="pt-8 md:pt-0 omnia-green lg:w-1/2 event-text md:ml-8">
         {% if index == 0 %}
         <div class="reveal-right">
-          <div class="border-class mb-2">
+          <div class="border-class mb-6">
           <h3 class="pb-4 middle-white-title">{{event.title}}</h3><!--border-class-->
-          <h2 class="omnia-green  mb-2 mt-2 uppercase reveal-right small-title">{{event.second_title}}</h2>
+          <h2 class="omnia-green mb-2 mt-2 uppercase reveal-right small-title">{{event.second_title}}</h2>
           </div>
           <div class="mb-12 omnia-green">{{event.text | markdownify}}</div>
         </div>
