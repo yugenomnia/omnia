@@ -1368,13 +1368,13 @@ border-bottom: 2px solid #A3A792;;
 
 @media (min-width: 960px) {
   .partners {
-    padding-left: 50px;
+    padding-left: 80px;
   }
 
   .food-section-image img{
   height: 600px;
   /*border: 2px solid red;*/
-  width: 450px;
+  width: 500px;
   object-fit: cover;
   }
 
@@ -1458,15 +1458,7 @@ border-bottom: 2px solid #A3A792;;
 }
 
 @media (min-width:1024px) {
-  .main-content {
-   
-  }
-
-  /*.partner {
-    padding: 20px 8px;
-    width: 50%;
-  }*/
-
+ 
   .booking-img {
     height: 100%;
  }
@@ -1524,7 +1516,7 @@ border-bottom: 2px solid #A3A792;;
   }
 
   #food .food-section-text {
-    margin-left: 80px;
+    /*margin-left: 50px;*/
     padding-right: 80px;
   }
 
