@@ -2,7 +2,7 @@
 {% include head.html %}
 {% include nav.html %}
 <div id="events">
-  <div class="cover-image" style="background-image: url({{page.main_img}});">
+  <div class="cover-image lg:mb-24" style="background-image: url({{page.main_img}});">
     <div class="container mx-auto px-4">
       <div>
         <svg id="Chevrons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" class="img-svg">
@@ -26,11 +26,11 @@
       </div>
     </div>
   </div>
-  <div class="container mx-auto main-content px-4 md:p-12 md:p-24">
+  <div class="container mx-auto main-content px-4 md:pt-16">
     {% for event in page.events %}
     {% assign index = forloop.index0 | modulo: 2 %}
-    <div class="lg:flex justify-between items-center pt-8 lg:pt-16 mb-20 event-item">
-      <div class="lg:w-1/2 event-img md:pr-16">
+    <div class="lg:flex justify-between items-center pt-8 lg:pt-0 mb-20 event-item">
+      <div class="lg:w-1/2 event-img md:pr-16 mb-4">
         {% if index == 0 %}
         <img src="{{event.img}}" class="img-radius reveal-left">
         {% else %}
@@ -41,7 +41,7 @@
         {% if index == 0 %}
         <div class="reveal-right">
           <div class="border-class mb-6">
-          <h3 class="pb-4 middle-white-title">{{event.title}}</h3><!--border-class-->
+          <h3 class="pb-4 middle-white-title lg:mr-20">{{event.title}}</h3>
           <h2 class="omnia-green mb-2 mt-2 uppercase reveal-right small-title">{{event.second_title}}</h2>
           </div>
           <div class="mb-12 omnia-green">{{event.text | markdownify}}</div>

@@ -3,7 +3,7 @@
 {% include nav.html %}
 
 <div id="about">
-  <div class="cover-image" style="background-image: url({{page.main_img}});">
+  <div class="cover-image  mb-12 md:mb-24" style="background-image: url({{page.main_img}});">
     <div class="container mx-auto px-4">
       <div>
         <svg id="Chevrons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" class="img-svg">
@@ -32,7 +32,7 @@
     {% assign index = forloop.index0 | modulo: 2 %}
 
     {% if index == 0 %}
-    <div class="flex flex-col lg:flex-row justify-between lg:pt-24 member-item"> <!--flex-col-reverse lg:flex-row-reverse-->
+    <div class="flex flex-col lg:flex-row justify-between lg:pt-16 member-item"> <!--flex-col-reverse lg:flex-row-reverse-->
       {% else %}
       <div class="flex flex-col lg:flex-row justify-between  lg:pt-24 member-item"><!--flex-col-reverse lg:flex-row-->
     {% endif %}

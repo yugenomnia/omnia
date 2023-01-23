@@ -25,8 +25,8 @@ C52.3,59,52.2,59.3,52,59.5z" />
     </svg>
   </div>
     </div>
-    <div class="w-full h-auto  flex items-center main-content md:h-screen">
-      <div class="container mx-auto lg:pb-0 px-4 lg:pt-40 lg:mt-6">
+    <div class="w-full h-auto  flex items-center main-content"><!--md:h-screen-->
+      <div class="container mx-auto lg:pb-0 px-4 lg:pt-40 lg:mt-0">
         <div class="flex flex-col md:flex-row justify-between mb-8">
           <div class="w-full md:w-1/2 lg:mr-10 mt-24 md:mt-0">
             <h2 class="middle-white-title mb-8 animate__animated animate__fadeInUp animate__slow">Opening hours</h2>
@@ -79,7 +79,7 @@ C52.3,59,52.2,59.3,52,59.5z" />
             </div>
           </div>
         </div>
-        <div class="flex flex-col md:flex-row">
+        <div class="flex flex-col md:flex-row lg:pb-12">
           <div class="w-full md:w-1/2 md:mr-10 min-h-64 md:flex md:flex-col md:justify-between">
             <h2 class='middle-white-title mb-8 animate__animated animate__fadeInUp animate__slow'>Careers</h2>
             <p class="middle-olive-text mb-12 animate__animated animate__fadeInUp animate__slow ">{{page.career_text}} </p>
@@ -130,7 +130,9 @@ C52.3,59,52.2,59.3,52,59.5z" />
       </div>
     </div> 
   </div>
+  {% include footer.html %}
 </div>
+
 
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="{{ "/js/main.js" | absolute_url }}" type="text/javascript"></script>
