@@ -307,7 +307,7 @@ drink_section:
       selected by our sommelier.
     menu_pdf: "/assets/images/beverage-menu.pdf"
     menu_btn_text: WINE BY THE GLASS
-  - title: SIGNATURE COCTAILS AND MORE
+  - title: SIGNATURE COCKTAILS AND MORE
     text: Our bar offers All the classics, with a few signature twists. Start, spend,
       or end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
       We also collaborate with our our kitchen team. Non-alcoholic digestives paired
