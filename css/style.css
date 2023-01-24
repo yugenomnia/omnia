@@ -1634,7 +1634,7 @@ border-bottom: 2px solid #A3A792;;
   .cover-image {
     /* aspect-ratio: 16/9; */
     border-bottom-right-radius: 80px;
-    height: 100vh;
+    /*height: 100vh;*/
     padding: 0 16px;
     position: relative;
   }
