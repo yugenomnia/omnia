@@ -613,7 +613,7 @@ nav ul.navigation li:hover a {
 
 
 #homepage .cover-image {
-  background-position-x: 30%;
+  background-position-x: 70%;
 }
 
 #homepage .cover-image h1 {
@@ -1367,6 +1367,10 @@ border-bottom: 2px solid #A3A792;;
 }
 
 @media (min-width: 960px) {
+  #homepage .cover-image {
+    background-position-y: 12%;
+  }
+
   .partners {
     padding-left: 80px;
   }
