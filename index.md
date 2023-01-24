@@ -18,6 +18,7 @@ sections:
   button_text: browse our menu
   button_url: "#"
   section_second_title: Cheery wood smoked
+  section_img: ''
 - section_image: "/assets/images/my-project.jpeg"
   section_title: 'Lamb Rump '
   section_description: Our signature duck sourced locally from Macedon. Fourteen-day-dry-aged,
@@ -31,7 +32,8 @@ sections:
   button_text: browse our menu
   button_url: "#"
   section_second_title: New dish
-main_img: "/assets/images/homepage-first-photo-hero-duck.jpeg"
+  section_img: ''
+main_img: "/assets/images/omnia-duck-little.jpeg"
 title: index.md
 
 ---
