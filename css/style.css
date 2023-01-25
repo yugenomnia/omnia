@@ -3,12 +3,16 @@
   line-height: 24px;
   font-family: 'Avenir-Book', sans-serif;
   font-weight: 500;
+
 }
+
+
 
 body {
   height: 100%;
   padding-bottom: 0;
   background-color: #c7cec5;
+
 }
 
 html {
@@ -16,6 +20,7 @@ html {
   overflow-x: hidden;
   padding-bottom: 0;
 }
+
 ::-webkit-scrollbar {
   width: 0;  /* Remove scrollbar space */
   background: transparent;  /* Optional: just make scrollbar invisible */
@@ -701,6 +706,11 @@ nav ul.navigation li:hover a {
   background-color: transparent;
 }
 
+.container-404 {
+  font-size: 28px;;
+}
+
+
 /*food*/
 
 .food-text {
@@ -1234,7 +1244,6 @@ border-bottom: 2px solid #A3A792;;
   color: white;
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
-  background-color:  #225367;
   height: 58px;
   padding: 3px;
   font-size: 12px;

@@ -1,16 +1,23 @@
-<style type="text/css" media="screen">
-  .container {
+<style type="text/css" media="screen"> 
+   a {
+    color: black;
+    font-size: 22px ;
+    text-decoration: underline;
+   }
+
+  .container-404 {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
+    text-align: center;
+    font-size: 24px;
   }
 
-  .content {
-    font-size: 24px;
-    line-height: 1;
-    letter-spacing: -1px;
+  title {
+    font-size: 28px;
   }
+
 
   @media (max-width: 960px) {
 
@@ -21,10 +28,24 @@
 }
 </style>
 
-<div class="container">
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="/css/fonts.css " rel="stylesheet">
+  <link href="/css/style.css " rel="stylesheet">
+</head>
+
+<body id="">
+
+<div class="container-404">
     <div class="content">
-  <h1 class="pt-20">404</h1>
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <h1 class="title">404</h1>
+  <p class="content-p"><strong>Page not found :(</strong></p>
+  <a href="/">Back to homepage</a>
   </div>
 </div>
