@@ -115,5 +115,6 @@ subtitle: |-
 produce_image: "/assets/images/key_suppliers.jpg"
 produce_second_title: " Longterm relationships"
 produce_im: ''
+title: 'About '
 
 ---
