@@ -13,6 +13,7 @@ fields:
   config:
     required: false
   label: title
+  hidden: true
 - name: big_title
   type: text
   config:
