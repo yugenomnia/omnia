@@ -8,11 +8,11 @@ fields:
     required: false
   label: layout
   hidden: true
-- name: hero_title
+- name: title
   type: text
   config:
     required: false
-  label: hero title
+  label: title
 - name: big_title
   type: text
   config:

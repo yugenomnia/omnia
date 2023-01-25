@@ -34,6 +34,6 @@ sections:
   section_second_title: New dish
   section_img: ''
 main_img: "/assets/images/omnia-duck-little.jpeg"
-title: index.md
+title: Homepage
 
 ---
