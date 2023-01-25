@@ -14,11 +14,6 @@ fields:
     required: false
   label: title
   hidden: true
-- name: big_title
-  type: text
-  config:
-    required: false
-  label: big title
 - name: main_img
   type: file
   config:
