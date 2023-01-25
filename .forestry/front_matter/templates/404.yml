@@ -1,0 +1,10 @@
+---
+label: '404'
+hide_body: false
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: layout
