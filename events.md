@@ -1,12 +1,14 @@
 ---
 layout: events
 events:
-- title: 'Omnia Vista Social Club '
+- title: Omnia Social Club - Summer Sunset Jazz
   img: "/assets/images/omnia-events-2nd-photo1.jpeg"
-  text: After a successful month of Wednesday Nights at The Embers, we're bringing
-    back live music nights at Omnia! Inspired by the Buena Vista Social Club, Omnia
-    will be host to great live music and specialty drinks every Wednesday. Come along
-    and visit 'Omnia Vista Social Club' for a night out to dinner or drinks.
+  text: Every Wednesday night at Omnia Melbourne’s most talented musicians performing
+    Jazz inspired music with during January and February the focus on summer vibes.  Featuring
+    Melbournes finest artists.Oscar Jimines - vocalist and guitarist, Alexander Nettelbeck
+    - keyboards, Christian Saavedra - percussionist and Paul van Ross on saxophone.  Book
+    a table for dinner or walk-in for some drinks at the bar and enjoy the summer
+    sunset jazz!
   second_title: Live music Wednesday nights
 columns:
 - text: Beverages will be charged on consumption and a $500 deposit will be required
