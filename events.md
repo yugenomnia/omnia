@@ -1,7 +1,7 @@
 ---
 layout: events
 events:
-- title: Omnia Social Club - Summer Sunset Jazz
+- title: 'Omnia Social Club '
   img: "/assets/images/omnia-events-2nd-photo1.jpeg"
   text: Every Wednesday night at Omnia Melbourne’s most talented musicians performing
     Jazz inspired music with during January and February the focus on summer vibes.  Featuring
