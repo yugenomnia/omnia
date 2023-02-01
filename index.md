@@ -17,7 +17,7 @@ sections:
     at the base of Grand Capitol on the corner of Chapel Street and Toorak Road.
   button_text: browse our menu
   button_url: "#"
-  section_second_title: ''
+  section_second_title: Welcome to our bistro
   section_img: ''
 - section_image: "/assets/images/my-project.jpeg"
   section_title: Heirloom tomato tart tatin
