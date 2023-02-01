@@ -20,15 +20,14 @@ sections:
   section_second_title: Welcome to our bistro
   section_img: ''
 - section_image: "/assets/images/my-project.jpeg"
-  section_title: Heirloom tomato tart tatin
-  section_description: 'The secret of a good tart tatin is the puff pastry. Our pastry
-    team knows what to do to make it puffy, buttery and crispy at the same time. It’s
-    the peak of tomato season which makes this a match made in heaven.  Ask our team
-    for a glass or Riesling and we say no more..  '
+  section_title: Zucchini flower
+  section_description: 'The perfect snack to enjoy with a signature cocktail freshy
+    shaken or stirred by our bar team. This bite is crispy, creamy, fresh and beautifully
+    served. This little explosion of flavor will make you want some more.  '
   button_text: browse our menu
   button_url: "#"
-  section_second_title: with garden flowers
-  section_img: "/assets/images/221026-omnia1726.jpg"
+  section_second_title: salsa verde, parmesan custard & lavosh
+  section_img: "/assets/images/221026-omnia1624.jpg"
 main_img: "/assets/images/omnia-duck-little.jpeg"
 title: Homepage
 
