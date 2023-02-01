@@ -7,7 +7,7 @@ hero_title: A European bistro filled with Australian stories. A new familiar. Pr
 big_title: OMNIA
 sections:
 - section_image: "/assets/images/homepage-2nd-photo1.jpeg"
-  section_title: Smoked old Fashion
+  section_title: Omnia Bistro
   section_description: Omnia blends the energy of a European bistro with the stories
     of Australia’s best growers and producers. A contemporary take on culinary classics
     served with the warmth of old-world hospitality. Take a seat in our light filled
@@ -17,7 +17,7 @@ sections:
     at the base of Grand Capitol on the corner of Chapel Street and Toorak Road.
   button_text: browse our menu
   button_url: "#"
-  section_second_title: Cheery wood smoked
+  section_second_title: ''
   section_img: ''
 - section_image: "/assets/images/my-project.jpeg"
   section_title: 'Lamb Rump '
