@@ -315,7 +315,7 @@ drink_section:
       them.
     menu_pdf: "/assets/images/beverage-menu.pdf"
     menu_btn_text: SIGNATURE COCKTAILS & MORE
-  img: "/assets/images/omnia-combo.jpg"
+  img: "/assets/images/221026-omnia2794-champagne-trolley.jpg"
   second_title: ''
   second_text: " Our bar offers All the classics, with a few signature twists. Start,
     spend, or end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.

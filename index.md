@@ -7,32 +7,27 @@ hero_title: A European bistro filled with Australian stories. A new familiar. Pr
 big_title: OMNIA
 sections:
 - section_image: "/assets/images/homepage-2nd-photo1.jpeg"
-  section_title: Smoked old Fashion
+  section_title: Omnia Bistro
   section_description: Omnia blends the energy of a European bistro with the stories
     of Australia’s best growers and producers. A contemporary take on culinary classics
     served with the warmth of old-world hospitality. Take a seat in our light filled
-    Conservatory, cosy Barrel Room, lean into the vibrant ambience of the bar. A setting
-    paired with a taste to answer the call of any occasion. Come alone, meet with
-    friends, toast with us. You’re welcome anytime. Omnia Bistro makes its home at
-    the base of Grand Capitol on the corner of Chapel Street and Toorak Road.
+    Conservatory or cosy Barrel Room, lean into the vibrant ambience of the bar. A
+    setting paired with a taste to answer the call of any occasion. Come alone, meet
+    with friends, toast with us. You’re welcome anytime. Omnia Bistro makes its home
+    at the base of Grand Capitol on the corner of Chapel Street and Toorak Road.
   button_text: browse our menu
   button_url: "#"
-  section_second_title: Cheery wood smoked
+  section_second_title: Welcome to our bistro
   section_img: ''
 - section_image: "/assets/images/my-project.jpeg"
-  section_title: 'Lamb Rump '
-  section_description: Our signature duck sourced locally from Macedon. Fourteen-day-dry-aged,
-    honey roasted duck finished with a spiced jus served alongside a confit pressed
-    duck leg, garnished with nashi pear. A dish for two, but we understand why you
-    might not want to share. Let us take you on a visual and sensory experience from
-    whole bird to final mouthful. A dish both reminiscent and new. A coming together
-    of melt-in-your- mouth texture, bold yet balanced flavours, and a charm accented
-    by a restrained attentiveness. A taste that tempts another visit, time and time
-    again.
+  section_title: Zucchini flower
+  section_description: 'The perfect snack to enjoy with a signature cocktail freshy
+    shaken or stirred by our bar team. This bite is crispy, creamy, fresh and beautifully
+    served. This little explosion of flavor will make you want some more.  '
   button_text: browse our menu
   button_url: "#"
-  section_second_title: New dish
-  section_img: ''
+  section_second_title: salsa verde, parmesan custard & lavosh
+  section_img: "/assets/images/221026-omnia1624.jpg"
 main_img: "/assets/images/omnia-duck-little.jpeg"
 title: Homepage
 
