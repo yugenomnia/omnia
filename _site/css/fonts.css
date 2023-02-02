@@ -24,57 +24,6 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'Calisto MT';
-  src: url('../fonts/CalistoMT-Italic.eot');
-  src: url('../fonts/CalistoMT-Italic.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/CalistoMT-Italic.woff2') format('woff2'),
-      url('../fonts/CalistoMT-Italic.woff') format('woff'),
-      url('../fonts/CalistoMT-Italic.ttf') format('truetype'),
-      url('../fonts/CalistoMT-Italic.svg#CalistoMT-Italic') format('svg');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Calisto MT';
-  src: url('../fonts/CalistoMT-BoldItalic.eot');
-  src: url('../fonts/CalistoMT-BoldItalic.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/CalistoMT-BoldItalic.woff2') format('woff2'),
-      url('../fonts/CalistoMT-BoldItalic.woff') format('woff'),
-      url('../fonts/CalistoMT-BoldItalic.ttf') format('truetype'),
-      url('../fonts/CalistoMT-BoldItalic.svg#CalistoMT-BoldItalic') format('svg');
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Calisto MT';
-  src: url('../fonts/CalisMTBol.eot');
-  src: url('../fonts/CalisMTBol.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/CalisMTBol.woff2') format('woff2'),
-      url('../fonts/CalisMTBol.woff') format('woff'),
-      url('../fonts/CalisMTBol.ttf') format('truetype'),
-      url('../fonts/CalisMTBol.svg#CalisMTBol') format('svg');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Calisto MT';
-  src: url('../fonts/CalistoMT.eot');
-  src: url('../fonts/CalistoMT.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/CalistoMT.woff2') format('woff2'),
-      url('../fonts/CalistoMT.woff') format('woff'),
-      url('../fonts/CalistoMT.ttf') format('truetype'),
-      url('../fonts/CalistoMT.svg#CalistoMT') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 
 @font-face {font-family: "Avenir Medium"; 
   src: url("../fonts/Avenir-Medium.eot"); 
@@ -94,49 +43,12 @@
   url("../fonts/LuloCleanW01-One.svg#LuloCleanW01-One") format("svg"); 
 }
 
-@font-face {font-family: "Garamond Premier Pro"; 
-  src: url("../fonts/GaramondPremrPro.eot"); 
-  src: url("../fonts/GaramondPremrPro?#iefix") format("embedded-opentype"), 
-        url("../fonts/GaramondPremrPro.woff2") format("woff2"), 
-        url("../fonts/GaramondPremrPro.woff") format("woff"), 
-        url("../fonts/GaramondPremrPro.ttf") format("truetype"), 
-        url("../fonts/GaramondPremrPro.svg#GaramondPremrPro") format("svg"); 
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 
-@font-face {font-family: "Garamond Premier Pro"; 
-  src: url("../fonts/GaramondPremrPro-It.eot"); 
-  src: url("../fonts/GaramondPremrPro-It?#iefix") format("embedded-opentype"), 
-        url("../fonts/GaramondPremrPro-It.woff2") format("woff2"), 
-        url("../fonts/GaramondPremrPro-It.woff") format("woff"), 
-        url("../fonts/GaramondPremrPro-It.ttf") format("truetype"), 
-        url("../fonts/GaramondPremrPro-It.svg#GaramondPremrPro-It") format("svg"); 
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {font-family: "Garamond Premier Pro"; 
-  src: url("../fonts/GaramondPremrPro-SmbdIt.eot"); 
-  src: url("../fonts/GaramondPremrPro-SmbdIt?#iefix") format("embedded-opentype"), 
-        url("../fonts/GaramondPremrPro-SmbdIt.woff2") format("woff2"), 
-        url("../fonts/GaramondPremrPro-SmbdIt.woff") format("woff"), 
-        url("../fonts/GaramondPremrPro-SmbdIt.ttf") format("truetype"), 
-        url("../fonts/GaramondPremrPro-SmbdIt.svg#GaramondPremrPro-SmbdIt") format("svg"); 
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {font-family: "Garamond Premier Pro"; 
-  src: url("../fonts/GaramondPremrPro-Smbd.eot"); 
-  src: url("../fonts/GaramondPremrPro-Smbd?#iefix") format("embedded-opentype"), 
-        url("../fonts/GaramondPremrPro-Smbd.woff2") format("woff2"), 
-        url("../fonts/GaramondPremrPro-Smbd.woff") format("woff"), 
-        url("../fonts/GaramondPremrPro-Smbd.ttf") format("truetype"), 
-        url("../fonts/GaramondPremrPro-Smbd.svg#GaramondPremrPro-Smbd") format("svg"); 
+@font-face {font-family: "Average Sans"; 
+  src: url("../fonts/GaramondPremrPro-Smbd.eot"),
+       url("../fonts/AverageSans-Regular.woff2") format("woff2"),
+       url("../fonts/AverageSans-Regular.woff") format("woff"),
+       url("../fonts/AverageSans-Regular.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;

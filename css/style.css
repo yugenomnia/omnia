@@ -1,18 +1,15 @@
 * {
   font-size: 16px;
   line-height: 24px;
-  font-family: 'Avenir-Book', sans-serif;
+  font-family: 'Average Sans', sans-serif;
   font-weight: 500;
 
 }
-
-
 
 body {
   height: 100%;
   padding-bottom: 0;
   background-color: #c7cec5;
-
 }
 
 html {
@@ -134,7 +131,7 @@ h2.middle-olive-text{
 
 .little-white-text {
   color: rgb(242, 226, 178);
-  font-family: 'Avenir LT Std';
+  /*font-family: 'Avenir LT Std';*/
   font-size: 18px;
   font-weight: lighter;
 }
@@ -191,7 +188,7 @@ body.noscroll{
   height: 100vh;
   overflow: hidden;
   background-size: cover;
-  border-bottom-right-radius: 180px;
+  /*border-bottom-right-radius: 180px;*/
   position: relative;
 }
 
@@ -216,14 +213,14 @@ body.noscroll{
 .footer-contact-title{
   min-width: 70px;
   color: rgb(98,118,94);
-  font-family: 'Avenir LT Std';
+  /*font-family: 'Avenir LT Std';*/
   font-size: 16px;
   font-weight: lighter;
 }
 .footer-opening-title {
   min-width: 100px;
   color: rgb(98,118,94);
-  font-family: 'Avenir LT Std';
+  /*font-family: 'Avenir LT Std';*/
   font-size: 16px;
   font-weight: lighter;
 }
