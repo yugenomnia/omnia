@@ -8,9 +8,9 @@ career_text: 'Come along. Share in Omnia’s vision of produce first dishes and 
   anytime. '
 second_photo: ''
 opening_hours: ''
-dinner_days: Tuesday untill Saturday
+dinner_days: Tuesday until Saturday
 lunch_time: Lunch 12:00 - 2:30 PM
-lunch_days: Thursday untill Saturday
+lunch_days: Thursday until Saturday
 closed_days: Sunday & Monday
 phone: 03 8080 8080
 email: info@omniabistro.com.au
