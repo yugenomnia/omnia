@@ -472,7 +472,8 @@ header.transparent .make-booking-btn:hover {
 
 nav {
   margin-left: 240px;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
+  /*margin-bottom: 120px;*/
 }
 
 nav .terms-conditions div a{
@@ -539,7 +540,7 @@ nav ul.navigation li:nth-child(9) {
 }
 
 nav ul.navigation li a {
-  font-size: 34px;
+  font-size: 28px;
   text-transform: uppercase;
   color: white;
   transition: 0.4s;
@@ -1336,8 +1337,9 @@ border-bottom: 2px solid #A3A792;;
 
 @media (max-width: 1441px) {
   nav {
-    margin-left: 180px;
-    margin-bottom: 60px;
+    margin-left: 140px;
+    margin-bottom: 100px;
+    background-color: #225367;
   }
   nav ul.navigation li a {
     font-size: 28px;
