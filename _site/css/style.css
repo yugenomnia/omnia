@@ -1366,6 +1366,11 @@ border-bottom: 2px solid #A3A792;;
 #contacts .little-white-text{
   color: white;
 }
+.navigation1 {
+  padding-top: 120px;
+  overflow-y: scroll; 
+  background-color: #BB968F;
+}
 
 }
 
@@ -1878,10 +1883,7 @@ border-bottom: 2px solid #A3A792;;
   }
 }
 
-.navigation1 {
-  padding-top: 120px;
-  overflow-y: scroll; 
-}
+
 
 /* Animations */
 
