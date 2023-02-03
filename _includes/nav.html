@@ -30,12 +30,13 @@
   </div>
 </header>
 
-<div id="navigation-page" class="fixed top-0 bottom-0 left-0 z-40 w-full flex hidden"
+<div id="navigation-page" class="fixed top-0 bottom-0 left-0 z-40 w-full flex hidden "
   style="background-color: #c7cec5;">
   <div class="nav-image hidden md:block animate__animated animate__fadeInLeft">
     <img src="/img/navimage.jpg" alt="nav-image">
   </div>
-  <nav class="flex flex-col justify-end ">
+  <div class="navigation1">
+  <nav class="flex flex-col justify-end"><!--overflow-y: scroll; height:400px;-->
     <ul class="navigation mb-8 sm:mb-0">
       <li class="animate__animated animate__fadeInUp"><a href="/">Homepage</a></li>
       <li class="animate__animated animate__fadeInUp lg:mt-4"><a href="/about">About us</a></li>
@@ -48,7 +49,7 @@
 
     <a href="https://www.opentable.com.au/r/omnia-bistro-reservations-south-yarra?restref=60050&lang=en-AU"
       target="_blank"
-      class="make-booking-btn   py-2 px-8 uppercase cursor-pointer sm:hidden">
+      class="make-booking-btn py-2 px-8 uppercase cursor-pointer sm:hidden">
       Make a booking
     </a>
 
@@ -66,6 +67,7 @@
       </div>
     </div>
   </nav>
+  </div>
 </div>
 
 <div id="newsletterPopup" class="fixed top-0 bottom-0 right-0 left-0 z-50 hidden" style="background-color: rgba(0,0,0,0.8)">
