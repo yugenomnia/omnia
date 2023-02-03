@@ -1358,6 +1358,11 @@ border-bottom: 2px solid #A3A792;;
 }
 
 @media (max-width: 960px) {
+  nav {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: darkgoldenrod;
+  }
 
   #food .inner-container {
     width: 100%;

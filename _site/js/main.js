@@ -105,12 +105,20 @@
     }()
   }
 
+  const navigationPage = document.querySelector('#navigation-page')
   const menuBurger = document.querySelector('#burger-menu')
+
+  addEventListener('resize', () => {
+    if(TOGGLE_MENU){
+      navigationPage.style.height = window.innerHeight + 'px'
+    }
+  })
   menuBurger.addEventListener('click', () => {
     const navigationPage = document.querySelector('#navigation-page')
     const header = document.querySelector('.site-header')
     const logo = document.querySelector('.logo')
     const navLogo = document.querySelector('.nav-logo')
+
     navigationPage.style.height = window.innerHeight + 'px'
 
     // opens menu
@@ -223,7 +231,6 @@
   if (document.body.id === 'about') {
     const accordions = document.querySelectorAll('.accordion')
     accordions.forEach((a) => {
-      console.log('accordions',accordions)
       a.addEventListener('click', () => {
         if (a.classList.contains('accordion-opened')) {
           a.classList.remove('accordion-opened')
@@ -253,10 +260,8 @@
 
   if ( document.body.id === 'food') {
     const accordions = document.querySelectorAll('.accordion-drink')
-    //console.log('accordions',accordions)
     accordions.forEach((a) => {
       a.addEventListener('click', () => {
-        //console.log('a', a)
         if (a.classList.contains('accordion-opened')) {
          a.classList.remove('accordion-opened')
           return
