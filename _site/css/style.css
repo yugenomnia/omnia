@@ -1336,11 +1336,11 @@ border-bottom: 2px solid #A3A792;;
 
 
 @media (max-width: 1441px) {
-  /*nav {
-    margin-left: 140px;
+  nav {
+    margin-left: 120px;
     margin-bottom: 100px;
-    background-color: #225367;
-  }*/
+  }
+
   nav ul.navigation li a {
     font-size: 28px;
   }
@@ -1879,7 +1879,7 @@ border-bottom: 2px solid #A3A792;;
 }
 
 .navigation1 {
-  padding-top: 50px;
+  padding-top: 120px;
   overflow-y: scroll; 
 }
 
