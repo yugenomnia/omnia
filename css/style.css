@@ -454,10 +454,9 @@ header.open-burger .burger:hover .burger-line:nth-child(2){
 /* -------------------------------------- */
 
 
-.navigation1 {
+.menu-container {
   padding-top: 190px;
   overflow-y: hidden; 
-  background-color: blue;
 }
 
 header.transparent .make-booking-btn:hover {
@@ -1373,10 +1372,10 @@ border-bottom: 2px solid #A3A792;;
 #contacts .little-white-text{
   color: white;
 }
-.navigation1 {
+
+.menu-container {
   padding-top: 120px;
   overflow-y: scroll; 
-  background-color: #BB968F;
 }
 
 }
