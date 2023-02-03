@@ -116,12 +116,13 @@
     // opens menu
     if (!TOGGLE_MENU) {
       siteHeader.classList.add('transparent') //for navigation page on mobile
-      //if (window.innerWidth > 450) {
-        if (window.innerWidth > 960) {
-        navLogo.classList.remove('hidden')
-        logo.classList.add('hidden')
-        header.classList.remove('scrolled')
-      } else {
+       if (window.innerWidth > 450) {
+          header.classList.remove('scrolled')} 
+       else if (window.innerWidth > 768) {
+          navLogo.classList.remove('hidden')
+          logo.classList.add('hidden')
+      }
+      else {
         document.body.style = "height: 100vh;"
       }
       header.classList.remove('open-burger')
