@@ -106,19 +106,24 @@
   }
 
   const menuBurger = document.querySelector('#burger-menu')
+  const navigationPage = document.querySelector('#navigation-page')
+
+  addEventListener('resize', () => {
+    navigationPage.style.height = window.innerHeight + 'px'
+  })
+
   menuBurger.addEventListener('click', () => {
-    const navigationPage = document.querySelector('#navigation-page')
     const header = document.querySelector('.site-header')
     const logo = document.querySelector('.logo')
     const navLogo = document.querySelector('.nav-logo')
-    navigationPage.style.height = window.innerHeight + 'px'
 
     // opens menu
     if (!TOGGLE_MENU) {
       siteHeader.classList.add('transparent') //for navigation page on mobile
-       if (window.innerWidth > 450) {
+       if (innerWidth > 450) {
           header.classList.remove('scrolled')} 
-       else if (window.innerWidth > 768) {
+      if (innerWidth > 768) {
+        console.log('logo new')
           navLogo.classList.remove('hidden')
           logo.classList.add('hidden')
       }
