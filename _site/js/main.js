@@ -110,6 +110,7 @@
 
   addEventListener('resize', () => {
     navigationPage.style.height = window.innerHeight + 'px'
+    console.log('nabigation height', navigationPage.style.height)
   })
 
   menuBurger.addEventListener('click', () => {
@@ -122,8 +123,7 @@
       siteHeader.classList.add('transparent') //for navigation page on mobile
        if (innerWidth > 450) {
           header.classList.remove('scrolled')} 
-      if (innerWidth > 768) {
-        console.log('logo new')
+      if (innerWidth > 1024) {
           navLogo.classList.remove('hidden')
           logo.classList.add('hidden')
       }
