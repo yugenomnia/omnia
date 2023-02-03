@@ -453,6 +453,13 @@ header.open-burger .burger:hover .burger-line:nth-child(2){
 /*     N  A  V  I  G  A  T  I  O  N       */
 /* -------------------------------------- */
 
+
+.navigation1 {
+  padding-top: 190px;
+  overflow-y: hidden; 
+  background-color: blue;
+}
+
 header.transparent .make-booking-btn:hover {
   background-color: rgb(98,118,94);
   color: white;
