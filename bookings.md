@@ -36,7 +36,7 @@ third_column_first_text: Beverages will be charged on consumption and a $500 dep
   will be required to secure the venue.
 third_column_second_text: For special occasions, we would also be glad to custom make
   your favourite cake.
-second_photo: "/assets/images/omnia-triffle-1.jpeg"
+second_photo: "/assets/images/about-us-stephen-profile.jpeg"
 title: Group bookings
 second_title: ''
 third_text: If you are visiting us as a party of seven or more, please get in touch
