@@ -847,6 +847,11 @@ text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
 
+.booking-img {
+  width: 100%;
+  border: 2px solid green;
+}
+
 
 /*EVENTS*/
 
@@ -1487,7 +1492,7 @@ border-bottom: 2px solid #A3A792;;
 @media (min-width:1024px) {
  
   .booking-img {
-    height: 100%;
+    max-height: 500px;
  }
 
   .event-text {
