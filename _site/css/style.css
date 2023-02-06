@@ -849,7 +849,6 @@ text-transform: uppercase;
 
 .booking-img {
   width: 100%;
-  border: 2px solid green;
 }
 
 
@@ -1491,9 +1490,6 @@ border-bottom: 2px solid #A3A792;;
 
 @media (min-width:1024px) {
  
-  .booking-img {
-    max-height: 500px;
- }
 
   .event-text {
     padding-right: 80px;
@@ -1555,6 +1551,10 @@ border-bottom: 2px solid #A3A792;;
 }
 
 @media (min-width: 1280px) {
+  .booking-img {
+    max-width: 500px;
+    height: 100%;
+ }
 
   header.site-header{
     width: 100%;
