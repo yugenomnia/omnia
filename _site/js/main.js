@@ -106,28 +106,21 @@
   }
 
   const menuBurger = document.querySelector('#burger-menu')
-  const navigationPage = document.querySelector('#navigation-page')
-
-  addEventListener('resize', () => {
-    navigationPage.style.height = window.innerHeight + 'px'
-    console.log('nabigation height', navigationPage.style.height)
-  })
-
   menuBurger.addEventListener('click', () => {
+    const navigationPage = document.querySelector('#navigation-page')
     const header = document.querySelector('.site-header')
     const logo = document.querySelector('.logo')
     const navLogo = document.querySelector('.nav-logo')
+    navigationPage.style.height = window.innerHeight + 'px'
 
     // opens menu
     if (!TOGGLE_MENU) {
       siteHeader.classList.add('transparent') //for navigation page on mobile
-       if (innerWidth > 450) {
-          header.classList.remove('scrolled')} 
-      if (innerWidth > 1024) {
-          navLogo.classList.remove('hidden')
-          logo.classList.add('hidden')
-      }
-      else {
+      if (window.innerWidth > 450) {
+        navLogo.classList.remove('hidden')
+        logo.classList.add('hidden')
+        header.classList.remove('scrolled')
+      } else {
         document.body.style = "height: 100vh;"
       }
       header.classList.remove('open-burger')
