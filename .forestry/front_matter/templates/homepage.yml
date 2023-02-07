@@ -22,7 +22,7 @@ fields:
 - name: sections
   type: field_group_list
   fields:
-  - name: section_img
+  - name: section_image
     type: file
     config:
       maxSize: 64
