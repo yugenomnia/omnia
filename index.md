@@ -21,12 +21,14 @@ sections:
   section_img: ''
 - section_image: "/assets/images/my-project.jpeg"
   section_title: Zucchini flower
-  section_description: 'The perfect snack to enjoy with a signature cocktail freshy
-    shaken or stirred by our bar team. This bite is crispy, creamy, fresh and beautifully
-    served. This little explosion of flavor will make you want some more.  '
+  section_description: 'The perfect snack to enjoy with a Omnia signature cocktail
+    at the start of your dinner. The flower is served with salsa verde, parmesan custard
+    & lavosh. A crispy, creamy, fresh and beautifully served bite. This little explosion
+    of flavor will make you want some more. Also available to order whilst enjoying
+    a drink at the bar.  '
   button_text: browse our menu
   button_url: "#"
-  section_second_title: salsa verde, parmesan custard & lavosh
+  section_second_title: ''
   section_img: "/assets/images/221026-omnia1624.jpg"
 main_img: "/assets/images/omnia-duck-little.jpeg"
 title: Homepage
