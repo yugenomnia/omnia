@@ -305,7 +305,7 @@ drink_section:
     text: Omnia has an extensive wine list, besides a wide selection of bottles also
       offering 25 wines by the glass consisting of 13 regular, and 12 premier wines
       selected by our sommelier.
-    menu_pdf: "/assets/images/beverage-menu.pdf"
+    menu_pdf: "/assets/images/wine-list-07-02-23-both-pages.pdf"
     menu_btn_text: WINE BY THE GLASS
   - title: SIGNATURE COCKTAILS AND MORE
     text: Our bar offers All the classics, with a few signature twists. Start, spend,
