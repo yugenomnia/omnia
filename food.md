@@ -290,7 +290,7 @@ food_section:
     duck and liquid centre cheesecake.
   menu_pdf: "/assets/images/lunch-menu-20-01-2023.pdf"
   menu_btn_text: LUNCH MENU
-  img: "/assets/images/omnia-triffle-1.jpeg"
+  img: "/assets/images/john-d-trifle-500.jpg"
   menu_btn_link: ''
   second_menu_btn_text: DINNER MENU
   second_menu_pdf: "/assets/images/alc-menu-a4-20-01-2023.pdf"
