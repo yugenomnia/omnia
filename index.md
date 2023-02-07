@@ -21,11 +21,13 @@ sections:
   section_img: ''
 - section_image: "/assets/images/my-project.jpeg"
   section_title: Zucchini flower
-  section_description: 'The perfect snack to enjoy with a Omnia signature cocktail
-    at the start of your dinner. The flower is served with salsa verde, parmesan custard
-    & lavosh. A crispy, creamy, fresh and beautifully served bite. This little explosion
-    of flavor will make you want some more. Also available to order whilst enjoying
-    a drink at the bar.  '
+  section_description: Our menu is designed to create your own 3 course menu. Whilst
+    you browse through the menu and have to make some hard decisions, we recommend
+    you doing this with one or more snacks and a drink. For many years the smoked
+    ocean trout cigar has been the favourite of our guests but the new addition to
+    our menu, the zucchini flower served on lavosh bread with salsa verde and a parmesan
+    custard is running close.  Available to order during dinner and also as a snack
+    at the bar.
   button_text: browse our menu
   button_url: "#"
   section_second_title: ''
