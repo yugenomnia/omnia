@@ -38,10 +38,14 @@ fields:
       required: false
     label: section second title
   - name: section_description
-    type: text
+    type: textarea
+    default: ''
     config:
       required: false
-    label: section description
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section Description
   - name: button_text
     type: text
     config:
