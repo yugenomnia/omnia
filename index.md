@@ -20,7 +20,7 @@ sections:
   section_second_title: Welcome to our bistro
   section_img: ''
 - section_image: "/assets/images/my-project.jpeg"
-  section_title: Zucchini flower
+  section_title: Zucchini flowers
   section_description: Our menu is designed to create your own 3 course menu. Whilst
     you browse through the menu and have to make some hard decisions, we recommend
     you doing this with one or more snacks and a drink. For many years the smoked
