@@ -18,8 +18,7 @@ sections:
   button_text: browse our menu
   button_url: "#"
   section_second_title: Welcome to our bistro
-  section_img: ''
-- section_image: "/assets/images/my-project.jpeg"
+- section_image: "/assets/images/zucchini-500x500.jpg"
   section_title: Zucchini flower
   section_description: Our menu is designed to create your own 3 course menu. Whilst
     you browse through the menu and have to make some hard decisions, we recommend
@@ -31,7 +30,6 @@ sections:
   button_text: browse our menu
   button_url: "#"
   section_second_title: ''
-  section_img: "/assets/images/zucchini-500x500.jpg"
 main_img: "/assets/images/omnia-duck-little.jpeg"
 title: Homepage
 
