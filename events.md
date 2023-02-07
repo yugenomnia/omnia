@@ -3,7 +3,7 @@ layout: events
 events:
 - title: Valentine's day
   second_title: Special treats
-  img: "/assets/images/omnia-victorian-spomge-cake-valentines.jpg"
+  img: "/assets/images/rasp-500.jpg"
   text: In celebration of Valentine's Day, treat those you love with Omnia's beautiful
     a la carte menu. Add to the celebrations by pre-ordering a rose with personalized
     card. This lovely gesture will be ready on your table for your arrival. To finish
