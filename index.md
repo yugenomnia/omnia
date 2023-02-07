@@ -31,7 +31,7 @@ sections:
   button_text: browse our menu
   button_url: "#"
   section_second_title: ''
-  section_img: "/assets/images/zucchini-500x500.pdf"
+  section_img: "/assets/images/zucchini-500x500.jpg"
 main_img: "/assets/images/omnia-duck-little.jpeg"
 title: Homepage
 
