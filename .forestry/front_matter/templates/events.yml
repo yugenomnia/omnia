@@ -8,6 +8,13 @@ fields:
     required: false
   label: layout
   hidden: true
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  default: Events
+  hidden: true
 - name: main_img
   type: file
   config:
