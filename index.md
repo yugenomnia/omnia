@@ -11,10 +11,10 @@ sections:
   section_description: Omnia blends the energy of a European bistro with the stories
     of Australia’s best growers and producers. A contemporary take on culinary classics
     served with the warmth of old-world hospitality. Take a seat in our light filled
-    Conservatory or cosy Barrel Room, lean into the vibrant ambience of the bar. A
-    setting paired with a taste to answer the call of any occasion. Come alone, meet
-    with friends, toast with us. You’re welcome anytime. Omnia Bistro makes its home
-    at the base of Grand Capitol on the corner of Chapel Street and Toorak Road.
+    Conservatory or cosy Barrel Room and lean into the vibrant ambience of the bar.
+    A setting paired with a taste to answer the call of any occasion. Come alone,
+    meet with friends, toast with us. You’re welcome anytime. Omnia Bistro makes its
+    home at the base on Chapel Street.
   button_text: browse our menu
   button_url: "#"
   section_second_title: Welcome to our bistro
