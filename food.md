@@ -285,8 +285,7 @@ food_section:
   title: Food menu
   text: Our kitchen team created a menu of seasonal produce, used at its peak, designed
     with all tastes in mind. Using Australia’s best quality produce sourced through
-    tight knit networks. We champion our growers and producers and tell their stories
-    alongside our own. Familiar yet new, held together by our iconic honey roasted
+    tight knit networks. Familiar yet new, held together by our iconic honey roasted
     duck and liquid centre cheesecake.
   menu_pdf: "/assets/images/lunch-menu-20-01-2023.pdf"
   menu_btn_text: LUNCH MENU
