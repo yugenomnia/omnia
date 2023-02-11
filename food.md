@@ -316,10 +316,9 @@ drink_section:
     menu_btn_text: SIGNATURE COCKTAILS & MORE
   img: "/assets/images/omnia-champagne-little.jpeg"
   second_title: ''
-  second_text: " Our bar offers All the classics, with a few signature twists. Start,
+  second_text: 'Our bar offers all the classics, with a few signature twists. Start,
     spend, or end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
-    We also collaborate with our our kitchen team. Non-alcoholic digestives paired
-    to the seasons. Combining seasonal produce with the desserts that highlight them.
-    \ "
+    We also collaborate with our kitchen team, non-alcoholic digestives paired to
+    the seasons. Combining seasonal produce with the desserts that highlight them.  '
 
 ---
