@@ -1,15 +1,6 @@
 ---
 layout: events
 events:
-- title: Valentine's day
-  second_title: Special treats
-  img: "/assets/images/rasp-500.jpg"
-  text: In celebration of Valentine's Day, treat those you love with Omnia's beautiful
-    a la carte menu. Add to the celebrations by pre-ordering a rose with personalized
-    card. This lovely gesture will be ready on your table for your arrival. To finish
-    off your dinner the kitchen has prepared the perfect dessert "Lovers Victoria"
-    that can pre-ordered to celebrate love this February 14th.   Please contact our
-    reservations team to make sure your evening will be memorable.
 - title: 'Omnia Social Club '
   img: "/assets/images/omnia-events-2nd-photo1.jpeg"
   text: Every Wednesday night at Omnia Melbourne’s most talented musicians performing
@@ -84,5 +75,6 @@ text: Holidays, special occasions and “just because we feel like it” celebra
   and friendly staff will make it an experience to remember. Watch this space for
   upcoming events and follow our socials to never miss a beat.
 main_img: "/assets/images/omnia-events-1st-photo.jpg"
+title: ''
 
 ---
