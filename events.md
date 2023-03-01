@@ -3,12 +3,11 @@ layout: events
 events:
 - title: 'Omnia Social Club '
   img: "/assets/images/omnia-events-2nd-photo1.jpeg"
-  text: Every Wednesday night at Omnia Melbourne’s most talented musicians performing
-    Jazz inspired music with during January and February the focus on summer vibes.  Featuring
-    Melbournes finest artists.Oscar Jimines - vocalist and guitarist, Alexander Nettelbeck
-    - keyboards, Christian Saavedra - percussionist and Paul van Ross on saxophone.  Book
-    a table for dinner or walk-in for some drinks at the bar and enjoy the summer
-    sunset jazz!
+  text: In celebration of International Women’s Day, this March, South Yarra’s Omnia
+    Bistro & Bar will be championing the ladies with a lineup of all female voices
+    for its Omnia Social Club - Women Of Jazz Series. Backed by the Omnia band providing
+    music arrangements from Ella Fitzgerald, Sarah Vaughan, Nina Simone and more,
+    these performances are not to be missed.
   second_title: Live music Wednesday nights
 columns:
 - text: Beverages will be charged on consumption and a $500 deposit will be required
