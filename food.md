@@ -292,7 +292,7 @@ food_section:
   img: "/assets/images/john-d-trifle-500.jpg"
   menu_btn_link: ''
   second_menu_btn_text: DINNER MENU
-  second_menu_pdf: "/assets/images/alc-menu-a4-28-02-2023.pdf"
+  second_menu_pdf: "/assets/images/alc-menu-a4-01-03-2023.pdf"
   second_title: ''
 drink_section:
   title: Drinks menu
