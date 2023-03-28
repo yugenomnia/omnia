@@ -1,7 +1,7 @@
 ---
 layout: events
 events:
-- title: A good Friday to remember
+- title: A Friday To Remember
   second_title: Good Friday lunch
   img: "/assets/images/fdm-web.jpg"
   text: 'Start your Easter weekend with a very good Friday lunch. We will serve our
