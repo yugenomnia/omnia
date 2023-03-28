@@ -1,8 +1,8 @@
 ---
 layout: events
 events:
-- title: A Friday To Remember
-  second_title: Good Friday lunch
+- title: Good Friday Lunch
+  second_title: A good Friday to remember
   img: "/assets/images/fdm-web.jpg"
   text: 'Start your Easter weekend with a very good Friday lunch. We will serve our
     Omnia dinner menu with some additional specials that are available as pre-order.
