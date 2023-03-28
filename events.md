@@ -16,14 +16,6 @@ events:
     which will be cooked in the Josper oven and served with warm Tartare Sauce & fresh
     Lemon. Perfect to share between 2 or 4 people. Market price will apply on the
     day.'
-- title: 'Omnia Social Club '
-  img: "/assets/images/omnia-events-2nd-photo1.jpeg"
-  text: In celebration of International Women’s Day, this March, South Yarra’s Omnia
-    Bistro & Bar will be championing the ladies with a lineup of all female voices
-    for its Omnia Social Club - Women Of Jazz Series. Backed by the Omnia band providing
-    music arrangements from Ella Fitzgerald, Sarah Vaughan, Nina Simone and more,
-    these performances are not to be missed.
-  second_title: Live music Wednesday nights
 columns:
 - text: Beverages will be charged on consumption and a $500 deposit will be required
     to secure the venue. For special occasions, we would also be glad to custom make
