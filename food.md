@@ -312,7 +312,7 @@ drink_section:
       We also collaborate with our our kitchen team. Non-alcoholic digestives paired
       to the seasons. Combining seasonal produce with the desserts that highlight
       them.
-    menu_pdf: "/assets/images/beverage-menu.pdf"
+    menu_pdf: "/assets/images/website-bev.pdf"
     menu_btn_text: SIGNATURE COCKTAILS & MORE
   img: "/assets/images/omnia-champagne-little.jpeg"
   second_title: ''
