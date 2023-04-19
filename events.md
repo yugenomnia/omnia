@@ -1,14 +1,13 @@
 ---
 layout: events
 events:
-- title: Good Friday
-  second_title: A good Friday lunch to remember
-  img: "/assets/images/fdm-web.jpg"
-  text: 'Start your Easter weekend with a very good Friday lunch. We will serve our
-    Omnia dinner menu with some additional specials that are available as pre-order.
-    We’ll work together with one of our favourite supplier Two Hands who will be selecting
-    the best seasonal sea food for the following specials: Omnia''s Fruits de mer
-    and whole barbequed fish.  '
+- title: 'Mother''s day '
+  second_title: The best for the best
+  img: "/assets/images/mum-flowers.png"
+  text: Make your mother feel the very best this Mother's Day at Omnia. Enjoy our
+    dinner menu during lunch. With your booking we will organize for mum a sparkling
+    wine on arrival and a sweet gift to take home. If you would like to spoil mum
+    a little more, speak with our reservations team and organize flowers on arrival!
 columns:
 - text: Beverages will be charged on consumption and a $500 deposit will be required
     to secure the venue. For special occasions, we would also be glad to custom make
