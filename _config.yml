@@ -3,6 +3,7 @@ short_title: Belkirk
 description: Jekyll demo for Forestry CMS
 baseurl:
 permalink: "/:path/"
+include: ['_pages']
 defaults:
   - scope:
       path: ""
