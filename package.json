@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "npx tinacms dev -c 'jekyll serve'",
+    "dev": "npx tinacms dev -p 3002 --datalayer-port 4002 -c 'jekyll serve'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,7 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "@tinacms/cli": "^1.5.11",
-    "dotenv": "^16.0.3",
     "tinacms": "^1.5.4"
   }
 }
