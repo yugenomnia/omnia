@@ -2,7 +2,7 @@
 layout: about
 permalink: /about/
 team_members:
-  - name: Stephen Nairn
+  - name: Stephen Nairn!
     title: Culinary Director
     text: >-
       Stephen Nairn creates food with community as his focus. Produce driven
@@ -160,6 +160,7 @@ produce_im: ''
 title: 'About '
 _template: about
 ---
+
 
 
 
