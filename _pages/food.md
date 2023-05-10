@@ -296,7 +296,7 @@ food_section:
     iconic honey roasted duck and liquid centre cheesecake.
   img: /assets/images/john-d-trifle-500.jpg
   menu_btn_text: LUNCH MENU
-  menu_pdf: /assets/images/lunch-menu-05-04-23.pdf
+  menu_pdf: /assets/images/Lunch menu  04.05.23.pdf
   second_menu_btn_text: DINNER MENU
   second_menu_pdf: /assets/images/alc-menu-a4-15-04-2023.pdf
 drink_section:
@@ -332,6 +332,7 @@ drink_section:
       menu_btn_text: SIGNATURE COCKTAILS & MORE
 _template: food
 ---
+
 
 
 
