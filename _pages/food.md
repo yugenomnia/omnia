@@ -298,7 +298,7 @@ food_section:
   menu_btn_text: LUNCH MENU
   menu_pdf: /assets/images/Lunch menu  04.05.23.pdf
   second_menu_btn_text: DINNER MENU
-  second_menu_pdf: /assets/images/alc-menu-a4-15-04-2023.pdf
+  second_menu_pdf: /assets/images/ALC Menu A4 06.05.2023.pdf
 drink_section:
   title: Drinks menu
   second_title: ''
@@ -332,6 +332,7 @@ drink_section:
       menu_btn_text: SIGNATURE COCKTAILS & MORE
 _template: food
 ---
+
 
 
 
