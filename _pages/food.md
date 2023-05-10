@@ -288,31 +288,38 @@ big_title: DISCOVER FLAVOUR AT ITS FINEST
 main_img: /assets/images/asparagus-1-1.jpeg
 food_section:
   title: Food menu
+  second_title: ''
   text: >-
     Our kitchen team created a menu of seasonal produce, used at its peak,
     designed with all tastes in mind. Using Australia’s best quality produce
     sourced through tight knit networks. Familiar yet new, held together by our
     iconic honey roasted duck and liquid centre cheesecake.
-  menu_pdf: /assets/images/lunch-menu-05-04-23.pdf
-  menu_btn_text: LUNCH MENU
   img: /assets/images/john-d-trifle-500.jpg
-  menu_btn_link: ''
+  menu_btn_text: LUNCH MENU
+  menu_pdf: /assets/images/lunch-menu-05-04-23.pdf
   second_menu_btn_text: DINNER MENU
   second_menu_pdf: /assets/images/alc-menu-a4-15-04-2023.pdf
-  second_title: ''
 drink_section:
   title: Drinks menu
+  second_title: ''
   text: >-
     Omnia has an extensive wine list, besides a wide selection of bottles also
     offering 25 wines by the glass consisting of 13 regular, and 12 premier
     wines selected by our sommelier.  
+  second_text: >-
+    Our bar offers all the classics, with a few signature twists. Start, spend,
+    or end the night with our well loved Lemon Myrtle Gimlet and Saffron
+    Negroni. We also collaborate with our kitchen team, non-alcoholic digestives
+    paired to the seasons. Combining seasonal produce with the desserts that
+    highlight them.  
+  img: /assets/images/omnia-champagne-little.jpeg
   categories:
     - title: WINE BY THE GLASS
       text: >-
         Omnia has an extensive wine list, besides a wide selection of bottles
         also offering 25 wines by the glass consisting of 13 regular, and 12
         premier wines selected by our sommelier.
-      menu_pdf: /assets/images/wine-list-07-02-23-both-pages.pdf
+      menu_pdf: /assets/images/Wines 10.05.23.pdf
       menu_btn_text: WINE BY THE GLASS
     - title: SIGNATURE COCKTAILS AND MORE
       text: >-
@@ -323,14 +330,7 @@ drink_section:
         produce with the desserts that highlight them.
       menu_pdf: /assets/images/website-bev.pdf
       menu_btn_text: SIGNATURE COCKTAILS & MORE
-  img: /assets/images/omnia-champagne-little.jpeg
-  second_title: ''
-  second_text: >-
-    Our bar offers all the classics, with a few signature twists. Start, spend,
-    or end the night with our well loved Lemon Myrtle Gimlet and Saffron
-    Negroni. We also collaborate with our kitchen team, non-alcoholic digestives
-    paired to the seasons. Combining seasonal produce with the desserts that
-    highlight them.  
 _template: food
 ---
+
 
