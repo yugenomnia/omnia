@@ -2,15 +2,23 @@
 layout: events
 permalink: /events/
 events:
-  - title: 'Mother''s day '
-    second_title: The best for the best
-    img: /assets/images/mum-flowers.png
+  - title: Friends of Omnia
+    second_title: Mark Foletta
+    img: /assets/images/Website events.jpg
     text: >-
-      Make your mother feel the very best this Mother's Day at Omnia. Enjoy our
-      dinner menu during lunch. With your booking we will organize for mum a
-      sparkling wine on arrival and a sweet gift to take home. If you would like
-      to spoil mum a little more, speak with our reservations team and organize
-      flowers on arrival!
+      Embark on a culinary journey with Chef Stephen Nairn as he hosts an
+      exclusive dinner in honour of the friendship between Omnia and Mark
+      Foletta, the esteemed farmer, forager, and wine maker. Indulge in a
+      enticing tasting menu featuring Mark's finest produce including pine
+      mushrooms, Musquee de Provence pumpkin, chestnuts, all paired with Mark's
+      newly released wines. Adding to the allure of the evening, Mark will be
+      setting the mood with his favourite tunes, while renowned food journalist
+      and host Dani Valent leads captivating conversations on food, wine, and
+      farming practices.   Be part of this engaging and unforgettable experience
+      that celebrates the art of gastronomy, and a testament to the strong bond
+      between Omnia and Victoria’s best producers. Secure your spot now with
+      tickets priced at $225 pp, which includes the exquisite degustation menu
+      and wine pairing.
 columns:
   - text: >-
       Beverages will be charged on consumption and a $500 deposit will be
@@ -98,4 +106,5 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: ''
 _template: events
 ---
+
 
