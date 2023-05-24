@@ -21,23 +21,25 @@ sections:
       welcome anytime. Omnia Bistro makes its home at the base on Chapel Street.
     button_text: browse our menu
     button_url: '#'
-  - section_image: /assets/images/zucchini-500x500.jpg
-    section_title: Zucchini flower
-    section_second_title: ''
+  - section_image: /assets/images/Cheese trolley website.jpg
+    section_title: Cheese Trolley
+    section_second_title: Before or instead of dessert
     section_description: >-
-      Our menu is designed to create your own 3 course menu. Whilst you browse
-      through the menu and have to make some hard decisions, we recommend you
-      doing this with one or more snacks and a drink. For many years the smoked
-      ocean trout cigar has been the favourite of our guests but the new
-      addition to our menu, the zucchini flower served on lavosh bread with
-      salsa verde and a parmesan custard is running close.  Available to order
-      during dinner and also as a snack at the bar.
+      At Omnia, we take great pride in our cheese trolley, which stands as a
+      centerpiece of culinary delight and exploration, handcrafted by Orio
+      Randi. Together with fromagier Anthony Femia from Maker & Monger we have a
+      carefully curated selection of artisanal and internationally sourced
+      cheeses showcases the incredible range and depth of flavors that cheese
+      has to offer. Our knowledgeable staff members are here to help to select
+      your cheeses for the night which can be enjoyed at the bar as a snack or
+      after dinner before or instead of dessert! 
     button_text: browse our menu
     button_url: '#'
 main_img: /assets/images/omnia-duck-little.jpeg
 title: 'Homepage '
 _template: homepage
 ---
+
 
 
 
