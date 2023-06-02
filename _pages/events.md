@@ -3,22 +3,23 @@ layout: events
 permalink: /events/
 events:
   - title: Friends of Omnia
-    second_title: Mark Foletta
-    img: /assets/images/Website events.jpg
+    second_title: Bannockburn & truffles
+    img: /assets/images/SN truffle photo.jpg
     text: >-
-      Embark on a culinary journey with Chef Stephen Nairn as he hosts an
-      exclusive dinner in honour of the friendship between Omnia and Mark
-      Foletta, the esteemed farmer, forager, and wine maker. Indulge in a
-      enticing tasting menu featuring Mark's finest produce including pine
-      mushrooms, Musquee de Provence pumpkin, chestnuts, all paired with Mark's
-      newly released wines. Adding to the allure of the evening, Mark will be
-      setting the mood with his favourite tunes, while renowned food journalist
-      and host Dani Valent leads captivating conversations on food, wine, and
-      farming practices.   Be part of this engaging and unforgettable experience
-      that celebrates the art of gastronomy, and a testament to the strong bond
-      between Omnia and Victoria’s best producers. Secure your spot now with
-      tickets priced at $225 pp, which includes the exquisite degustation menu
-      and wine pairing.
+      Introducing a Gastronomic Masterpiece: Omnia’s truffle tasting menu paired
+      with Bannockburn's finest wines. This remarkable collaboration between
+      Omnia Bistro and Bannockburn is a testament to our shared passion for
+      local & quality produce.   Our talented chefs at Omnia Bistro have curated
+      a menu that showcases the versatility and decadence of truffles in every
+      course. Each dish is carefully crafted to highlight the unique
+      characteristics of these culinary gems.   To complement this extraordinary
+      culinary experience, Bannockburn has expertly handpicked a selection of
+      their finest wines. Each wine has been thoughtfully chosen to enhance and
+      elevate the flavours of the truffle-infused creations.   This remarkable
+      collaboration between Omnia Bistro and Bannockburn is a testament to our
+      friendship and shared passions.    Secure your spot now with tickets
+      priced at $225 pp. This includes the exquisite tasting menu and wine
+      pairing.
 columns:
   - text: >-
       Beverages will be charged on consumption and a $500 deposit will be
@@ -106,6 +107,7 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: ''
 _template: events
 ---
+
 
 
 
