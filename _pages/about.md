@@ -2,6 +2,17 @@
 layout: about
 permalink: /about/
 team_members:
+  - name: Omnia Bistro & Bar
+    title: Welcome to our bistro
+    text: >-
+      Omnia blends the energy of a European bistro with the stories of
+      Australia’s best growers and producers. A contemporary take on culinary
+      classics served with the warmth of old-world hospitality. Take a seat in
+      our light filled Conservatory or cosy Barrel Room and lean into the
+      vibrant ambience of the bar. A setting paired with a taste to answer the
+      call of any occasion. Come alone, meet with friends, toast with us. You’re
+      welcome anytime. Omnia Bistro makes its home at the base on Chapel Street.
+    img: /assets/images/smoked f.jpg
   - name: Stephen Nairn
     title: Culinary Director
     text: >-
@@ -160,6 +171,7 @@ produce_im: ''
 title: 'About '
 _template: about
 ---
+
 
 
 
