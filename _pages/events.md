@@ -2,24 +2,40 @@
 layout: events
 permalink: /events/
 events:
-  - title: Bannockburn & Black Truffle
+  - img: /assets/images/Omnia x Bannockburn 500x500 Final.png
+    title: Bannockburn & Black Truffle
     second_title: Exclusive wine dinner
-    img: /assets/images/Omnia x Bannockburn 500x500 Final.png
-    text: >-
+    text: >
       Introducing a Gastronomic Masterpiece: Omnia’s truffle tasting menu paired
-      with Bannockburn's finest wines. This remarkable collaboration between
+      with Bannockburn’s finest wines. This remarkable collaboration between
       Omnia Bistro and Bannockburn is a testament to our shared passion for
-      local & quality produce.   Our talented chefs at Omnia Bistro have curated
-      a menu that showcases the versatility and decadence of truffles in every
-      course. Each dish is carefully crafted to highlight the unique
-      characteristics of these culinary gems.   To complement this extraordinary
+      local & quality produce.  
+
+
+      >
+
+
+      Our talented chefs at Omnia Bistro have curated a menu that showcases the
+      decadence of truffles in every course. To complement this extraordinary
       culinary experience, Bannockburn has expertly handpicked a selection of
-      their finest wines. Each wine has been thoughtfully chosen to enhance and
-      elevate the flavours of the truffle-infused creations.   This remarkable
-      collaboration between Omnia Bistro and Bannockburn is a testament to our
-      friendship and shared passions.    Secure your spot now with tickets
-      priced at $225 pp. This includes the exquisite tasting menu and wine
-      pairing. June 21st - Wednesday night 6:30PM. 
+      their finest wines. Hosted by Angus Pollard of Bannockburn. 
+
+
+      >
+
+
+      Wednesday 21st of June
+
+
+      6:30PM arrival
+
+
+      Menu & pairing $225 pp
+    menu_btn_text: Sample Menu
+    menu_pdf: /assets/images/Sample menu.pdf
+    book_now_btn_text: Book now
+    book_now_url: >-
+      https://www.opentable.com/booking/experiences-availability?rid=60050&restref=60050&experienceId=174736
 columns:
   - text: >-
       Beverages will be charged on consumption and a $500 deposit will be
@@ -107,6 +123,20 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: ''
 _template: events
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

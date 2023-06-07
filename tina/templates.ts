@@ -25,12 +25,12 @@ export function aboutFields() {
     {
       type: "image",
       name: "main_img",
-      label: "main_img",
+      label: "Cover image",
     },
     {
       type: "object",
       name: "team_members",
-      label: "team members",
+      label: "Upper sections",
       list: true,
       ui: {
         itemProps: (item) => {
@@ -39,51 +39,51 @@ export function aboutFields() {
       },
       fields: [
         {
+          type: "image",
+          name: "img",
+          label: "Image",
+        },
+        {
           type: "string",
           name: "name",
-          label: "name",
+          label: "Name",
         },
         {
           type: "string",
           name: "title",
-          label: "title",
+          label: "Title",
         },
         {
-          type: "string",
+          type: "rich-text",
           name: "text",
-          label: "text",
-        },
-        {
-          type: "image",
-          name: "img",
-          label: "img",
+          label: "Text",
         },
       ],
     },
     {
       type: "string",
       name: "produce_title",
-      label: "produce title",
+      label: "Key suppliers Title",
     },
     {
       type: "string",
       name: "produce_second_title",
-      label: "produce second title",
+      label: "Key suppliers subtitle",
     },
     {
       type: "image",
-      name: "produce_im",
-      label: "produce image",
+      name: "produce_image",
+      label: "Key suppliers image",
     },
     {
-      type: "string",
+      type: "rich-text",
       name: "produce_text",
-      label: "produce text",
+      label: "Key suppliers text",
     },
     {
       type: "object",
       name: "partners",
-      label: "partners",
+      label: "Partners",
       list: true,
       ui: {
         itemProps: (item) => {
@@ -94,12 +94,12 @@ export function aboutFields() {
         {
           type: "string",
           name: "title",
-          label: "title",
+          label: "Title",
         },
         {
-          type: "string",
+          type: "rich-text",
           name: "text",
-          label: "text",
+          label: "Text",
         },
       ],
     },
@@ -124,35 +124,31 @@ export function bookingsFields() {
       }
     },
     {
+      type: "image",
+      name: "main_img",
+      label: "Cover Image",
+    },
+    {
       type: "string",
       name: "title",
-      label: "title",
+      label: "Title",
     },
     {
       type: "string",
       name: "second_title",
-      label: "second title",
-    },
-    {
-      type: "image",
-      name: "main_img",
-      label: "main_img",
-    },
-    {
-      type: "string",
-      name: "first_text",
-      label: "first_text",
-    },
-    {
-      type: "string",
-      name: "second_text",
-      label: "second_text",
+      label: "Subtitle",
     },
     {
       type: "image",
       name: "second_photo",
-      label: "second photo",
+      label: "Section Photo",
     },
+    {
+      type: "rich-text",
+      name: "first_text",
+      label: "Text",
+    },
+    
   ] as TinaField[];
 }
 export function contactsFields() {
@@ -176,17 +172,17 @@ export function contactsFields() {
     {
       type: "image",
       name: "main_img",
-      label: "main_img",
+      label: "Cover Image",
     },
     {
-      type: "string",
+      type: "rich-text",
       name: "text",
-      label: "text",
+      label: "Text",
     },
     {
-      type: "string",
+      type: "rich-text",
       name: "career_text",
-      label: "career text",
+      label: "Career text",
     },
     {
       type: "image",
@@ -195,43 +191,44 @@ export function contactsFields() {
     },
     {
       type: "string",
-      name: "dinner_time",
-      label: "dinner_time",
-    },
-    {
-      type: "string",
       name: "dinner_days",
-      label: "dinner_days",
+      label: "Dinner Days",
     },
     {
       type: "string",
-      name: "lunch_time",
-      label: "lunch_time",
+      name: "dinner_time",
+      label: "Dinner Time",
     },
     {
       type: "string",
       name: "lunch_days",
-      label: "lunch_days",
+      label: "Lunch Days",
     },
     {
       type: "string",
+      name: "lunch_time",
+      label: "Lunch Time",
+    },
+    
+    {
+      type: "string",
       name: "closed_days",
-      label: "closed days",
+      label: "Closed Days",
     },
     {
       type: "string",
       name: "phone",
-      label: "phone",
+      label: "Phone",
     },
     {
       type: "string",
       name: "email",
-      label: "email",
+      label: "Email",
     },
     {
-      type: "string",
+      type: "rich-text",
       name: "subscribe_text",
-      label: "subscribe text",
+      label: "Subscribe text",
     },
   ] as TinaField[];
 }
@@ -257,6 +254,9 @@ export function eventsFields() {
       type: "string",
       name: "title",
       label: "Title",
+      ui: {
+        component: () => null
+      }
     },
     {
       type: "image",
@@ -275,24 +275,44 @@ export function eventsFields() {
       },
       fields: [
         {
+          type: "image",
+          name: "img",
+          label: "Image",
+        },
+        {
           type: "string",
           name: "title",
-          label: "title",
+          label: "Title",
         },
         {
           type: "string",
           name: "second_title",
-          label: "second title",
+          label: "Subtitle",
         },
         {
-          type: "image",
-          name: "img",
-          label: "img",
+          type: "rich-text",
+          name: "text",
+          label: "Text",
         },
         {
           type: "string",
-          name: "text",
-          label: "text",
+          name: "menu_btn_text",
+          label: "Menu button text",
+        },
+        {
+          type: "image",
+          name: "menu_pdf",
+          label: "Menu PDF",
+        },
+        {
+          type: "string",
+          name: "book_now_btn_text",
+          label: "Book button text",
+        },
+        {
+          type: "string",
+          name: "book_now_url",
+          label: "Book link(full url)",
         },
       ],
     },
@@ -320,11 +340,14 @@ export function foodFields() {
       type: "string",
       name: "big_title",
       label: "Big title",
+      ui: {
+        component: () => null
+      }
     },
     {
       type: "image",
       name: "main_img",
-      label: "main img",
+      label: "Cover Image",
     },
     {
       type: "object",
@@ -334,42 +357,42 @@ export function foodFields() {
         {
           type: "string",
           name: "title",
-          label: "title",
-        },
-        {
-          type: "string",
-          name: "second_title",
-          label: "second title",
-        },
-        {
-          type: "string",
-          name: "text",
-          label: "text",
+          label: "Title",
         },
         {
           type: "image",
           name: "img",
-          label: "img",
+          label: "Section image",
+        },
+        {
+          type: "string",
+          name: "second_title",
+          label: "Subtitle",
+        },
+        {
+          type: "rich-text",
+          name: "text",
+          label: "Text",
         },
         {
           type: "string",
           name: "menu_btn_text",
-          label: "menu btn text",
+          label: "Button text",
         },
         {
           type: "image",
           name: "menu_pdf",
-          label: "menu pdf",
+          label: "Menu PDF",
         },
         {
           type: "string",
           name: "second_menu_btn_text",
-          label: "second menu btn text",
+          label: "Second Button text",
         },
         {
           type: "image",
           name: "second_menu_pdf",
-          label: "second menu pdf",
+          label: "Second Menu PDF",
         },
       ],
     },
@@ -381,27 +404,27 @@ export function foodFields() {
         {
           type: "string",
           name: "title",
-          label: "title",
-        },
-        {
-          type: "string",
-          name: "second_title",
-          label: "second title",
-        },
-        {
-          type: "string",
-          name: "text",
-          label: "text",
-        },
-        {
-          type: "string",
-          name: "second_text",
-          label: "second text",
+          label: "Title",
         },
         {
           type: "image",
           name: "img",
-          label: "img",
+          label: "Section image",
+        },
+        {
+          type: "string",
+          name: "second_title",
+          label: "Subtitle",
+        },
+        {
+          type: "rich-text",
+          name: "text",
+          label: "Text",
+        },
+        {
+          type: "rich-text",
+          name: "second_text",
+          label: "Second Text",
         },
         {
           type: "object",
@@ -417,22 +440,22 @@ export function foodFields() {
             {
               type: "string",
               name: "title",
-              label: "title",
+              label: "Title",
             },
             {
-              type: "string",
+              type: "rich-text",
               name: "text",
-              label: "text",
+              label: "Text",
             },
             {
               type: "image",
               name: "menu_pdf",
-              label: "menu pdf",
+              label: "Menu PDF",
             },
             {
               type: "string",
               name: "menu_btn_text",
-              label: "menu btn text",
+              label: "Button text",
             },
           ],
         },
@@ -461,12 +484,12 @@ export function indexFields() {
     {
       type: "string",
       name: "title",
-      label: "title",
+      label: "Title",
     },
     {
       type: "image",
       name: "main_img",
-      label: "main img",
+      label: "Cover Image",
     },
     {
       type: "object",
@@ -482,22 +505,22 @@ export function indexFields() {
         {
           type: "image",
           name: "section_image",
-          label: "section image",
+          label: "Image",
         },
         {
           type: "string",
           name: "section_title",
-          label: "section title",
+          label: "Title",
         },
         {
           type: "string",
           name: "section_second_title",
-          label: "section second title",
+          label: "Subtitle",
         },
         {
           type: "string",
           name: "section_description",
-          label: "Section Description",
+          label: "Description",
           ui: {
             component: "textarea",
           },
@@ -505,12 +528,12 @@ export function indexFields() {
         {
           type: "string",
           name: "button_text",
-          label: "button text",
+          label: "Button Text",
         },
         {
           type: "string",
           name: "button_url",
-          label: "button url",
+          label: "Button Link",
         },
       ],
     },

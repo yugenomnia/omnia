@@ -35,7 +35,7 @@ sections:
       after dinner before or instead of dessert! 
     button_text: browse our menu
     button_url: '#'
-main_img: /assets/images/omnia-duck-little.jpeg
+main_img: /assets/images/omnia-duck-little.jpg
 title: 'Homepage '
 _template: homepage
 ---

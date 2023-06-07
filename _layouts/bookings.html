@@ -35,10 +35,12 @@
       <div class="xl:w-1/2 mr-4 flex flex-col justify-between pt-12 xl:pt-4">
         <div class="border-class mb-2">
           <h3 class="events-title pb-8">{{page.title}}</h3>
-          <h2 class="omnia-green pb-2 uppercase reveal-right small-title">{{page.second_title}}</h2>
+
+          {% if page.second_title != null and page.second_title != "" %}
+            <h2 class="omnia-green pb-2 uppercase reveal-right small-title">{{page.second_title}}</h2>
+          {% endif %}
         </div>
-        <p class="omnia-green pb-4 pt-4">{{page.first_text}}</p>
-        <p class="omnia-green pb-4">{{page.second_text}}</p>
+        <div class="bookings-section-text omnia-green pb-4 pt-4">{{page.first_text | markdownify}}</div>
         <p class="pb-8 omnia-green">If you are visiting us as a party of seven or more, please get in touch with our reservations team at <a href="mailto:info@omniabistro.com.au">info@omniabistro.com.au </a>
           or <br> <a href="tel:(03) 8080 8080">(03) 8080 8080 </a> between 9am and 5pm, Tuesday to Saturday.</a></p>
         <div class="flex items-end justify-end pb-12 xl:pb-1">
