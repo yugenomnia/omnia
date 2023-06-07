@@ -4,7 +4,7 @@ permalink: /events/
 events:
   - title: Bannockburn & Black Truffle
     second_title: Exclusive wine dinner
-    img: /assets/images/SN truffle photo.jpg
+    img: /assets/images/Omnia x Bannockburn 500x500.png
     text: >-
       Introducing a Gastronomic Masterpiece: Omnia’s truffle tasting menu paired
       with Bannockburn's finest wines. This remarkable collaboration between
@@ -107,6 +107,7 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: ''
 _template: events
 ---
+
 
 
 
