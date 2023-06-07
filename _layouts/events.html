@@ -46,7 +46,7 @@
           </div>
           <div class="mb-12 omnia-green">{{event.text | markdownify}}</div>
 
-          <div class="mt-12 flex items-center justify-between">
+          <div class="mt-12 flex flex-col md:flex-row items-start md:items-center justify-between">
               {% if event.menu_btn_text != null and event.menu_btn_text != "" %}
                 <a href="{{event.menu_pdf}}" target="_blank" class="event-menu menu-link omnia-green text-md inline">
                   {{event.menu_btn_text}}
@@ -54,7 +54,7 @@
                 </a>
               {% endif %}
               {% if event.menu_pdf != null and event.menu_pdf != "" %}
-                <a href="{{event.book_now_url}}" target="_blank" class="make-booking-btn py-2 px-8 uppercase cursor-pointer hidden sm:block pointer-events-auto event-book-now">{{event.book_now_btn_text}}</a>
+                <a href="{{event.book_now_url}}" target="_blank" class="make-booking-btn py-2 px-8 mt-12 md:mt-0 uppercase cursor-pointer  pointer-events-auto event-book-now">{{event.book_now_btn_text}}</a>
               {% endif %}
           </div>
         </div>

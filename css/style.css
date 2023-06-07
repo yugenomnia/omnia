@@ -1886,6 +1886,13 @@ border-bottom: 2px solid #A3A792;;
     margin-right: 0;
   }
 
+  #events .event-book-now {
+    width: 100%;
+    margin-right: 0;
+    display: inline-block;
+    text-align: center;
+  }
+
   
 
   /*  ------------------  */
