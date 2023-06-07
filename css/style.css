@@ -866,9 +866,6 @@ text-transform: uppercase;
   object-fit: cover;
 }
 
-.event-text p {
-  /* margin-top: px; */
-}
 .event-text blockquote {
   height: 1.2em;
 }
