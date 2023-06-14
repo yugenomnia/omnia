@@ -5,7 +5,7 @@
   let showPopup = false
 
 
-  let downButton = document.getElementById('Chevrons')
+  let downButtons = document.querySelectorAll('.chevrons')
   let mainContent = document.querySelector('.main-content')
 
   function scrollDownScreen() {
@@ -26,11 +26,25 @@
     else {
       header.classList.remove('scrolled')
     }
-});
+  });
 
 
-  if(downButton){
-    downButton.addEventListener('click', scrollDownScreen)
+  if(downButtons){
+    downButtons.forEach((chevron) => {
+      chevron.addEventListener('click', scrollDownScreen)
+    })
+  }
+
+  const eventModal = document.getElementById('eventModal')
+  if(eventModal) {
+    setTimeout(() => {
+      eventModal.classList.add('active')
+    }, 10000)
+
+    const closeEventPopup = document.getElementById('closeEventPopup')
+    closeEventPopup.addEventListener('click', () => {
+      eventModal.classList.remove('active')
+    })
   }
 
   function init() {
@@ -178,43 +192,26 @@
     }
   }
 
-
-  /*if (document.body.id === 'food') {
-    if(document.querySelector('.product-title')){
-      document.querySelector('.product-title').style.paddingTop = '0px'
-    }
-
-    const drinkItems = document.querySelectorAll('#drink-menu-categories .menu-category-title')
-    const drinkItemsProducts = document.querySelectorAll('#drink-menu-categories .category-products')
-
-    drinkItems.forEach((di, idx) => {
-      di.addEventListener('click', () => {
-        activeTabDrink = idx
-        di.scrollIntoView({
-          behavior: 'smooth',
-          block: 'nearest',
-          inline: 'center'
-        })
-        filterProducts(drinkItems, drinkItemsProducts, activeTabDrink)
-      })
-    })
-
-    filterProducts(drinkItems, drinkItemsProducts, activeTabDrink)
-  }
-*/
-
-  function filterProducts(items, products, activeTab) {
-    items.forEach((item, idx) => {
-      if (idx === activeTab)
-        item.classList.add('active')
-      else
-        item.classList.remove('active')
-    })
-    products.forEach((product, idx) => {
-      if (idx === activeTab)
-        product.classList.remove('hidden')
-      else
-        product.classList.add('hidden')
+  if(document.querySelector('.homepageCoverSwiper')){
+    const swiper = new Swiper(".homepageCoverSwiper", {
+      cssMode: true,
+      loop: true,
+      responsive: true,
+      slidesPerView: 1,
+      disableOnInteraction: false, 
+      autoplay: {
+        delay: 3000,
+        loop: true,
+      },
+      keyboard: true,
+      // pagination: {
+      //   el: ".swiper-pagination",
+      //   type: "fraction",
+      // },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
     })
   }
 

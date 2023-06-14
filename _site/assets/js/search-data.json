@@ -2,7 +2,7 @@
   
   "0": {
     "title": "",
-    "content": "&lt;!doctype html&gt; . &lt;script async src=https://www.googletagmanager.com/gtag/js?id=UA-144588530-1&gt;&lt;/script&gt; . 404 . Page not found :( . Back to Homepage! .",
+    "content": "&lt;!doctype html&gt; . | Omnia Bistro &lt;script async src=https://www.googletagmanager.com/gtag/js?id=UA-144588530-1&gt;&lt;/script&gt; . 404 . Page not found :( . Back to Homepage! .",
     "url": "http://localhost:4000/404.html",
     "relUrl": "/404.html"
   }
@@ -13,13 +13,13 @@
     "relUrl": "/about/"
   }
   ,"2": {
-    "title": "",
+    "title": "Contact us",
     "content": "",
     "url": "http://localhost:4000/contacts/",
     "relUrl": "/contacts/"
   }
   ,"3": {
-    "title": "",
+    "title": "Food & Drinks",
     "content": "",
     "url": "http://localhost:4000/food/",
     "relUrl": "/food/"

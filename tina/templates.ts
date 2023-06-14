@@ -512,9 +512,50 @@ export function indexFields() {
       label: "Meta Description (up to 160 characters)",
     },
     {
+      type: 'boolean',
+      name: 'active_popup',
+      label: 'Activate pop-up'
+    },
+    {
+      type: "string",
+      name: "event_popup_title",
+      label: "Popup title",
+    },
+    {
+      type: "rich-text",
+      name: "event_popup_text",
+      label: "Popup text",
+    },
+    {
+      type: "string",
+      name: "event_popup_first_btn_text",
+      label: "First Button Text",
+    },
+    {
+      type: "string",
+      name: "event_popup_first_btn_link",
+      label: "First Button Link (URL)",
+    },
+    {
+      type: "string",
+      name: "event_popup_second_btn_text",
+      label: "Second Button Text",
+    },
+    {
+      type: "string",
+      name: "event_popup_second_btn_link",
+      label: "Second Button Link (URL)",
+    },
+    {
       type: "string",
       name: "title",
       label: "Title",
+    },
+    {
+      type: "image",
+      name: "hero_images",
+      label: "Hero images",
+      list: true,
     },
     {
       type: "image",

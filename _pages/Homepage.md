@@ -1,8 +1,39 @@
 ---
 layout: homepage
 permalink: //
-hero_image: ''
-meta_description: A European bistro filled with Australian stories. A new familiar. Produce led dishes met with old-world hospitality.
+active_popup: false
+event_popup_title: Bannockburn and Black Truffles
+event_popup_text: >
+  Omnia’s truffle tasting menu paired with Bannockburn’s finest wines.
+
+
+  This remarkable collaboration between Omnia Bistro and Bannockburn is a
+  testament to our shared passion for local & quality produce.
+
+
+  >
+
+
+  Wednesday 21st of June
+
+
+  6:30PM arrival
+
+
+  Menu & pairing $225 pp
+event_popup_first_btn_text: more info
+event_popup_first_btn_link: /events
+event_popup_second_btn_text: BOOK now
+event_popup_second_btn_link: /events
+event_popup_modal_time: 5
+hero_images:
+  - /assets/images/Homepage 1.jpg
+  - /assets/images/Homepage 2.jpg
+  - /assets/images/Homepage 3.jpg
+  - /assets/images/Homepage 4.jpg
+meta_description: >-
+  A European bistro filled with Australian stories. A new familiar. Produce led
+  dishes met with old-world hospitality.
 hero_title: >-
   A European bistro filled with Australian stories. A new familiar. Produce led
   dishes met with old-world hospitality. The spot where all walks meet. For you
@@ -40,7 +71,6 @@ main_img: /assets/images/omnia-duck-little.jpg
 title: 'Homepage '
 _template: homepage
 ---
-
 
 
 

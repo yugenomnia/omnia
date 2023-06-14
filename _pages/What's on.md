@@ -1,7 +1,9 @@
 ---
 layout: events
 permalink: /events/
-meta_description: "Introducing a Gastronomic Masterpiece: Omnia’s truffle tasting menu paired with Bannockburn’s finest wines."
+meta_description: >-
+  Introducing a Gastronomic Masterpiece: Omnia’s truffle tasting menu paired
+  with Bannockburn’s finest wines.
 events:
   - img: /assets/images/Omnia x Bannockburn 500x500 Final.png
     title: Bannockburn & Black Truffle
@@ -32,6 +34,10 @@ events:
 
 
       Menu & pairing $225 pp
+    menu_btn_text: ''
+    menu_pdf: ''
+    book_now_btn_text: ''
+    book_now_url: ''
 columns:
   - text: >-
       Beverages will be charged on consumption and a $500 deposit will be
@@ -119,6 +125,10 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: What's on
 _template: events
 ---
+
+
+
+
 
 
 
