@@ -9,7 +9,7 @@ events:
       Introducing a Gastronomic Masterpiece: Omnia’s truffle tasting menu paired
       with Bannockburn’s finest wines. This remarkable collaboration between
       Omnia Bistro and Bannockburn is a testament to our shared passion for
-      local & quality produce.  
+      local & quality produce.
 
 
       >
@@ -18,7 +18,7 @@ events:
       Our talented chefs at Omnia Bistro have curated a menu that showcases the
       decadence of truffles in every course. To complement this extraordinary
       culinary experience, Bannockburn has expertly handpicked a selection of
-      their finest wines. Hosted by Angus Pollard of Bannockburn. 
+      their finest wines. Hosted by Angus Pollard of Bannockburn.
 
 
       >
@@ -31,11 +31,6 @@ events:
 
 
       Menu & pairing $225 pp
-    menu_btn_text: Sample Menu
-    menu_pdf: /assets/images/Sample menu.pdf
-    book_now_btn_text: Book now
-    book_now_url: >-
-      https://www.opentable.com/booking/experiences-availability?rid=60050&restref=60050&experienceId=174736
 columns:
   - text: >-
       Beverages will be charged on consumption and a $500 deposit will be
@@ -120,9 +115,10 @@ text: >-
   artists and friendly staff will make it an experience to remember. Watch this
   space for upcoming events and follow our socials to never miss a beat.
 main_img: /assets/images/omnia-events-1st-photo.jpg
-title: ''
+title: What's on
 _template: events
 ---
+
 
 
 
