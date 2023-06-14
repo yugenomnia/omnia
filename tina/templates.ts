@@ -19,6 +19,11 @@ export function aboutFields() {
     },
     {
       type: "string",
+      name: "meta_description",
+      label: "Meta Description (up to 160 characters)",
+    },
+    {
+      type: "string",
       name: "title",
       label: "Title",
     },
@@ -124,6 +129,11 @@ export function bookingsFields() {
       }
     },
     {
+      type: "string",
+      name: "meta_description",
+      label: "Meta Description (up to 160 characters)",
+    },
+    {
       type: "image",
       name: "main_img",
       label: "Cover Image",
@@ -168,6 +178,11 @@ export function contactsFields() {
       ui: {
         component: () => null
       }
+    },
+    {
+      type: "string",
+      name: "meta_description",
+      label: "Meta Description (up to 160 characters)",
     },
     {
       type: "image",
@@ -249,6 +264,11 @@ export function eventsFields() {
       ui: {
         component: () => null
       }
+    },
+    {
+      type: "string",
+      name: "meta_description",
+      label: "Meta Description (up to 160 characters)",
     },
     {
       type: "string",
@@ -335,6 +355,11 @@ export function foodFields() {
       ui: {
         component: () => null
       }
+    },
+    {
+      type: "string",
+      name: "meta_description",
+      label: "Meta Description (up to 160 characters)",
     },
     {
       type: "string",
@@ -480,6 +505,11 @@ export function indexFields() {
       ui: {
         component: () => null
       }
+    },
+    {
+      type: "string",
+      name: "meta_description",
+      label: "Meta Description (up to 160 characters)",
     },
     {
       type: "string",

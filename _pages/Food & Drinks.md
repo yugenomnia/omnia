@@ -1,6 +1,7 @@
 ---
 layout: food
 permalink: /food/
+meta_description: Our kitchen team created a menu of seasonal produce, used at its peak, designed with all tastes in mind. 
 menus:
   - title: SNACKS & STARTER
     text: hello2

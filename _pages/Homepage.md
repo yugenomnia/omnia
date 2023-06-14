@@ -2,6 +2,7 @@
 layout: homepage
 permalink: //
 hero_image: ''
+meta_description: A European bistro filled with Australian stories. A new familiar. Produce led dishes met with old-world hospitality.
 hero_title: >-
   A European bistro filled with Australian stories. A new familiar. Produce led
   dishes met with old-world hospitality. The spot where all walks meet. For you

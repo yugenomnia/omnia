@@ -1,6 +1,7 @@
 ---
 layout: about
 permalink: /about/
+meta_description: Omnia blends the energy of a European bistro with the stories of Australia’s best growers and producers.
 team_members:
   - name: Omnia Bistro & Bar
     title: Welcome to our bistro

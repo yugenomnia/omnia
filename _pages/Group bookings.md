@@ -1,6 +1,7 @@
 ---
 permalink: /bookings/
 layout: bookings
+meta_description: Plan your next celebration with us at Omnia Bistro. We’re here to talk about dietary specifics and little extras to make your experience memorable. 
 big_title: GOOD THINGS SHOULD BE SHARED
 1_column: >-
   When it’s time to organise your birthday dinner, a big family lunch or a meal

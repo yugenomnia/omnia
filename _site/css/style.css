@@ -866,8 +866,8 @@ text-transform: uppercase;
   object-fit: cover;
 }
 
-.event-text p {
-  margin-top: 12px;
+.event-text blockquote {
+  height: 1.2em;
 }
 
 .event-text h6 em{
@@ -1216,6 +1216,11 @@ border-bottom: 2px solid #A3A792;;
   font-size: 32px;
   line-height: 35px;
 }
+#bookings .bookings-section-text p {
+  color: rgb(98,118,94);
+  margin-top: 1.2em;
+}
+
 
 /* #contacts{
   background-color: #AEB3A1;
@@ -1342,8 +1347,21 @@ border-bottom: 2px solid #A3A792;;
 
 
 #events .cover-image {
-    background-position: 65%;
-  }  
+  background-position: 65%;
+}  
+#events .event-menu {
+  letter-spacing: 0.1rem;
+  font-family: 'Lulo Clean one', 'sans-serif';
+  text-transform: uppercase;
+}
+#events .event-menu .line {
+  background-color: rgb(98,118,94);
+  opacity: 0.7;
+}
+#events .event-menu:hover .line {
+  background-color: rgb(98,118,94);
+  animation: loadLineSlower ease-in-out forwards 0.5s;
+}
 
 
 
@@ -1396,6 +1414,10 @@ border-bottom: 2px solid #A3A792;;
 
   .make-booking-btn {
     margin: 0 90px;
+  }
+
+  #events .event-book-now {
+    margin: 0;
   }
 
   .partners {
@@ -1862,6 +1884,13 @@ border-bottom: 2px solid #A3A792;;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  #events .event-book-now {
+    width: 100%;
+    margin-right: 0;
+    display: inline-block;
+    text-align: center;
   }
 
   
