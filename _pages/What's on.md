@@ -34,10 +34,11 @@ events:
 
 
       Menu & pairing $225 pp
-    menu_btn_text: ''
-    menu_pdf: ''
-    book_now_btn_text: ''
-    book_now_url: ''
+    menu_btn_text: Sample Menu
+    menu_pdf: /assets/images/Sample menu.pdf
+    book_now_btn_text: Reservation
+    book_now_url: >-
+      https://www.opentable.com/booking/experiences-availability?rid=60050&restref=60050&experienceId=174736
 columns:
   - text: >-
       Beverages will be charged on consumption and a $500 deposit will be
@@ -125,6 +126,7 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: What's on
 _template: events
 ---
+
 
 
 
