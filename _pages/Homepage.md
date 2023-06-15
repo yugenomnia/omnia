@@ -1,7 +1,7 @@
 ---
 layout: homepage
 permalink: //
-active_popup: false
+active_popup: true
 event_popup_title: Bannockburn and Black Truffles
 event_popup_text: >
   Omnia’s truffle tasting menu paired with Bannockburn’s finest wines.
@@ -22,11 +22,13 @@ event_popup_text: >
 
   Menu & pairing $225 pp
 event_popup_first_btn_text: more info
-event_popup_first_btn_link: /events
+event_popup_first_btn_link: 'https://www.omniabistro.com.au/events'
 event_popup_second_btn_text: BOOK now
-event_popup_second_btn_link: /events
+event_popup_second_btn_link: >-
+  https://www.opentable.com/booking/experiences-availability?rid=60050&restref=60050&experienceId=174736
 event_popup_modal_time: 5
 hero_images:
+  - /assets/images/omnia-duck-little.jpg
   - /assets/images/Homepage 1.jpg
   - /assets/images/Homepage 2.jpg
   - /assets/images/Homepage 3.jpg
@@ -71,6 +73,7 @@ main_img: /assets/images/omnia-duck-little.jpg
 title: 'Homepage '
 _template: homepage
 ---
+
 
 
 
