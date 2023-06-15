@@ -39,7 +39,7 @@
   if(eventModal) {
     setTimeout(() => {
       eventModal.classList.add('active')
-    }, 10000)
+    }, 6000)
 
     const closeEventPopup = document.getElementById('closeEventPopup')
     closeEventPopup.addEventListener('click', () => {

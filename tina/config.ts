@@ -1,5 +1,5 @@
 import { defineConfig } from "tinacms";
-import { aboutFields } from "./templates";
+import { aboutFields, reservationsFields } from "./templates";
 import { bookingsFields } from "./templates";
 import { contactsFields } from "./templates";
 import { eventsFields } from "./templates";
@@ -74,7 +74,11 @@ export default defineConfig({
             label: 'Terms & Conditionsb page',
             fields: termsFields(),
           },
-          
+          {
+            name: 'reservations',
+            label: 'Reservations',
+            fields: reservationsFields(),
+          }
         ]
       },
     ],

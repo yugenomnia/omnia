@@ -1,0 +1,125 @@
+{% assign current_page = 'reservations' %}
+{% assign page_title = 'Reservations' %}
+{% include head.html %}
+{% include nav.html %}
+
+
+{% if page.active_page == false %}
+<script>
+  location.href = 'https://www.omniabistro.com.au/';
+</script>
+{% endif %}
+
+
+<main>
+  <div class="cover-image lg:mb-24" style="background-image: url({{page.main_img}});">
+    <div class="container mx-auto px-4">
+      <div>
+        <svg id="Chevrons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" class="img-svg">
+          <defs>
+            <filter id="f1" x="0" y="0" width="200%" height="200%">
+              <feOffset result="offOut" in="SourceGraphic" dx="1" dy="0.5" />
+              <feGaussianBlur result="blurOut" in="offOut" stdDeviation="1" />
+              <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+            </filter>
+          </defs>
+          <path class="chevron" id='TopChevron' d="M52,4.2L28,23.7c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,4.2c-0.3-0.2-0.4-0.7-0.1-1
+  C3,3,3.2,2.9,3.5,2.9H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6L45.5,3c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+  C52.3,3.7,52.2,4,52,4.2z" />
+          <path class="chevron" id='MiddleChevron' d="M52,31.8L28,51.3c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,31.8c-0.3-0.2-0.4-0.7-0.1-1
+  c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+  C52.3,31.3,52.2,31.6,52,31.8z" />
+          <path class="chevron" id='BottomChevron' d="M52,59.5L28,79c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,59.5c-0.3-0.2-0.4-0.7-0.1-1
+  c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+  C52.3,59,52.2,59.3,52,59.5z" />
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mx-auto px-4">
+    <div class="flex flex-col lg:flex-row justify-between lg:pt-16 member-item">
+      <div class="blue pt-12 lg:w-1/2 member-text">
+        <div class="border-class mb-2">
+          <h2 class="pb-1  middle-white-title reveal-left">{{page.reservation_title}}</h2>
+        </div>
+        <div class="mb-12 omnia-green reveal-left text-md mt-6 reservation-text">{{page.reservation_text | markdownify}}</div>
+      </div>
+  
+      <div class="lg:w-1/2 member-img flex items-center justify-center">
+        <script type='text/javascript'
+  src='https://www.opentable.com.au/widget/reservation/loader?rid=60050&type=standard&theme=tall&color=4&dark=true&iframe=true&domain=comau&lang=en-AU&newtab=false&ot_source=Restaurant%20website'></script>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Contact info section -->
+  <div class="w-full h-auto  flex items-center main-content">
+    <div class="container mx-auto lg:pb-0 px-4 lg:pt-40 lg:mt-0">
+      <div class="flex flex-col md:flex-row justify-between mb-8">
+        <div class="w-full md:w-1/2 lg:mr-10 mt-24 md:mt-0">
+          <h2 class="middle-white-title mb-8 animate__animated animate__fadeInUp animate__slow">Opening hours</h2>
+          <div class="mb-4">
+            <div class="md:w-2/5 md:w-auto footer-opening-title animate__animated animate__fadeInUp animate__slow">
+              {{page.dinner_time}} </div>
+            <div class=" little-white-text animate__animated animate__fadeInUp animate__slow"> {{page.dinner_days}}
+            </div>
+          </div>
+          <div class="mb-4">
+            <div class="md:w-2/5 md:w-auto footer-opening-title animate__animated animate__fadeInUp animate__slow">
+              {{page.lunch_time}}</div>
+            <div class=" little-white-text animate__animated animate__fadeInUp animate__slow"> {{page.lunch_days}}
+            </div>
+          </div>
+          <div class="mb-4">
+            <div class="md:w-2/5 md:w-auto footer-opening-title animate__animated animate__fadeInUp animate__slow">
+              Closed </div>
+            <div class=" little-white-text animate__animated animate__fadeInUp animate__slow"> {{page.closed_days}}
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:ml-10 mt-16 md:mt-0">
+          <h2 class="middle-white-title mb-8  animate__animated animate__fadeInUp animate__slow">Contact details</h2>
+          <div class="little-white-text">
+            <div class="flex">
+              <div class="w-2/5 md:w-auto footer-contact-title animate__animated animate__fadeInUp animate__slow"> Phone
+              </div>
+              <div
+                class="pl-0 md:pl-8 lg:pl-48 middle-olive-text w-56 md:w-auto animate__animated animate__fadeInUp animate__slow">
+                <a class="" href="tel:0380808080">{{page.phone}}</a>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="w-2/5 md:w-auto footer-contact-title animate__animated animate__fadeInUp animate__slow"> Email
+              </div>
+              <div
+                class="middle-olive-text pl-0 md:pl-8 lg:pl-48  w-56 md:w-auto animate__animated animate__fadeInUp animate__slow">
+                <a class="" href="mailto:info@omniabistro.com.au?subject=Omnia%20Bistro%20Email%20Enquiry"
+                  target="_blank">
+                  {{page.email}}
+                </a>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="w-2/5 md:w-auto footer-contact-title animate__animated animate__fadeInUp animate__slow">
+                Address </div>
+              <div
+                class="middle-olive-text pl-0 md:pl-8 lg:pl-48 w-56 md:w-auto animate__animated animate__fadeInUp animate__slow lg:mt-4">
+                <a class="middle-olive-text"
+                  href="https://www.google.com/maps/place/Omnia+Bistro+And+Restaurant+South+Yarra/@-37.8389116,144.9953926,15z/data=!4m5!3m4!1s0x0:0x8354098583c6a976!8m2!3d-37.8389116!4d144.9953926"
+                  target="_blank">
+                  <div class="">
+                    625 Chapel Street <br> South Yarra, VIC 3141 <br> (Cnr Chapel St & Toorak Rd)
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% include footer.html %}

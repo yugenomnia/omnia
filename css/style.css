@@ -243,7 +243,7 @@ body.noscroll{
   background-color: rgba(0,0,0,0.85);
 }
 .eventContainer {
-  max-width: 800px;
+  max-width: 700px;
   z-index: 101;
   border: 2px solid rgb(98,118,94);
   border-radius: 20px;
@@ -1039,14 +1039,21 @@ text-transform: uppercase;
 #contacts .middle-olive-text, 
 #contacts .footer-opening-title, 
 #contacts .footer-contact-title,
-#contacts .little-white-text{
+#contacts .little-white-text, 
+#reservations .middle-olive-text, 
+#reservations .footer-opening-title, 
+#reservations .footer-contact-title,
+#reservations .little-white-text{
   color: rgb(98,118,94);
 }
 
+#reservations .reservation-text p{
+  margin-bottom: 16px;
+  color: rgb(98,118,94);
+}
 .exclusive-events-subtitle,
 .exclusive-events-subtitle a {
   color: #5C7057;
-  /* text-transform: uppercase; */
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 48px;
@@ -1487,7 +1494,10 @@ border-bottom: 2px solid #A3A792;;
 /*#contacts .middle-olive-text, */
 #contacts .footer-opening-title, 
 #contacts .footer-contact-title,
-#contacts .little-white-text{
+#contacts .little-white-text,
+#reservations .footer-opening-title, 
+#reservations .footer-contact-title,
+#reservations .little-white-text {
   color: white;
 }
 
@@ -1837,7 +1847,7 @@ border-bottom: 2px solid #A3A792;;
   }
   .eventModalBtn.first {
     font-size: 16px;
-    
+
   }
   .eventModalBtn.second {
     margin-left: auto;

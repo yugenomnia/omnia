@@ -692,3 +692,92 @@ export function termsFields() {
     },
   ] as TinaField[];
 }
+export function reservationsFields() {
+  return [
+    {
+      type: "string",
+      name: "layout",
+      label: "layout",
+      ui: {
+        component: () => null
+      }
+    },
+    {
+      type: "string",
+      name: "permalink",
+      label: "Permalink",
+      ui: {
+        component: () => null
+      }
+    },
+    {
+      type: 'boolean',
+      name: 'active_page',
+      label: 'Activate page (Please update content - Cover image, title and text before)'
+    },
+    {
+      type: "string",
+      name: "meta_description",
+      label: "Meta Description (up to 160 characters)",
+    },
+    {
+      type: "string",
+      name: "title",
+      label: "Title",
+      ui: {
+        component: () => null
+      }
+    },
+    {
+      type: "image",
+      name: "main_img",
+      label: "Cover Image",
+    },
+    {
+      type: "string",
+      name: "reservation_title",
+      label: "Title for text near Widget",
+    },
+    {
+      type: "rich-text",
+      name: "reservation_text",
+      label: "Text for text below title",
+    },
+    {
+      type: "string",
+      name: "dinner_time",
+      label: "Dinner Time",
+    },
+    {
+      type: "string",
+      name: "dinner_days",
+      label: "Dinner Days",
+    },
+    {
+      type: "string",
+      name: "lunch_time",
+      label: "Lunch Time",
+    },
+    {
+      type: "string",
+      name: "lunch_days",
+      label: "Lunch Days",
+    },
+    
+    {
+      type: "string",
+      name: "closed_days",
+      label: "Closed Days",
+    },
+    {
+      type: "string",
+      name: "phone",
+      label: "Phone",
+    },
+    {
+      type: "string",
+      name: "email",
+      label: "Email",
+    },
+  ] as TinaField[];
+}
