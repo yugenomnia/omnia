@@ -1,7 +1,7 @@
 ---
 layout: homepage
 permalink: //
-active_popup: true
+active_popup: false
 event_popup_title: Bannockburn and Black Truffles
 event_popup_text: >
   Omnia’s truffle tasting menu paired with Bannockburn’s finest wines.
@@ -73,6 +73,7 @@ main_img: /assets/images/omnia-duck-little.jpg
 title: 'Homepage '
 _template: homepage
 ---
+
 
 
 
