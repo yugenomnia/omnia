@@ -734,6 +734,11 @@ export function reservationsFields() {
       label: "Cover Image",
     },
     {
+      type: "image",
+      name: "main_img_mobile",
+      label: "Cover Image Mobile",
+    },
+    {
       type: "string",
       name: "reservation_title",
       label: "Title for text near Widget",

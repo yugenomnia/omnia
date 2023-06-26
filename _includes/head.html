@@ -23,4 +23,20 @@
   </script>
 </head>
 
+<style>
+  #reservations .cover-image {
+    background-image: url('{{ page.main_img }}');
+  }
+</style>
+
+{% if page.main_img_mobile %}
+  <style>
+    @media (max-width: 767px) {
+      #reservations .cover-image {
+        background-image: url('{{ page.main_img_mobile }}');
+      }
+    }
+  </style>
+{% endif %}
+
 <body id="{{ current_page }}">
