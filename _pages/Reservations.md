@@ -1,7 +1,7 @@
 ---
 layout: reservations
 permalink: /reservations/
-main_img: /assets/images/221026 - Omnia1538.jpg
+main_img: /assets/images/221026 - Omnia1539.jpg
 title: Reservations
 active_page: true
 meta_description: 'Book a table at Omnia Bistro and Bar today! '
@@ -17,6 +17,7 @@ dinner_hours: 'Dinner 5:30 - 11:00 PM'
 dinner_time: 'Dinner 5:30 - 11:00 PM'
 _template: reservations
 ---
+
 
 
 
