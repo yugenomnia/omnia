@@ -16,6 +16,7 @@ email: info@omniabistro.com.au
 dinner_hours: 'Dinner 5:30 - 11:00 PM'
 dinner_time: 'Dinner 5:30 - 11:00 PM'
 _template: reservations
+main_img_mobile: '/assets/images/221026 - Omnia1538.jpg'
 ---
 
 
