@@ -5,7 +5,7 @@ meta_description: >-
   Introducing a Gastronomic Masterpiece: Omnia’s truffle tasting menu paired
   with Bannockburn’s finest wines.
 events:
-  - img: /assets/images/LUNCH.png
+  - img: /assets/images/221026 - Omnia2404.jpg
     title: Omnia Lunch
     second_title: Thursday - Saturday
     text: >
@@ -40,21 +40,35 @@ events:
 
       Lunch:
 
+
+
       Thursday, Friday Saturday
+
+
 
       12:00pm – 2:30pm
 
 
       Lunch menu options 
 
+
+
       2 courses - $65 
+
+
 
       3 courses - $80 
 
 
+
+
       Tailored wine pairing 
 
+
+
       2 courses- $25/49 \
+
+
 
       3 courses - $30/69
     menu_btn_text: Sample Menu
@@ -148,6 +162,7 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: What's on
 _template: events
 ---
+
 
 
 
