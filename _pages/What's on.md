@@ -8,69 +8,7 @@ events:
   - img: /assets/images/221026 - Omnia2404.jpg
     title: Omnia Lunch
     second_title: Thursday - Saturday
-    text: >
-      Our lunch experience at Omnia, where we proudly highlight the best of each
-      season and
-
-      locally sourced produce. Whether you're seeking a quick business meal or a
-
-      leisurely catch-up with friends, we offer a la carte, 2 or 3 course menu
-
-      options. Compliment your meal with our unique wine offerings from our
-      cellar. 
-
-
-      The natural light in our conservatory and serene surroundings create a
-      lively atmosphere.
-
-      Start your lunch the Omnia way, Champagne and cocktails will be served at
-      the
-
-      table from our custom made trolley. 
-
-
-      To enhance your lunch further to enjoy before, as dessert or even as a
-      snack at the bar, our
-
-      cheese trolley showcases an assortment of Europe’s best cheeses selected
-      by the
-
-      master himself, Anthony Femia – Maker & Monger, Prahran market. 
-
-
-      Lunch:
-
-
-
-      Thursday, Friday Saturday
-
-
-
-      12:00pm – 2:30pm
-
-
-      Lunch menu options 
-
-
-
-      2 courses - $65 
-
-
-
-      3 courses - $80 
-
-
-
-
-      Tailored wine pairing 
-
-
-
-      2 courses- $25/49 \
-
-
-
-      3 courses - $30/69
+    text: "\n\n\n\nWhether it's an important mid-week business\nmeeting or leisurely weekend catch up with friends, Omnia is the perfect place\nto dine, with our a la carte 2 or 3 course menu options. Ever dish showcases\nthe very best of Victoria's seasonal produce; and is complimented with an\nexquisite choice of wine from our cellar.\_\n\n\n\n\n\n\_\n\n\n\n\n\nOur conservatory, with its natural light and\nserene surroundings, creates the perfect atmosphere for a lively lunch\nexperience. And to make it extra special, start your lunch with champagne or cocktails\nserved at your table from our bespoke beverage trolley.\_\n\n\n\n\n\n\_\n\n\n\n\n\nWant something more? Try our delicious cheese\nselection from Europe's finest cheeses, personally selected by the master\nhimself - Anthony Femia of Maker & Monger, right down the road in Prahan\nMarket.\_\n\n\n\n\n\n\_\n\n\n\n\n\nCome and experience our unique lunchtime\nofferings that promise to delight your tastebuds an leaving you craving more!\n\n\n\n\n\n\n\n"
     menu_btn_text: Sample Menu
     menu_pdf: /assets/images/Lunch menu  04.05.23.pdf
     book_now_btn_text: Reservation
@@ -162,6 +100,7 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: What's on
 _template: events
 ---
+
 
 
 
