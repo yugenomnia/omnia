@@ -5,40 +5,62 @@ meta_description: >-
   Introducing a Gastronomic Masterpiece: Omnia’s truffle tasting menu paired
   with Bannockburn’s finest wines.
 events:
-  - img: /assets/images/Omnia x Bannockburn 500x500 Final.png
-    title: Bannockburn & Black Truffle
-    second_title: Exclusive wine dinner
+  - img: /assets/images/LUNCH.png
+    title: Omnia Lunch
+    second_title: Thursday - Saturday
     text: >
-      Introducing a Gastronomic Masterpiece: Omnia’s truffle tasting menu paired
-      with Bannockburn’s finest wines. This remarkable collaboration between
-      Omnia Bistro and Bannockburn is a testament to our shared passion for
-      local & quality produce.
+      Our lunch experience at Omnia, where we proudly highlight the best of each
+      season and
+
+      locally sourced produce. Whether you're seeking a quick business meal or a
+
+      leisurely catch-up with friends, we offer a la carte, 2 or 3 course menu
+
+      options. Compliment your meal with our unique wine offerings from our
+      cellar. 
 
 
-      >
+      The natural light in our conservatory and serene surroundings create a
+      lively atmosphere.
+
+      Start your lunch the Omnia way, Champagne and cocktails will be served at
+      the
+
+      table from our custom made trolley. 
 
 
-      Our talented chefs at Omnia Bistro have curated a menu that showcases the
-      decadence of truffles in every course. To complement this extraordinary
-      culinary experience, Bannockburn has expertly handpicked a selection of
-      their finest wines. Hosted by Angus Pollard of Bannockburn.
+      To enhance your lunch further to enjoy before, as dessert or even as a
+      snack at the bar, our
+
+      cheese trolley showcases an assortment of Europe’s best cheeses selected
+      by the
+
+      master himself, Anthony Femia – Maker & Monger, Prahran market. 
 
 
-      >
+      Lunch:
+
+      Thursday, Friday Saturday
+
+      12:00pm – 2:30pm
 
 
-      Wednesday 21st of June
+      Lunch menu options 
+
+      2 courses - $65 
+
+      3 courses - $80 
 
 
-      6:30PM arrival
+      Tailored wine pairing 
 
+      2 courses- $25/49 \
 
-      Menu & pairing $225 pp
+      3 courses - $30/69
     menu_btn_text: Sample Menu
-    menu_pdf: /assets/images/Sample menu.pdf
+    menu_pdf: /assets/images/Lunch menu  04.05.23.pdf
     book_now_btn_text: Reservation
-    book_now_url: >-
-      https://www.opentable.com/booking/experiences-availability?rid=60050&restref=60050&experienceId=174736
+    book_now_url: 'https://www.omniabistro.com.au/reservations'
 columns:
   - text: >-
       Beverages will be charged on consumption and a $500 deposit will be
@@ -126,6 +148,7 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: What's on
 _template: events
 ---
+
 
 
 
