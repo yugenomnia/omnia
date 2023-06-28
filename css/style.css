@@ -1051,6 +1051,9 @@ text-transform: uppercase;
   margin-bottom: 16px;
   color: rgb(98,118,94);
 }
+#reservations .reservation-text p a {
+  text-decoration: underline;
+}
 .exclusive-events-subtitle,
 .exclusive-events-subtitle a {
   color: #5C7057;
