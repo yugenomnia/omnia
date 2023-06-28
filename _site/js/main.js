@@ -450,6 +450,26 @@
     }
   }
 
+  function wrapPhraseInSpan(bigText, phrase, className) {
+    const regex = new RegExp(phrase, 'gi');
+    return bigText.replace(regex, `<span class="${className}">${phrase}</span>`);
+  }
+
+  if(document.querySelector('#reservations')){
+    const reservationText = document.querySelector('#reservations .reservation-text')
+    
+    const result = wrapPhraseInSpan(reservationText.innerHTML, 'sign up to our newsletter', 'openPopup cursor-pointer')
+
+    reservationText.innerHTML = result
+
+    document.querySelectorAll('.openPopup').forEach(el => {
+      el.addEventListener('click', () => {
+        togglePopup(true)
+      })
+    })
+
+  }
+
 
   //document.body.addEventListener('onload', init())
 
