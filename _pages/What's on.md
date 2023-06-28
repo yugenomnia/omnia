@@ -1,9 +1,7 @@
 ---
 layout: events
 permalink: /events/
-meta_description: >-
-  Introducing a Gastronomic Masterpiece: Omnia’s truffle tasting menu paired
-  with Bannockburn’s finest wines.
+meta_description: Find out what's happening at Omnia this month
 events:
   - img: /assets/images/221026 - Omnia2404.jpg
     title: Lunch - The Omnia Way
@@ -100,6 +98,7 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: What's on
 _template: events
 ---
+
 
 
 
