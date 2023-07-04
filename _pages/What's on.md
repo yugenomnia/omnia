@@ -5,7 +5,7 @@ meta_description: >-
   Introducing a Gastronomic Masterpiece: Omnia’s truffle tasting menu paired
   with Bannockburn’s finest wines.
 events:
-  - img: /assets/images/maddy website.jpg
+  - img: /assets/images/Madeleines.pdf
     title: Bastille day
     second_title: Madeleines and French wine
     text: "Celebrate all things French\n\n\n\n\n\nOn Friday 14th\_July,\nOmnia will be celebrating the French revolution with an exclusive selection of\ncellared fine wines, available for one day only, by the glass. Ooh la la!\_\n\n\n\n\n\n\_\n\n\n\n\n\nWe will\nalso be dishing up our freshly baked Madeleines as our gift to you. Because no\ncelebration is complete without dessert. Viva la France!\_\n\n\n\n\n\n\n\n"
@@ -104,6 +104,7 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: What's on
 _template: events
 ---
+
 
 
 
