@@ -45,17 +45,23 @@
           <h2 class="omnia-green mb-2 mt-2 uppercase reveal-right small-title">{{event.second_title}}</h2>
           </div>
           <div class="mb-12 omnia-green">{{event.text | markdownify}}</div>
-
+          
           <div class="mt-12 flex flex-col md:flex-row items-start md:items-center justify-between">
+            <!-- Sample Menu -->
+            <div>
               {% if event.menu_btn_text != null and event.menu_btn_text != "" %}
                 <a href="{{event.menu_pdf}}" target="_blank" class="event-menu menu-link omnia-green text-md inline">
                   {{event.menu_btn_text}}
                   <div class="line"></div>
                 </a>
               {% endif %}
-              {% if event.menu_pdf != null and event.menu_pdf != "" %}
+            </div>
+            <!-- Book now button -->
+            <div>
+              {% if event.book_now_url != null and event.book_now_url != "" %}
                 <a href="{{event.book_now_url}}" target="_blank" class="make-booking-btn py-2 px-8 mt-12 md:mt-0 uppercase cursor-pointer  pointer-events-auto event-book-now">{{event.book_now_btn_text}}</a>
               {% endif %}
+            </div>
           </div>
         </div>
         {% else %}
@@ -65,6 +71,24 @@
           <h2 class="omnia-green pb-2 mb-2 uppercase reveal-right small-title">{{event.second_title}}</h2>
           </div>
           <div class="mb-12 omnia-green">{{event.text | markdownify}}</div>
+
+          <div class="mt-12 flex flex-col md:flex-row items-start md:items-center justify-between">
+            <!-- Sample Menu -->
+            <div>
+              {% if event.menu_btn_text != null and event.menu_btn_text != "" %}
+                <a href="{{event.menu_pdf}}" target="_blank" class="event-menu menu-link omnia-green text-md inline">
+                  {{event.menu_btn_text}}
+                  <div class="line"></div>
+                </a>
+              {% endif %}
+            </div>
+            <!-- Book now button -->
+            <div>
+              {% if event.book_now_url != null and event.book_now_url != "" %}
+                <a href="{{event.book_now_url}}" target="_blank" class="make-booking-btn py-2 px-8 mt-12 md:mt-0 uppercase cursor-pointer  pointer-events-auto event-book-now">{{event.book_now_btn_text}}</a>
+              {% endif %}
+            </div>
+        </div>
         </div>
         {% endif %}
       </div>
