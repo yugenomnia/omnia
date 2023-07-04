@@ -5,10 +5,14 @@ meta_description: >-
   Introducing a Gastronomic Masterpiece: Omnia’s truffle tasting menu paired
   with Bannockburn’s finest wines.
 events:
+  - img: /assets/images/maddy website.jpg
+    title: Bastille day
+    second_title: Madeleines and French wine
+    text: "Celebrate all things French\n\n\n\n\n\nOn Friday 14th\_July,\nOmnia will be celebrating the French revolution with an exclusive selection of\ncellared fine wines, available for one day only, by the glass. Ooh la la!\_\n\n\n\n\n\n\_\n\n\n\n\n\nWe will\nalso be dishing up our freshly baked Madeleines as our gift to you. Because no\ncelebration is complete without dessert. Viva la France!\_\n\n\n\n\n\n\n\n"
   - img: /assets/images/221026 - Omnia2404.jpg
     title: Omnia Lunch
     second_title: Thursday - Saturday
-    text: "\n\n\n\nWhether it's an important mid-week business\nmeeting or leisurely weekend catch up with friends, Omnia is the perfect place\nto dine, with our a la carte 2 or 3 course menu options. Ever dish showcases\nthe very best of Victoria's seasonal produce; and is complimented with an\nexquisite choice of wine from our cellar.\_\n\n\n\n\n\n\_\n\n\n\n\n\nOur conservatory, with its natural light and\nserene surroundings, creates the perfect atmosphere for a lively lunch\nexperience. And to make it extra special, start your lunch with champagne or cocktails\nserved at your table from our bespoke beverage trolley.\_\n\n\n\n\n\n\_\n\n\n\n\n\nWant something more? Try our delicious cheese\nselection from Europe's finest cheeses, personally selected by the master\nhimself - Anthony Femia of Maker & Monger, right down the road in Prahan\nMarket.\_\n\n\n\n\n\n\_\n\n\n\n\n\nCome and experience our unique lunchtime\nofferings that promise to delight your tastebuds an leaving you craving more!\n\n\n\n\n\n\n\n"
+    text: "Whether it's an important mid-week business\nmeeting or leisurely weekend catch up with friends, Omnia is the perfect place\nto dine, with our a la carte 2 or 3 course menu options. Ever dish showcases\nthe very best of Victoria's seasonal produce; and is complimented with an\nexquisite choice of wine from our cellar.\_\n\n\_\n\nOur conservatory, with its natural light and\nserene surroundings, creates the perfect atmosphere for a lively lunch\nexperience. And to make it extra special, start your lunch with champagne or cocktails\nserved at your table from our bespoke beverage trolley.\_\n\n\_\n\nWant something more? Try our delicious cheese\nselection from Europe's finest cheeses, personally selected by the master\nhimself - Anthony Femia of Maker & Monger, right down the road in Prahan\nMarket.\_\n\n\_\n\nCome and experience our unique lunchtime\nofferings that promise to delight your tastebuds an leaving you craving more!\n"
     menu_btn_text: Sample Menu
     menu_pdf: /assets/images/Lunch menu  28.06.23.pdf
     book_now_btn_text: Reservation
@@ -100,6 +104,7 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: What's on
 _template: events
 ---
+
 
 
 
