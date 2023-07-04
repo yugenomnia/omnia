@@ -1,7 +1,9 @@
 ---
 layout: food
 permalink: /food/
-meta_description: Our kitchen team created a menu of seasonal produce, used at its peak, designed with all tastes in mind. 
+meta_description: >-
+  Our kitchen team created a menu of seasonal produce, used at its peak,
+  designed with all tastes in mind.
 title: Food & Drinks
 menus:
   - title: SNACKS & STARTER
@@ -290,41 +292,41 @@ big_title: DISCOVER FLAVOUR AT ITS FINEST
 main_img: /assets/images/asparagus-1-1.jpeg
 food_section:
   title: Food menu
+  img: /assets/images/john-d-trifle-500.jpg
   second_title: ''
-  text: >-
+  text: >
     Our kitchen team created a menu of seasonal produce, used at its peak,
     designed with all tastes in mind. Using Australia’s best quality produce
     sourced through tight knit networks. Familiar yet new, held together by our
     iconic honey roasted duck and liquid centre cheesecake.
-  img: /assets/images/john-d-trifle-500.jpg
   menu_btn_text: LUNCH MENU
-  menu_pdf: /assets/images/Lunch menu  04.05.23.pdf
+  menu_pdf: /assets/images/28.07 lunch.jpg
   second_menu_btn_text: DINNER MENU
-  second_menu_pdf: /assets/images/ALC Menu A4 06.05.2023.pdf
+  second_menu_pdf: /assets/images/14.06.jpg
 drink_section:
   title: Drinks menu
+  img: /assets/images/omnia-champagne-little.jpeg
   second_title: ''
-  text: >-
+  text: >
     Omnia has an extensive wine list, besides a wide selection of bottles also
     offering 25 wines by the glass consisting of 13 regular, and 12 premier
-    wines selected by our sommelier.  
-  second_text: >-
+    wines selected by our sommelier.
+  second_text: >
     Our bar offers all the classics, with a few signature twists. Start, spend,
     or end the night with our well loved Lemon Myrtle Gimlet and Saffron
     Negroni. We also collaborate with our kitchen team, non-alcoholic digestives
     paired to the seasons. Combining seasonal produce with the desserts that
-    highlight them.  
-  img: /assets/images/omnia-champagne-little.jpeg
+    highlight them.
   categories:
     - title: WINE BY THE GLASS
-      text: >-
+      text: >
         Omnia has an extensive wine list, besides a wide selection of bottles
         also offering 25 wines by the glass consisting of 13 regular, and 12
         premier wines selected by our sommelier.
       menu_pdf: /assets/images/Wines 10.05.23.pdf
       menu_btn_text: WINE BY THE GLASS
     - title: SIGNATURE COCKTAILS AND MORE
-      text: >-
+      text: >
         Our bar offers All the classics, with a few signature twists. Start,
         spend, or end the night with our well loved Lemon Myrtle Gimlet and
         Saffron Negroni. We also collaborate with our our kitchen team.
@@ -334,6 +336,7 @@ drink_section:
       menu_btn_text: SIGNATURE COCKTAILS & MORE
 _template: food
 ---
+
 
 
 
