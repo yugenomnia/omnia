@@ -8,7 +8,7 @@ events:
   - img: /assets/images/Omnia Madelienes-21.jpg
     title: Bastille day
     second_title: Madeleines and French wine
-    text: "Celebrate all things French\n\n\n\n\n\nOn Friday 14th\_July,\nOmnia will be celebrating the French revolution with an exclusive selection of\ncellared fine wines, available for one day only, by the glass. Ooh la la!\_\n\n\n\n\n\n\_\n\n\n\n\n\nWe will\nalso be dishing up our freshly baked Madeleines as our gift to you. Because no\ncelebration is complete without dessert. Viva la France!\_\n\n\n\n\n\n\n\n"
+    text: "Celebrate all things French.\n\n\n\n\n\nOn Friday 14th\_July,\nOmnia will be celebrating the French revolution with an exclusive selection of\ncellared fine wines, available for one day only, by the glass. Ooh la la!\_\n\n\n\n\n\n\_\n\n\n\n\n\nWe will\nalso be dishing up our freshly baked Madeleines as our gift to you. Because no\ncelebration is complete without dessert. Viva la France!\_\n\n\n\n\n\n\n\n"
     book_now_btn_text: Book here
     book_now_url: 'https://www.omniabistro.com.au/reservations'
   - img: /assets/images/221026 - Omnia2404.jpg
@@ -106,6 +106,7 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: What's on
 _template: events
 ---
+
 
 
 
