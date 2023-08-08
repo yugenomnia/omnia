@@ -54,7 +54,7 @@ sections:
       call of any occasion. Come alone, meet with friends, toast with us. You’re
       welcome anytime. Omnia Bistro makes its home at the base on Chapel Street.
     button_text: browse our menu
-    button_url: '#'
+    button_url: 'https://www.omniabistro.com.au/food'
   - section_image: /assets/images/Cheese trolley website.jpg
     section_title: Cheese Trolley
     section_second_title: Before or instead of dessert
@@ -73,6 +73,7 @@ main_img: /assets/images/omnia-duck-little.jpg
 title: 'Homepage '
 _template: homepage
 ---
+
 
 
 
