@@ -5,12 +5,6 @@ meta_description: >-
   Introducing a Gastronomic Masterpiece: Omnia’s truffle tasting menu paired
   with Bannockburn’s finest wines.
 events:
-  - img: /assets/images/Omnia Madelienes-21.jpg
-    title: Bastille day
-    second_title: Celebrate all things French.
-    text: "On Friday 14th\_July,\nOmnia will be celebrating the French revolution with an exclusive selection of\ncellared fine wines, available for one day only, by the glass. Ooh la la!\_\n\n\_\n\nWe will\nalso be dishing up our freshly baked Madeleines as our gift to you. Because no\ncelebration is complete without dessert. Viva la France!\_\n"
-    book_now_btn_text: Book here
-    book_now_url: 'https://www.omniabistro.com.au/reservations'
   - img: /assets/images/221026 - Omnia2404.jpg
     title: Omnia Lunch
     second_title: Thursday - Saturday
@@ -106,6 +100,7 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: What's on
 _template: events
 ---
+
 
 
 
