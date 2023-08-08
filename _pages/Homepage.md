@@ -67,12 +67,13 @@ sections:
       has to offer. Our knowledgeable staff members are here to help to select
       your cheeses for the night which can be enjoyed at the bar as a snack or
       after dinner before or instead of dessert! 
-    button_text: browse our menu
-    button_url: '#'
+    button_text: Book here
+    button_url: 'https://www.omniabistro.com.au/reservations'
 main_img: /assets/images/omnia-duck-little.jpg
 title: 'Homepage '
 _template: homepage
 ---
+
 
 
 
