@@ -5,7 +5,7 @@ meta_description: >-
   Introducing a Gastronomic Masterpiece: Omnia’s truffle tasting menu paired
   with Bannockburn’s finest wines.
 events:
-  - img: /assets/images/221026 - Omnia2488.jpg
+  - img: /assets/images/steak web.jpg
     title: Father's day
     second_title: Sunday lunch
     text: "Spoil dad with an incredible seasonal menu crafted by Executive Chef Stephen Nairn. \n\nDad’s first beer is on us and we’ve prepared all his favourites, served alongside a selection of premium wines, hand selected by our Sommelier.\n\nWe will be opening our doors Sunday afternoon for this special occasion, so you can celebrate over a long lunch. Dine on our seasonal a la carte menu, tucking into some succulent lamb shoulder or roasted duck, served with mouth-watering sides that we know Dad will love.\n\nWe will also have an exclusive children's menu available for the day, to make sure everyone is taken care of.\n\n\_\n\nLet us help you make this an unforgettable day for the whole family.\_\n"
@@ -105,6 +105,7 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: What's on
 _template: events
 ---
+
 
 
 
