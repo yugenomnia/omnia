@@ -332,10 +332,11 @@ drink_section:
         Saffron Negroni. We also collaborate with our our kitchen team.
         Non-alcoholic digestives paired to the seasons. Combining seasonal
         produce with the desserts that highlight them.
-      menu_pdf: /assets/images/Cocktails 10.05.2023.pdf
+      menu_pdf: /assets/images/BAR MENU.pdf
       menu_btn_text: SIGNATURE COCKTAILS & MORE
 _template: food
 ---
+
 
 
 
