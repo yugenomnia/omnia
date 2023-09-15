@@ -6,6 +6,12 @@ meta_description: >-
   with Bannockburn’s finest wines.
 events:
   - img: /assets/images/221026 - Omnia2404.jpg
+    title: Group Bookings
+    text: "It's already that time of year again! With the days getting warmer and the days getting longer, it's time to start organising those long-awaited end of year celebrations with friends and family. Our talented team have designed wonderful seasonal menus designed to share for groups of 7 or more. Available to enjoy throughout the months of November & December.\nWe would love to host you, so get in touch with our team to find our more about the menus.\_\_\n\nLunch\_\n\n$80 \_- 3 course Lunch menu \_\n\n$150 \_-\_ 4 course menu + snacks\_\n\nDinner\_\n\n$150 \_- 4 course menu + snacks\_\n\n$175 \_- 5 course menu + snacks\_\n"
+    menu_btn_text: ''
+    book_now_btn_text: Enquire now
+    book_now_url: 'https://www.omniabistro.com.au/contacts'
+  - img: /assets/images/221026 - Omnia2404.jpg
     title: Omnia Lunch
     second_title: Thursday - Saturday
     text: "Whether it's an important mid-week business\nmeeting or leisurely weekend catch up with friends, Omnia is the perfect place\nto dine, with our a la carte 2 or 3 course menu options. Ever dish showcases\nthe very best of Victoria's seasonal produce; and is complimented with an\nexquisite choice of wine from our cellar.\_\n\n\_\n\nOur conservatory, with its natural light and\nserene surroundings, creates the perfect atmosphere for a lively lunch\nexperience. And to make it extra special, start your lunch with champagne or cocktails\nserved at your table from our bespoke beverage trolley.\_\n\n\_\n\nWant something more? Try our delicious cheese\nselection from Europe's finest cheeses, personally selected by the master\nhimself - Anthony Femia of Maker & Monger, right down the road in Prahan\nMarket.\_\n\n\_\n\nCome and experience our unique lunchtime\nofferings that promise to delight your tastebuds an leaving you craving more!\n"
@@ -100,6 +106,7 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: What's on
 _template: events
 ---
+
 
 
 
