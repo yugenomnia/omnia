@@ -7,10 +7,10 @@ meta_description: >-
 events:
   - img: /assets/images/MA386 (1).jpg
     title: Group Bookings
-    text: "It's already that time of year again! With the days getting warmer and the days getting longer, it's time to start organising those long-awaited end of year celebrations with friends and family. Our talented team have designed wonderful seasonal menus designed to share for groups of 7 or more. Available to enjoy throughout the months of November & December.\nWe would love to host you, so get in touch with our team to find our more about the menus.\_\_\n\nLunch\_\n\n$80 \_- 3 course Lunch menu \_\n\n$150 \_-\_ 4 course menu + snacks\_\n\nDinner\_\n\n$150 \_- 4 course menu + snacks\_\n\n$175 \_- 5 course menu + snacks\_\n"
+    text: "It's already that time of year again! With the days getting warmer and the days getting longer, it's time to start organising those long-awaited end of year celebrations with friends and family. Our talented team have designed wonderful seasonal menus designed to share for groups of 7 or more. Available to enjoy throughout the months of November & December.\nWe would love to host you, so get in touch with our team to find our more about the menus.\_\_\n\nLunch\_\n\n$80 \_- 3 course Lunch menu \_\n\n$150 \_-\_ 4 course menu + snacks\_\n\nDinner\_\n\n$150 \_- 4 course menu + snacks\_\n\n$175 \_- 5 course menu + snacks\_\n\nCall our reservations team 03 8080 8080\n"
     menu_btn_text: ''
-    book_now_btn_text: Enquire now
-    book_now_url: 'https://www.omniabistro.com.au/contacts'
+    book_now_btn_text: ''
+    book_now_url: ''
   - img: /assets/images/221026 - Omnia2404.jpg
     title: Omnia Lunch
     second_title: Thursday - Saturday
@@ -106,6 +106,7 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: What's on
 _template: events
 ---
+
 
 
 
