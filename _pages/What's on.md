@@ -7,7 +7,7 @@ meta_description: >-
 events:
   - img: /assets/images/MA386 (1).jpg
     title: End of year dining
-    text: "It's already that time of year again! With the days getting warmer and the days getting longer, it's time to start organising those long-awaited end of year celebrations with friends and family. Our talented team have designed wonderful seasonal menus designed to share for groups of 7 or more. Available to enjoy throughout the months of November & December.\nWe would love to host you, so get in touch with our team to find our more about the menus.\_\_\n\n`br`\_\n\n**Lunch**\n\n* $80 \_- 3 course Lunch menu \_\n* $150 \_-\_ 4 course menu + snacks\_\n\n`br`\_\n\n**Dinner**\_\n\n* $150 \_- 4 course menu + snacks\_\n* $175 \_- 5 course menu + snacks\_\n\n`br`\n\n**Call our reservations team on 03 8080 8080**\n"
+    text: "It's already that time of year again! With the days getting warmer and the days getting longer, it's time to start organising those long-awaited end of year celebrations with friends and family. Our talented team have designed wonderful seasonal menus designed to share for groups of 7 or more. Available to enjoy throughout the months of November & December.\nWe would love to host you, so get in touch with our team to find our more about the menus.\_\_\n\n**Lunch**\n\n* $80 \_- 3 course Lunch menu \_\n* $150 \_-\_ 4 course menu + snacks\_\n\n**Dinner**\_\n\n* $150 \_- 4 course menu + snacks\_\n* $175 \_- 5 course menu + snacks\_\n\n**Call our reservations team on 03 8080 8080**\n"
     menu_btn_text: ''
     book_now_btn_text: ''
     book_now_url: ''
@@ -106,6 +106,7 @@ main_img: /assets/images/omnia-events-1st-photo.jpg
 title: What's on
 _template: events
 ---
+
 
 
 
