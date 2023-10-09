@@ -1,9 +1,4 @@
 ---
-layout: food
-permalink: /food/
-meta_description: >-
-  Our kitchen team created a menu of seasonal produce, used at its peak,
-  designed with all tastes in mind.
 title: Food & Drinks
 menus:
   - title: SNACKS & STARTER
@@ -288,6 +283,11 @@ menu:
     menu-group-image: ''
     menu_in_pdf_format: ''
     categories: []
+layout: food
+permalink: /food/
+meta_description: >-
+  Our kitchen team created a menu of seasonal produce, used at its peak,
+  designed with all tastes in mind.
 big_title: DISCOVER FLAVOUR AT ITS FINEST
 main_img: /assets/images/asparagus-1-1.jpeg
 food_section:
@@ -332,23 +332,8 @@ drink_section:
         Saffron Negroni. We also collaborate with our our kitchen team.
         Non-alcoholic digestives paired to the seasons. Combining seasonal
         produce with the desserts that highlight them.
-      menu_pdf: /assets/images/Omnia Bar Menu 18 September 2023.pdf
+      menu_pdf: /assets/images/Omnia cocktail menu october 4.pdf
       menu_btn_text: SIGNATURE COCKTAILS & MORE
 _template: food
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
