@@ -300,9 +300,9 @@ food_section:
     sourced through tight knit networks. Familiar yet new, held together by our
     iconic honey roasted duck and liquid centre cheesecake.
   menu_btn_text: LUNCH MENU
-  menu_pdf: /assets/images/Lunch menu  27.09.23.pdf
+  menu_pdf: /assets/images/Lunch menu  12.10.23.pdf
   second_menu_btn_text: DINNER MENU
-  second_menu_pdf: /assets/images/ALC Menu A4 27.09.23.pdf
+  second_menu_pdf: /assets/images/ALC Menu A4 12.10.23.pdf
 drink_section:
   title: Drinks menu
   img: /assets/images/omnia-champagne-little.jpeg
