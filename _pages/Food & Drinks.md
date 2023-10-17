@@ -323,7 +323,7 @@ drink_section:
         Omnia has an extensive wine list, besides a wide selection of bottles
         also offering 25 wines by the glass consisting of 13 regular, and 12
         premier wines selected by our sommelier.
-      menu_pdf: /assets/images/Omnia Wine List wines BTG September 2023.pdf
+      menu_pdf: /assets/images/Omnia Wine List 17.10.23.pdf
       menu_btn_text: WINE BY THE GLASS
     - title: SIGNATURE COCKTAILS AND MORE
       text: >
